@@ -4,10 +4,7 @@ HOST: https://watson-wdc01.ihost.com
 # Watson API
 Use the IBM Watson Question and Answer REST service to submit questions and retrieve answers.
 
-# Group Questions
-Question-related resources
-
-## Questions Collection [/instance/507/deepqa/v1/question]
+## Questions [/instance/507/deepqa/v1/question]
 
 ### Create a Question [POST]
 Post a question for Watson so that you can receive an answer.
@@ -36,9 +33,15 @@ Properties of `question` in the request body:
         <td>string</td>
         <td>No</td>
         <td>
-            Specify an answer to receive the supporting evidence passages for that answer. Without this element, Watson searches for answers from the <code>questionText</code>. When you assert an answer, Watson uses that answer instead to search for supporting evidence passages.<br>
-            If you configured your pipeline to support a ranked list of evidence, the supporting evidence appears in the <code>question.evidencelist</code> section. If you include the <code>evidenceRequest</code> element with the question, the supporting evidence appears in the <code>question.answers.answer.evidence</code> section.<br>
-            If no supporting passages are returned for the asserted answer, the API returns a message that no answers were found.
+            <p>
+                Specify an answer to receive the supporting evidence passages for that answer. Without this element, Watson searches for answers from the <code>questionText</code>. When you assert an answer, Watson uses that answer instead to search for supporting evidence passages.
+            </p>
+            <p>
+                If you configured your pipeline to support a ranked list of evidence, the supporting evidence appears in the <code>question.evidencelist</code> section. If you include the <code>evidenceRequest</code> element with the question, the supporting evidence appears in the <code>question.answers.answer.evidence</code> section.
+            </p>
+            <p>
+                If no supporting passages are returned for the asserted answer, the API returns a message that no answers were found.
+            </p>
         </td>
     </tr>
     <tr>
@@ -52,7 +55,9 @@ Properties of `question` in the request body:
         <td>string</td>
         <td>No</td>
         <td>
-            A natural language string that is composed of words that provide extra information for Watson to consider when it determines answers. The maximum length of this element is 1024 characters.<br>
+            <p>
+                A natural language string that is composed of words that provide extra information for Watson to consider when it determines answers. The maximum length of this element is 1024 characters.<br>
+            </p>
 
             The <code>context</code> element can have one of the following values:
 
@@ -70,9 +75,16 @@ Properties of `question` in the request body:
     </tr>
     <tr>
         <td>evidenceRequest</td>
-        <td>string</td>
-        <td></td>
-        <td></td>
+        <td>object</td>
+        <td>No</td>
+        <td>
+            <p>
+                Specifies that you want Watson to return supporting evidence for each answer in the <code>question.answers.answer.evidence</code> section of the answer response.
+            </p>
+            <p>
+                <strong>Important</strong>: Do not confuse this element with the <code>question.evidencelist</code> section of the response (i.e. when a request is made with <code>question.answerAssertion</code>). The evidence that is returned by using <code>evidenceRequest</code> was not used when Watson searched for the answer. This evidence is returned after Watson generates, scores, and ranks the answers.
+            </p>
+        </td>
     </tr>
     <tr>
         <td>filters</td>
