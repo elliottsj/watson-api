@@ -4,13 +4,20 @@ HOST: https://watson-wdc01.ihost.com
 # Watson API
 Use the IBM Watson Question and Answer REST service to submit questions and retrieve answers.
 
-# Group Questions
-Question-related
+## Questions Collection [/instance/507/deepqa/v1/question]
 
-## Notes Collection [/instance/507/deepqa/v1/question]
-
-### Create a Note [POST]
+### Create a Question [POST]
 Post a question for Watson so that you can receive an answer.
+
+#### Headers
+
+Name         | Type   | Description
+------------ | ------ | -----------
+id           | number | Numeric `id` of the Favorite to perform action with.
+event_id     | number | Numeric `id` of the Event which the Favorite belongs to.
+attendee_id  | number | Numeric `id` of the Attendee which the Favorite belongs to.
+type         | string | The type of item being favorited; either `"attendees"`, `"sponsors"`, `"seminars"`, or `"documents"`
+type_id      | number | Numeric `id` of the item being favorited
 
 + Parameters
     + event_id (required, number, `3284`) ... Numeric `id` of the Event which the Favorite belongs to.
@@ -18,13 +25,20 @@ Post a question for Watson so that you can receive an answer.
 
 + Request (application/json)
 
-        {
-            "question": {
-                "questionText": "His 1983 hit \"Beat it\" featured Eddie Van Halen on guitar."
-            }
-        }
+    + Headers
+    
+            Accept: application/json
+            X-SyncTimeout: 30
+        
+    + Body
 
-+ Response 201 (application/json)
+            {
+                "question": {
+                    "questionText": "His 1983 hit \"Beat it\" featured Eddie Van Halen on guitar."
+                }
+            }
+
++ Response 200 (application/json)
 
         {
             "question": {
