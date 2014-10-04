@@ -1,0 +1,27 @@
+{
+    "question": {
+        "answerAssertion": "",
+        "category": "",
+        "context": "",
+        "evidenceRequest": "",
+        "filters": [
+            {
+                "filterType": "",
+                "fieldName": "",
+                "values": [
+                    ""
+                ],
+                "minDate": "",
+                "maxDate": ""
+            }
+        ],
+        "formattedAnswer": "",
+        "items": "",
+        "lat": "",
+        "passthru": "",
+        "questionText": "What is the Pension Act?",
+        "synonymList": [
+            ""
+        ]
+    }
+}

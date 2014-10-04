@@ -1,0 +1,1279 @@
+{
+  "question": {
+    "qclasslist": [
+      {
+        "value": "DESCRIPTIVE"
+      },
+      {
+        "value": "FACTOID"
+      }
+    ],
+    "focuslist": [
+      {
+        "value": "What"
+      }
+    ],
+    "latlist": [
+      {
+        "value": "What"
+      }
+    ],
+    "evidencelist": [
+      {
+        "value": "0.0775834172964096",
+        "text": "Full Document:  HTMLFull Document: Pension Act |  XMLFull Document: Pension Act [316 KB] |  PDFFull Document: Pension Act [629 KB]. Act current to 2014-09-01 and last amended on 2013-12-12. Previous Versions.",
+        "id": "PB_A4C12EB66A72079EC597F2282931A778",
+        "title": "Pension Act : Pension Act (R.S.C., 1985, c. P-6)",
+        "document": "/instance/507/deepqa/v1/question/document/PB_A4C12EB66A72079EC597F2282931A778/156/364",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Pension Act (R.S.C., 1985, c. P-6)",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33558995",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558995.xml",
+          "DOCNO": "A4C12EB66A72079EC597F2282931A778"
+        }
+      },
+      {
+        "value": "0.06597651541233063",
+        "text": " Skip to main content. Skip to secondary menu.",
+        "id": "T_A4C12EB66A72079E143A17DA5B1D0F7B",
+        "title": "Pension Act",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079E143A17DA5B1D0F7B/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558983.xml",
+          "DOCNO": "A4C12EB66A72079EAB785974165557DD",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079EAB785974165557DD"
+        }
+      },
+      {
+        "value": "0.03437111899256706",
+        "text": " Search website .",
+        "id": "T_A4C12EB66A72079EDB1FA62F5966F2D",
+        "title": "Pension Act : Search",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079EDB1FA62F5966F2D/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Search",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558985.xml",
+          "DOCNO": "A4C12EB66A72079EB8FC55861EB10238",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079EB8FC55861EB10238"
+        }
+      },
+      {
+        "value": "0.0341578833758831",
+        "text": " Marginal note:Construction. 2. The provisions of this Act shall be liberally construed and interpreted to the end that the recognized obligation of the people and Government of Canada to provide compensation to those members of the forces who have been disabled or have died as a result of military service, and to their dependants, may be fulfilled. R.S., c. 22 (2nd Supp.), s. 1.",
+        "id": "T_A4C12EB66A72079E3D2C5EC4B5891AFB",
+        "title": "Pension Act : CONSTRUCTION",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079E3D2C5EC4B5891AFB/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : CONSTRUCTION",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558998.xml",
+          "DOCNO": "A4C12EB66A72079E3CBCC563553D4E61",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079E3CBCC563553D4E61"
+        }
+      },
+      {
+        "value": "0.0259478110820055",
+        "text": " Canada.ca. Services. Departments. Francais. Justice Laws Website.",
+        "id": "T_A4C12EB66A72079EF3B68FFED4766C55",
+        "title": "Pension Act : Site menu",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079EF3B68FFED4766C55/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Site menu",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558984.xml",
+          "DOCNO": "A4C12EB66A72079EB285C662F6007FF2",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079EB285C662F6007FF2"
+        }
+      },
+      {
+        "value": "0.02093171328306198",
+        "text": " Aboriginal Communities. Criminal Justice. Family Justice. Justice System and Policy. Funding for Other Levels of Government. How to Apply for Funding Application Form. Funding - Main page.",
+        "id": "T_A4C12EB66A72079ED586B095F2C6D9AF",
+        "title": "Pension Act : Site menu : Funding",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079ED586B095F2C6D9AF/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Site menu : Funding",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558991.xml",
+          "DOCNO": "A4C12EB66A72079E28DC0E704D7A20C4",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079E28DC0E704D7A20C4"
+        }
+      },
+      {
+        "value": "0.020207012072205544",
+        "text": " Marginal note:Status of males and females. 4. Male and female members of the forces under this Act enjoy equality of status and equal rights and obligations under this Act. 1974-75-76, c. 66, s. 11.",
+        "id": "T_A4C12EB66A72079E3EC65465E1AC04D4",
+        "title": "Pension Act : EQUALITY OF STATUS",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079E3EC65465E1AC04D4/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : EQUALITY OF STATUS",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33559001.xml",
+          "DOCNO": "A4C12EB66A72079E3B034F837E28D250",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079E3B034F837E28D250"
+        }
+      },
+      {
+        "value": "0.02009592019021511",
+        "text": " Marginal note:Powers of the Minister. 5. (1) Subject to this Act and any other Act of Parliament and to the regulations made under this or any other Act of Parliament, the Minister has full power to decide on all matters and questions relating to the award, increase, decrease, suspension or cancellation of any pension or other payment under this Act and to the recovery of any overpayment that may have been made. Marginal note:Additional duties. (2) The Governor in Council may, by order, confer on the Minister duties like those under subsection (1) in respect of pensions or other payments authorized by any other Act of Parliament or by the Governor in Council. Marginal note:Benefit of doubt. (3) In making a decision under this Act, the Minister shall. (a) draw from all the circumstances of the case and all the evidence presented to the Minister every reasonable inference in favour of the applicant or pensioner; (b) accept any uncontradicted evidence presented to the Minister by the applicant or pensioner that the Minister considers to be credible in the circumstances; and. (c) resolve in favour of the applicant or pensioner any doubt, in the weighing of evidence, as to whether the applicant or pensioner has established a case. Marginal note:Decisions shall be made expeditiously. (4) Decisions of the Minister shall be made as informally and expeditiously as the circumstances and considerations of fairness permit. R.S., 1985, c. P-6, s. 5; R.S., 1985, c. 37 (3rd Supp.), s. 3; 1995, c. 18, s. 47. Marginal note:Property and moneys in trust. 6. The Minister may accept and administer any property and moneys conveyed to the Minister in trust for the benefit of pensioners, their dependants or any other persons on such terms and conditions as are set out in the terms of the conveyance or, if no conditions are set out, on such terms and conditions as the Minister deems reasonable for the purposes of the trust. R.S., 1985, c. P-6, s. 6; R.S., 1985, c. 37 (3rd Supp.), s. 3; 1995, c. 18, s. 47. 7. to 14. [Repealed, 1995, c. 18, s. 47]. 15. (1) [Repealed, 1990, c. 43, s. 5]. (2) and (3) [Repealed, 1995, c. 18, s. 47]. 16. [Repealed, 1990, c. 43, s. 6]. 17. to 20. [Repealed, 1995, c. 18, s. 47].",
+        "id": "T_A4C12EB66A72079E67EA57B27B7982C2",
+        "title": "Pension Act : POWERS OF THE MINISTER",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079E67EA57B27B7982C2/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : POWERS OF THE MINISTER",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33559002.xml",
+          "DOCNO": "A4C12EB66A72079EBE9146321BB948D9",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079EBE9146321BB948D9"
+        }
+      },
+      {
+        "value": "0.015106632374227047",
+        "text": "Marginal note:Short title. 1. This Act may be cited as the Pension Act. R.S., c. P-7, s. 1.",
+        "id": "PB_A4C12EB66A72079E90ADB3E98B9DEFC7",
+        "title": "Pension Act : SHORT TITLE",
+        "document": "/instance/507/deepqa/v1/question/document/PB_A4C12EB66A72079E90ADB3E98B9DEFC7/133/3150",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : SHORT TITLE",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33558997",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558997.xml",
+          "DOCNO": "A4C12EB66A72079E90ADB3E98B9DEFC7"
+        }
+      },
+      {
+        "value": "0.012375975027680397",
+        "text": " Child Support. Divorce and Separation. Enforcing Support. Family Justice Services. Custody and Parenting. Spousal Support. Publications. Provincial and Territorial Contacts. Contact Us. Family Law - Main page.",
+        "id": "T_A4C12EB66A72079E8C762C430B816FCB",
+        "title": "Pension Act : Site menu : Family Law",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079E8C762C430B816FCB/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Site menu : Family Law",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558987.xml",
+          "DOCNO": "A4C12EB66A72079E8BB4A30CD56D296E",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079E8BB4A30CD56D296E"
+        }
+      },
+      {
+        "value": "0.01217582542449236",
+        "text": " Youth Justice. Victims. Family Violence. Criminal Conviction Review. Human Trafficking. War Crimes and Crimes Against Humanity. National Security. Criminal Justice - Main page.",
+        "id": "T_A4C12EB66A72079E3D7EC744A63C19FD",
+        "title": "Pension Act : Site menu : Criminal Justice",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079E3D7EC744A63C19FD/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Site menu : Criminal Justice",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558990.xml",
+          "DOCNO": "A4C12EB66A72079EE3B9E6E961964BB2",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079EE3B9E6E961964BB2"
+        }
+      },
+      {
+        "value": "0.008396457880735397",
+        "text": " Marginal note:Legislation respecting old age pensions and supplementary benefits. 94A. The Parliament of Canada may make laws in relation to old age pensions and supplementary benefits, including survivors' and disability benefits irrespective of age, but no such law shall affect the operation of any law present or future of a provincial legislature in relation to any such matter. (52).",
+        "id": "T_1C5346C316704022AB3F8D3F3E68F7B8",
+        "title": "Constitution Acts, 1867 to 1982 : VI. DISTRIBUTION OF LEGISLATIVE POWERS : Old Age Pensions",
+        "document": "/instance/507/deepqa/v1/question/document/T_1C5346C316704022AB3F8D3F3E68F7B8/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada Constitution Acts, 1867 to 1982",
+          "originalfile": "Constitution Acts, 1867 to 1982.html",
+          "title": "Constitution Acts, 1867 to 1982 : VI. DISTRIBUTION OF LEGISLATIVE POWERS : Old Age Pensions",
+          "corpusName": "PB",
+          "keywords": "Constitution Acts, 1867 to 1982",
+          "description": "Federal laws of canada Constitution Acts, 1867 to 1982",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33559085.xml",
+          "DOCNO": "1C5346C3167040222024B4ED690BD78",
+          "CorpusPlusDocno": "PB_1C5346C3167040222024B4ED690BD78"
+        }
+      },
+      {
+        "value": "0.008175088092684746",
+        "text": " About Canada's System of Justice. Bijuralism and Harmonization. Canada's Court System. Dispute Prevention and Resolution. Francophonie, Justice in Official Languages and Legal Dualism. Canada's System of Justice - Main page.",
+        "id": "T_A4C12EB66A72079E86AB33926A12074C",
+        "title": "Pension Act : Site menu : Canada's System of Justice",
+        "document": "/instance/507/deepqa/v1/question/document/T_A4C12EB66A72079E86AB33926A12074C/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Site menu : Canada's System of Justice",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558992.xml",
+          "DOCNO": "A4C12EB66A72079E12D4D6F82D2B7B00",
+          "CorpusPlusDocno": "PB_A4C12EB66A72079E12D4D6F82D2B7B00"
+        }
+      },
+      {
+        "value": "0.006541981361806393",
+        "text": "R.S.C., 1985, c. P-6. An Act to provide pensions and other benefits to or in respect of members of the Canadian naval, army and air forces and of the Canadian Forces.",
+        "id": "PB_A4C12EB66A72079E9A11D66A7D8DFBBA",
+        "title": "Pension Act : Pension Act",
+        "document": "/instance/507/deepqa/v1/question/document/PB_A4C12EB66A72079E9A11D66A7D8DFBBA/133/3168",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Pension Act",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33558996",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558996.xml",
+          "DOCNO": "A4C12EB66A72079E9A11D66A7D8DFBBA"
+        }
+      },
+      {
+        "value": "0.0031798193231225014",
+        "text": "<< ministre << 'Minister' means the Minister of Veterans Affairs or such other Minister as is designated by the Governor in Council; 'pension'. << pension << 'pension' means a pension payable under this Act on account of the death or disability of a member of the forces, including a final payment referred to in Schedule I; 'Pension Review Board' 'Pension Review Board'[Repealed, R.S., 1985, c. 20 (3rd Supp.), s. 21]. 'pensioner'. << pensionne << 'pensioner' means a person who has been awarded a pension; 'personal information'. << renseignements personnels << 'personal information' has the same meaning as in section 3 of the Privacy Act; 'prisoner of war'.",
+        "id": "PB_A4C12EB66A72079E9564777B132D6A86",
+        "title": "Pension Act : INTERPRETATION",
+        "document": "/instance/507/deepqa/v1/question/document/PB_A4C12EB66A72079E9564777B132D6A86/3602/4264",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : INTERPRETATION",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33558999",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558999.xml",
+          "DOCNO": "A4C12EB66A72079E9564777B132D6A86"
+        }
+      },
+      {
+        "value": "0.0025353787932544947",
+        "text": "You have to recalculate a pension adjustment (PA) in a registered pension plan when all of the following conditions are met: an employee returns from a leave of absence or a period of reduced service; the service was not previously pensionable service; and",
+        "id": "T_53B5A001FC67C356C4A56D08904D0D6F",
+        "title": "rc4120 13e : untitled : I : Pension adjustment (PA)",
+        "document": "/instance/507/deepqa/v1/question/document/T_53B5A001FC67C356C4A56D08904D0D6F/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rc4120-13e.pdf",
+          "title": "rc4120 13e : untitled : I : Pension adjustment (PA)",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561119.xml",
+          "DOCNO": "53B5A001FC67C356AB354D0824EAB7C3",
+          "CorpusPlusDocno": "PB_53B5A001FC67C356AB354D0824EAB7C3"
+        }
+      },
+      {
+        "value": "0.0022683944553136826",
+        "text": "Enter on line 206 the total of all amounts shown in box 52 of your T4 slips or box 034 of your T4A slips. Generally, this total represents the value of the benefits you earned in 2013 under a registered pension plan (RPP) or a deferred profit-sharing plan (DPSP). Do not report the pension adjustment (PA) amount as income, and do not deduct it on your return. Enter the amount on line 206. We will use it to calculate your registered retirement savings plan (RRSP/PRPP) deduction limit for 2014, which we will show on your latest notice of assessment, notice of reassessment, or T1028, Your RRSP Information for 2013. For more information, see line 208. If you have any questions about how your PA was calculated, contact your employer. Notes If you live in Canada and participated in a foreign pension plan in 2013, you may have to enter an amount on this line. For more information, contact us. If you contributed to a foreign employer-sponsored pension plan or to a social security arrangement (other than a United States (U.S.) arrangement), see Form RC269, Employee Contributions to a Foreign Pension Plan or Social Security Arrangement for 2013 Non-United States Plans or Arrangements. If you were a U.S. resident working in Canada and contributed to a U.S. employer-sponsored retirement plan, see Form RC267, Employee Contributions to a United States Retirement Plan for 2013 - Temporary Assignments. If you were a commuter from Canada and contributed to a U.S. retirement plan, see Form RC268, Employee Contributions to a United States Retirement Plan for 2013 Cross-Border Commuters. You can get these forms by going to www.cra.gc.ca/forms, or by contacting us.",
+        "id": "T_647120A3CA8EBF6038D6764A90FB23DD",
+        "title": "5000g 13e : T : Line 206 - Pension adjustment",
+        "document": "/instance/507/deepqa/v1/question/document/T_647120A3CA8EBF6038D6764A90FB23DD/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "5000g-13e.pdf",
+          "title": "5000g 13e : T : Line 206 - Pension adjustment",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561280.xml",
+          "DOCNO": "647120A3CA8EBF601D1E5303FC50C220",
+          "CorpusPlusDocno": "PB_647120A3CA8EBF601D1E5303FC50C220"
+        }
+      },
+      {
+        "value": "0.0022614176850765944",
+        "text": "the application is in respect of a disability for which a pension has been granted or is an application under section 36 in respect of such a disability; (b) the application is in respect of the death of a member of the forces, if the death occurred before the coming into force of section 42 of the Canadian Forces Members and Veterans Re-establishment and Compensation Act or is the result of an injury or a disease, or the aggravation of an injury or a disease, for which a pension has been granted; (c) the application is in respect of an injury or a disease that was attributable to or was incurred during, or arose out of or was directly connected to, service in the Canadian Forces on or before April 1, 1947, or was attributable to or was incurred during service in the Korean War or is an application under subsection 21(5) in respect of such an injury or a disease; (d) the application is in respect of an aggravation of an injury or disease, if the aggravation was attributable to or was incurred during, or arose out of or was directly connected to, service in the Canadian Forces on or before April 1, 1947 or was attributable to or was incurred during service in the Korean War or is an application under subsection 21(5) in respect of such an aggravation; (e) the Minister has determined under the Canadian Forces Members and Veterans Re-establishment and Compensation Act that the injury or disease, or the aggravation of the injury or disease, for which the application is made is inseparable - for the purpose of assessing the extent of disability - from an injury or a disease, or the aggravation of an injury or a disease, for which a pension has been granted; or. (f) the application is made under section 38 by a pensioner.",
+        "id": "PB_A4C12EB66A72079E37188396AF6C1C74",
+        "title": "Pension Act : CANADIAN FORCES MEMBERS AND VETERANS RE-ESTABLISHMENT AND COMPENSATION ACT",
+        "document": "/instance/507/deepqa/v1/question/document/PB_A4C12EB66A72079E37188396AF6C1C74/526/2271",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : CANADIAN FORCES MEMBERS AND VETERANS RE-ESTABLISHMENT AND COMPENSATION ACT",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33559000",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33559000.xml",
+          "DOCNO": "A4C12EB66A72079E37188396AF6C1C74"
+        }
+      },
+      {
+        "value": "0.002031397307291627",
+        "text": "You may be able to claim up to $2,000 if you reported eligible pension, superannuation, or annuity payments on lines 115, 116, and/or 129 of your return. Report your pension or annuity income on the applicable line. To calculate your claim, complete the chart for line 314 on the federal worksheet in the forms book. If you and your spouse or common-law partner elected to split pension income, follow the instructions at Step 4 on Form T1032, Joint Election to Split Pension Income, to calculate the amount to enter on line 314 of your and your spouse's or common-law partner's Schedule 1. Note Amounts such as old age security benefits, Canada Pension Plan benefits, Quebec Pension Plan benefits, death benefits, retiring allowances, excess amounts from a RRIF transferred to an RRSP, another RRIF or annuity, amounts shown in boxes 18, 20, 22, 26, 28, and 34 of your T4RSP slips, and amounts distributed from a retirement compensation arrangement shown on your T4A-RCA slips, do not qualify. Tax Tip You may be able to transfer all or part of your pension income amount to your spouse or common-law partner or to claim all or part of his or her pension income amount. See line 326.",
+        "id": "T_647120A3CA8EBF60D9CB3B8A9AA30389",
+        "title": "5000g 13e : T : Line 314 - Pension income amount ▼",
+        "document": "/instance/507/deepqa/v1/question/document/T_647120A3CA8EBF60D9CB3B8A9AA30389/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "5000g-13e.pdf",
+          "title": "5000g 13e : T : Line 314 - Pension income amount ▼",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561337.xml",
+          "DOCNO": "647120A3CA8EBF60192D1AA90B002236",
+          "CorpusPlusDocno": "PB_647120A3CA8EBF60192D1AA90B002236"
+        }
+      },
+      {
+        "value": "0.0019702680874615908",
+        "text": "Enter the amount shown in box 18 of your T4A(OAS) slip. For more information about how to report the amount shown in box 21, see line 146. If you have not received your T4A(OAS) slip, visit www.servicecanada.gc.ca, or call 1-800-277-9914. To view your T4A(OAS) slip information, go to www.cra.gc.ca/myaccount. Notes You may have to repay OAS benefits (see line 235) if the result of the following calculation is more than $70,954: the amount from line 234; minus the amounts reported on lines 117 and 125; plus the amount deducted on line 213 and/or the amount for a repayment of registered disability savings plan income included on line 232. The amount recovered from your gross OAS pension because of an overpayment you received in a previous period is shown in box 20 of your T4A(OAS) slip. You can claim a deduction on line 232 for the amounts repaid. If at any time in 2013 you were a non-resident of Canada receiving an OAS pension, you may also have to complete Form T1136, Old Age Security Return of Income. For more information, see Guide T4155, Old Age Security Return of Income Guide for Non-Residents, or contact us. To get Form T1136 and Guide T4155, go to www.cra.gc.ca/forms.",
+        "id": "T_647120A3CA8EBF6050531CF02B4011C0",
+        "title": "5000g 13e : T : Line 113 - Old age security (OAS) ▼ pension",
+        "document": "/instance/507/deepqa/v1/question/document/T_647120A3CA8EBF6050531CF02B4011C0/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "5000g-13e.pdf",
+          "title": "5000g 13e : T : Line 113 - Old age security (OAS) ▼ pension",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561259.xml",
+          "DOCNO": "647120A3CA8EBF6036DB6EA09CF83662",
+          "CorpusPlusDocno": "PB_647120A3CA8EBF6036DB6EA09CF83662"
+        }
+      },
+      {
+        "value": "0.0018837058451026678",
+        "text": "If you and your spouse or common-law partner have made a joint election to split your spouse's or common-law partner's eligible pension income by completing Form T1032, Joint Election to Split Pension Income, you (the pension transferee) must enter on this line the elected split-pension amount from line G of Form T1032. File Form T1032 by your filing due date for the year (see \"What date is your return for 2013 due?\" on page 5). This form must be attached to both your and your spouse's or common-law partner's paper returns. The information provided on the forms must be the same. If you are filing electronically, keep your election form in case we ask to see it at a later date. Notes Only one joint election can be made for a tax year. If both you and your spouse or common-law partner have eligible pension income, you will have to decide if you are splitting your pension income or your spouse's or common-law partner's pension income. Under certain circumstances, we may allow you to make a late or amended election, or revoke an original election. For more information, contact us.",
+        "id": "T_647120A3CA8EBF60811BDC743B8E1A66",
+        "title": "5000g 13e : T : Line 116 - Elected split-pension ▼ amount",
+        "document": "/instance/507/deepqa/v1/question/document/T_647120A3CA8EBF60811BDC743B8E1A66/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "5000g-13e.pdf",
+          "title": "5000g 13e : T : Line 116 - Elected split-pension ▼ amount",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561262.xml",
+          "DOCNO": "647120A3CA8EBF6026D6F57F111E9FB1",
+          "CorpusPlusDocno": "PB_647120A3CA8EBF6026D6F57F111E9FB1"
+        }
+      },
+      {
+        "value": "0.001872080727480352",
+        "text": "Enter on line 115 any other pensions and superannuation you received, such as amounts shown in box 016 of your T4A slips and box 31 of your T3 slips. Report on line 130 any amount shown in box 018 of your T4A slips or box 22 of your T3 slips. You may also have to report on this line other amounts you received. Read the following sections that apply to you. nnuity, PRPP, and registered retirement income fund (RRIF), including life income fund, payments Report the amount shown in box 024, 133, or 194 of your T4A slips, box 16 or 20 of your T4RIF slips, or box 19 of your T5 slips as follows: If you were 65 years of age or older on December 31, 2013, report it on line 115. Regardless of your age, if you received it on the death of your spouse or common-law partner, report it on line 115 even if the amount is transferred to an RRSP. Otherwise, report on line 130 the amount shown in box 024 or box 133 of your T4A slips or box 16 or 20 of your T4RIF slips. Report on line 121 the amount shown in box 19 of your T5 slips. Note If there is an amount shown in box 18 or 22 of your T4RIF slips, see the instructions on the back of the slip. Saskatchewan Pension Plan (SPP) Report on line 115 SPP payments shown in box 016 of your T4A slip. For more information about the SPP, visit www.saskpension.com. SPP payments are eligible for the pension income amount (see line 314). Tax Tips If you have to report your pension, annuity, PRPP, and RRIF payments on line 115, you may be able to claim the pension income amount (see line 314). You may also be able to make a joint election with your spouse or common-law partner to split your pension, annuity, PRPP, and RRIF (including life income fund) payments you reported on line 115 if both of the following apply: you were both residents of Canada on December 31, 2013 (or were residents of Canada on the date of death); and you and your spouse or common-law partner were not, because of a breakdown in your marriage or common-law relationship, living separate and apart from each other at the end of the year and for a period of 90 days beginning in the year. To make this election, you and your spouse or common-law partner must complete Form T1032, Joint Election to Split Pension Income. Note If you elected to split your pension, superannuation, annuity, PRPP, RRIF (including life income fund) payments, and SPP payments with your spouse or common-law partner, you (the pensioner) must still report the full amount on line 115, but you can claim a deduction for the elected split-pension amount. See line 210. Pensions from a foreign country Report in Canadian dollars the gross amount of your foreign pension income you received in 2013. See \"How do you report foreign income and other amounts?\" on page 9. Attach a note to your paper return identifying the type of pension you received and the country it came from. In some cases, amounts you receive may not be considered pension income, and you may have to report them elsewhere on your return. United States individual retirement arrangement (IRA) If, during 2013, you received amounts from an IRA or converted the IRA to a \"Roth\" IRA, contact us. Tax Tip You can claim a deduction on line 256 for the part of your foreign pension income that is tax-free in Canada because of a tax treaty. If you do not know whether any part of your foreign pension is tax-free, contact us. United States Social Security - Report on line 115 the full amount, in Canadian dollars, of your U.S. Social Security benefits and any U.S. Medicare premiums paid on your behalf. You can claim a deduction for part of this income. See line 256. Benefits paid for your children are their income, even if you received the payments.",
+        "id": "T_647120A3CA8EBF601207D92E57F7B16B",
+        "title": "5000g 13e : T : Line 115 - Other pensions and ▼ superannuation",
+        "document": "/instance/507/deepqa/v1/question/document/T_647120A3CA8EBF601207D92E57F7B16B/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "5000g-13e.pdf",
+          "title": "5000g 13e : T : Line 115 - Other pensions and ▼ superannuation",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561261.xml",
+          "DOCNO": "647120A3CA8EBF6054D5C20DEDB7397E",
+          "CorpusPlusDocno": "PB_647120A3CA8EBF6054D5C20DEDB7397E"
+        }
+      },
+      {
+        "value": "0.001729496638290584",
+        "text": "Generally, you can deduct the total of all amounts shown in box 20 of your T4 slips, box 032 of your T4A slips, or on your union or RPP receipts. Contact us or see Guide T4040, RRSPs and Other Registered Plans for Retirement, to find out how much you can deduct if any of the following apply: the total is more than $3,500 and your information slips show a past-service amount for service before 1990; you contributed in a previous year and could not deduct part of the contributions; or you made contributions to a pension plan in a foreign country. Notes If you contributed to a foreign employer-sponsored pension plan or to a social security arrangement (other than a United States (U.S.) arrangement), see Form RC269, Employee Contributions to a Foreign Pension Plan or Social Security Arrangement for 2013 Non-United States Plans or Arrangements. If you were a U.S. resident working in Canada and contributed to a U.S. employer-sponsored retirement plan, see Form RC267, Employee Contributions to a United States Retirement Plan for 2013 - Temporary Assignments. If you were a commuter from Canada and contributed to a U.S. retirement plan, see Form RC268, Employee Contributions to a United States Retirement Plan for 2013 Cross-Border Commuters. You can get these forms by going to www.cra.gc.ca/forms, or by contacting us. Supporting documents - If you are filing electronically, keep all your documents in case we ask to see them at a later date. If you are filing a paper return, attach your T4 and T4A slips, but do not send your other documents. Keep them in case we ask to see them at a later date.",
+        "id": "T_647120A3CA8EBF6017166409C9B653A",
+        "title": "5000g 13e : T : Line 207 - Registered pension plan (RPP) deduction",
+        "document": "/instance/507/deepqa/v1/question/document/T_647120A3CA8EBF6017166409C9B653A/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "5000g-13e.pdf",
+          "title": "5000g 13e : T : Line 207 - Registered pension plan (RPP) deduction",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561281.xml",
+          "DOCNO": "647120A3CA8EBF60809A1E0200F86A3C",
+          "CorpusPlusDocno": "PB_647120A3CA8EBF60809A1E0200F86A3C"
+        }
+      },
+      {
+        "value": "0.0016512180445715785",
+        "text": "If you and your spouse or common-law partner have made a joint election to split your eligible pension income by completing Form T1032, Joint Election to Split Pension Income, you (the pensioner) can deduct on this line the elected split-pension amount from line G of Form T1032. File Form T1032 by your filing due date for the year (see \"What date is your return for 2013 due?\" on page 5). This form must be attached to both your and your spouse's or common-law partner's paper returns. The information provided on the forms must be the same. If you are filing electronically, keep your election form in case we ask to see it at a later date. Notes Only one joint election can be made for a tax year. If both you and your spouse or common-law partner have eligible pension income, you will have to decide if you are splitting your pension income or your spouse's or common-law partner's pension income. Under certain circumstances, we may allow you to make a late or amended election, or revoke an original election. For more information, contact us.",
+        "id": "T_647120A3CA8EBF6046665C5A310AF0F7",
+        "title": "5000g 13e : T : Line 210 - Deduction for elected ▼ split-pension amount",
+        "document": "/instance/507/deepqa/v1/question/document/T_647120A3CA8EBF6046665C5A310AF0F7/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "5000g-13e.pdf",
+          "title": "5000g 13e : T : Line 210 - Deduction for elected ▼ split-pension amount",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561284.xml",
+          "DOCNO": "647120A3CA8EBF60EB741B2FBC669DDD",
+          "CorpusPlusDocno": "PB_647120A3CA8EBF60EB741B2FBC669DDD"
+        }
+      },
+      {
+        "value": "0.0015207482501864433",
+        "text": "The following is an overview of PAs under RPPs and DPSPs. If you want to know how your PA is calculated or why you have a PA, contact your employer or plan administrator. Your PA for a year is the total pension credits for the year under a DPSP or a defined benefit or money purchase provision of an RPP of which you are a member. You may also have a pension credit if you participate in a foreign plan. The pension credit is a measure of the value of the benefits that accrued to you during the year under these arrangements. Does your employer have to report a PA for you? Your employer usually has to report a PA for you even if your benefit is not yet vested. Where is your PA shown on your T4 or T4A slip? Your PA appears in box 52 of your T4 slip, or in box 034 of your T4A slip. If you worked for more than one employer in 2013 and each employer sponsors their own RPP or DPSP, you may have more than one PA for 2013. Enter the total of your 2013 PAs from your T4 or T4A slips on line 206 of your 2013 return. What does your PA affect? Your PA for a year reduces your RRSP deduction limit for the following year. Your PA does not affect your income. If you contribute to an RRSP or an SPP, your PA may indirectly affect the income taxes you pay or the refund you receive for the following year, because it reduces your RRSP deduction limit for the following year. For details on how to calculate your RRSP deduction limit, see \"Calculating your 2013 RRSP deduction limit\" on page 13. You can find your 2013 RRSP deduction limit on your latest notice of assessment or notice of reassessment. If you receive a certified Form T1004 after we send you your notice, we may reduce your 2013 RRSP deduction limit. In such a case, we will usually send you a T1028, Your RRSP Information for 2013, and give you your revised 2013 RRSP deduction limit when we have updated our records. You can also find out your RRSP deduction limit by registering for My Account. Once you've registered, you can access your RRSP Deduction Limit Statement online. For more information, see \"My Account\" on page 42. If you participate in a foreign plan, you may have to report an amount similar to a PA that will reduce your RRSP deduction limit for the following year. To determine the amount you have to report, call the International Enquiries for Individuals and Trusts at one of the following numbers: 1-855-284-5942 (toll free within Canada and the United States), or 613-940-8495 (from outside Canada and the United States-we accept collect calls by automated response. Please note that you may hear a beep and experience a normal connection delay.). For more information concerning PAs, see Guide T4084, Pension Adjustment Guide.",
+        "id": "T_2437D5FDC65A7902F4D01F171B171717",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Pension adjustments (PAs)",
+        "document": "/instance/507/deepqa/v1/question/document/T_2437D5FDC65A7902F4D01F171B171717/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Pension adjustments (PAs)",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561773.xml",
+          "DOCNO": "2437D5FDC65A7902696B31275CF4BB1C",
+          "CorpusPlusDocno": "PB_2437D5FDC65A7902696B31275CF4BB1C"
+        }
+      },
+      {
+        "value": "0.001434503123164177",
+        "text": "A PAR restores your RRSP deduction limit when you end your membership in an RPP or a DPSP in certain circumstances. Your plan administrator or trustee will report a PAR for you if the amount you receive from the plan is less than the total PAs and PSPAs that were previously reported for you. You will only have a PAR under a DPSP or a money purchase provision of an RPP if you are not fully vested at termination. Your plan administrator or trustee will send you a T10 slip that shows your PAR amount in box 2. Do not report this amount on your return. Your plan administrator or trustee will send us a copy of your T10 slip. We use that copy to increase your RRSP deduction limit for the year. If you have a PAR for a termination in 2013, it increases your 2013 RRSP deduction limit. In such a case, we will usually send you a T1028, Your RRSP Information for 2013, and give you your revised 2013 RRSP deduction limit when we have updated our records. For more information on PAR, see Guide RC4137, Pension Adjustment Reversal Guide. If you do not receive a T1028 and you want to confirm your 2013 RRSP deduction limit, go to www.cra.gc.ca/myaccount, or call our Tax Information Phone Service (TIPS) at 1-800-267-6999. The TIPS RRSP service is available from mid-September to April 30. For RRSP information, you will be asked to provide your social insurance number, your month and year of birth, and the total income you reported on line 150 of your 2012 return.",
+        "id": "T_2437D5FDC65A79028D36F0B22D1D9A00",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Pension adjustment reversals (PARs)",
+        "document": "/instance/507/deepqa/v1/question/document/T_2437D5FDC65A79028D36F0B22D1D9A00/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Pension adjustment reversals (PARs)",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561774.xml",
+          "DOCNO": "2437D5FDC65A7902516B3FEF3B8981C9",
+          "CorpusPlusDocno": "PB_2437D5FDC65A7902516B3FEF3B8981C9"
+        }
+      },
+      {
+        "value": "0.001432240940630436",
+        "text": "Enter on line 205 the total of all amounts shown in the designated \"employer contribution amount\" box of your PRPP receipts. Do not report this amount as income, and do not deduct it on your return. We will use it to calculate your RRSP/PRPP deduction limit and to determine the over-contribution tax (if applicable). For more information, see line 208. If you have any questions about your employer's contributions to your PRPP, contact your employer.",
+        "id": "T_647120A3CA8EBF60AFFEA532EB5773B61",
+        "title": "5000g 13e : T : Line 205 - Pooled registered pension plan (PRPP) employer contributions",
+        "document": "/instance/507/deepqa/v1/question/document/T_647120A3CA8EBF60AFFEA532EB5773B61/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "5000g-13e.pdf",
+          "title": "5000g 13e : T : Line 205 - Pooled registered pension plan (PRPP) employer contributions",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561283.xml",
+          "DOCNO": "647120A3CA8EBF609FC83E3531A84E24",
+          "CorpusPlusDocno": "PB_647120A3CA8EBF609FC83E3531A84E24"
+        }
+      },
+      {
+        "value": "0.0013819504529237747",
+        "text": "See page 25.",
+        "id": "T_647120A3CA8EBF60AFFEA532EB5773B6",
+        "title": "5000g 13e : T : Line 205 - Pooled registered pension plan (PRPP) employer contributions",
+        "document": "/instance/507/deepqa/v1/question/document/T_647120A3CA8EBF60AFFEA532EB5773B6/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "5000g-13e.pdf",
+          "title": "5000g 13e : T : Line 205 - Pooled registered pension plan (PRPP) employer contributions",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561279.xml",
+          "DOCNO": "647120A3CA8EBF60C2C2A2F1C8487CBE",
+          "CorpusPlusDocno": "PB_647120A3CA8EBF60C2C2A2F1C8487CBE"
+        }
+      },
+      {
+        "value": "0.0013774328399449587",
+        "text": "Subsection 248(1) of the Income Tax Act has been amended to include a new definition, a specified pension plan (SPP). It is defined as a \"prescribed arrangement\" which includes the Saskatchewan Pension Plan. References to an SPP in this guide refer to a specified pension plan.",
+        "id": "T_2437D5FDC65A79026469ACC5D69DA2AF",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : U : Specified pension plan (SPP)",
+        "document": "/instance/507/deepqa/v1/question/document/T_2437D5FDC65A79026469ACC5D69DA2AF/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : U : Specified pension plan (SPP)",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561737.xml",
+          "DOCNO": "2437D5FDC65A7902A63E6EDE8A8C7C77",
+          "CorpusPlusDocno": "PB_2437D5FDC65A7902A63E6EDE8A8C7C77"
+        }
+      },
+      {
+        "value": "0.0013688260223716497",
+        "text": " If you have questions about how your PSPA is calculated or why you have a PSPA, contact your employer or plan administrator. A PSPA is an amount your RPP administrator calculates when benefits relating to a previous period of pensionable service are improved or when you are credited with a new period of pensionable past service. A PSPA only occurs if the improved benefits or the new past service benefits relate to a period of service after 1989. A PSPA is the sum of the additional pension credits that would have been included in your PA if the upgraded benefits had actually been provided, or the additional service credited in those previous years. Types of PSPAs The plan administrator calculates your PSPA and determines whether we have to certify the PSPA before the RPP can provide the past service benefits. There are",
+        "id": "T_2437D5FDC65A79021CB71E78964371631",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Past service pension adjustments (PSPAs) : .",
+        "document": "/instance/507/deepqa/v1/question/document/T_2437D5FDC65A79021CB71E78964371631/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Past service pension adjustments (PSPAs) : .",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561776.xml",
+          "DOCNO": "2437D5FDC65A790262CF4F465DA14236",
+          "CorpusPlusDocno": "PB_2437D5FDC65A790262CF4F465DA14236"
+        }
+      },
+      {
+        "value": "0.001296084956265986",
+        "text": "The following is an overview of PSPAs",
+        "id": "T_2437D5FDC65A79021CB71E7896437163",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Past service pension adjustments (PSPAs)",
+        "document": "/instance/507/deepqa/v1/question/document/T_2437D5FDC65A79021CB71E7896437163/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Past service pension adjustments (PSPAs)",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561775.xml",
+          "DOCNO": "2437D5FDC65A790298B6BA4651F3F540",
+          "CorpusPlusDocno": "PB_2437D5FDC65A790298B6BA4651F3F540"
+        }
+      },
+      {
+        "value": "0.0012272553285583854",
+        "text": "An administrator of an RPP can correct a reasonable contribution error made on or after the later of January 1, 2014 and the date the legislation reaches Royal Assent, without getting prior authorization from the Canada Revenue Agency (CRA). The administrator must refund the amount from the plan to the member, or participating employer, no later than December 31st of the year following the year in which the contribution error was made and must report the transaction to the CRA. If an administrator wants to correct a contribution error after this deadline, prior CRA authorization will be required. If the member or participating employer receives the refunded RPP contribution, and they had already deducted it in a previous year, they must include that amount as income on their tax return in the year it is received.",
+        "id": "T_2437D5FDC65A79024828540882112AD5",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : U : Registered pension plan (RPP) contribution errors",
+        "document": "/instance/507/deepqa/v1/question/document/T_2437D5FDC65A79024828540882112AD5/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : U : Registered pension plan (RPP) contribution errors",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561736.xml",
+          "DOCNO": "2437D5FDC65A7902FF95BFA515E39FBF",
+          "CorpusPlusDocno": "PB_2437D5FDC65A7902FF95BFA515E39FBF"
+        }
+      },
+      {
+        "value": "0.0011929526226595044",
+        "text": "A PRPP is a new, accessible, straightforward retirement savings option for individuals, including those who are self-employed. If you are a member of a PRPP, or plan to become one when the provincial legislation is in place where you live, see new \"Chapter 8 - Pooled registered pension plan (PRPP)\" on page 38. This new section is dedicated to information about PRPPs and was created based on the information available at the time of printing. For additional information, visit www.cra.gc.ca/prpp.",
+        "id": "T_2437D5FDC65A79029273FBA6BA5DB4B8",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : U : Pooled registered pension plan (PRPP)",
+        "document": "/instance/507/deepqa/v1/question/document/T_2437D5FDC65A79029273FBA6BA5DB4B8/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : U : Pooled registered pension plan (PRPP)",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561735.xml",
+          "DOCNO": "2437D5FDC65A7902861D1A46478B7BAE",
+          "CorpusPlusDocno": "PB_2437D5FDC65A7902861D1A46478B7BAE"
+        }
+      },
+      {
+        "value": "0.0011821704683825374",
+        "text": "If you are a member of an SPP, you can contribute to your RRIF by directly transferring a lump-sum amount from an SPP. You can also transfer a lump-sum amount from an SPP if you are entitled to it because your current or former spouse or common-law partner was a member of an SPP, and one of the following situations applies: your current or former spouse or common-law partner has died; or you and your current or former spouse or common-law partner are living separate and apart at the time of the transfer and you are entitled to receive the lump-sum: - under a decree, order or judgment of a court, or under a written separation agreement; and - to settle rights arising out of your relationship on or after the breakdown of your relationship. For more information on transfers, see \"Chapter 6 Transfers to registered plans or funds and annuities\" on page 32. he existing anti-avoidance rules applicable to RRSPs and RRIFs have been enhanced to prevent any aggressive tax planning. The new rules largely adopt the existing tax-free savings account (TFSA) rules for non-qualified investments, prohibited investments and advantages, with some modifications. The new rules impose a tax on non-qualified investments, prohibited investments and advantages provided in relation to an RRSP or RRIF.",
+        "id": "T_2437D5FDC65A7902B21FE71052B7D522",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : T : Specified pension plan (SPP) amounts",
+        "document": "/instance/507/deepqa/v1/question/document/T_2437D5FDC65A7902B21FE71052B7D522/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : T : Specified pension plan (SPP) amounts",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561757.xml",
+          "DOCNO": "2437D5FDC65A7902CED65A4DCCE89C73",
+          "CorpusPlusDocno": "PB_2437D5FDC65A7902CED65A4DCCE89C73"
+        }
+      },
+      {
+        "value": "0.0010529706487432122",
+        "text": " or Canada Pension Plan (CPP) purposes, contributions are not calculated from the first dollar of pensionable earnings. Instead, they are calculated using the amount of pensionable earnings minus an exempt amount that is based on the period of employment.",
+        "id": "T_3AA8C92905057D7597DCC93DF6BC7E05",
+        "title": "t4001 13e : Payroll Deductions and Remittances : Payroll Deductions and Remittances : F : Chapter 2 - Canada Pension Plan contributions",
+        "document": "/instance/507/deepqa/v1/question/document/T_3AA8C92905057D7597DCC93DF6BC7E05/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "t4001-13e.pdf",
+          "title": "t4001 13e : Payroll Deductions and Remittances : Payroll Deductions and Remittances : F : Chapter 2 - Canada Pension Plan contributions",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561444.xml",
+          "DOCNO": "3AA8C92905057D75B7DECB2319A2C27A",
+          "CorpusPlusDocno": "PB_3AA8C92905057D75B7DECB2319A2C27A"
+        }
+      },
+      {
+        "value": "9.2474021948874E-4",
+        "text": "Eligible spouse's single pension: Determine the amount of a pension instalment payable for the life of the eligible spouse, commencing as of the payment date that falls on or immediately after the date as of which the retired member's pension is divided, such that the commuted value of this pension is equal to the amount determined in paragraph 6. This is the single pension payable to the eligible spouse under subsection 67.4 (10) of the Act. 8. The commuted values referred to in paragraphs 3, 4, 5 and 7 are to be determined as of the date on which the retired member's pension is being divided. O. Reg.",
+        "id": "PB_BFE3ECE1D67BEF0B17A5CFA94F45A21D",
+        "title": "CanLII - Family Law Matters, O Reg 287/11 : Family Law Matters, O Reg 287/11 : Current version: in force since Jul 1, 2012",
+        "document": "/instance/507/deepqa/v1/question/document/PB_BFE3ECE1D67BEF0B17A5CFA94F45A21D/72829/73438",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "o-reg-287-11.html",
+          "title": "CanLII - Family Law Matters, O Reg 287/11 : Family Law Matters, O Reg 287/11 : Current version: in force since Jul 1, 2012",
+          "corpusName": "PB",
+          "deepqaid": "33559717",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33559717.xml",
+          "DOCNO": "BFE3ECE1D67BEF0B17A5CFA94F45A21D"
+        }
+      },
+      {
+        "value": "6.220862851478159E-4",
+        "text": "While the Income Tax Act places no restrictions on withdrawing funds from your PRPP account at any time, it does place limits on the credits available to you depending on your age when you receive payments. For example, if you receive payments from your PRPP before you are 65 years old, you will not be eligible for pension income splitting or the pension income amount. The Pooled Registered Pension Plans Act also limits the distributions (withdrawals) that you can make to ensure that your PRPP funds are available for your retirement. Similar to other RPPs, the funds in your PRPP are generally \"locked-in\" and cannot be withdrawn before you retire from employment.",
+        "id": "PB_2437D5FDC65A7902321D2AAA129F7DEE",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : A : PRPP withdrawals",
+        "document": "/instance/507/deepqa/v1/question/document/PB_2437D5FDC65A7902321D2AAA129F7DEE/189/859",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : A : PRPP withdrawals",
+          "corpusName": "PB",
+          "deepqaid": "33561784",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561784.xml",
+          "DOCNO": "2437D5FDC65A7902321D2AAA129F7DEE"
+        }
+      },
+      {
+        "value": "6.203824304975569E-4",
+        "text": "<< pension << 'pension' means, in respect of payments that arise in Canada, (a) if the convention does not include a definition 'pension', a payment under any plan, arrangement or contract that is. (i) a registered pension plan, (ii) a registered retirement savings plan, (iii) a registered retirement income fund, (iv) a retirement compensation arrangement, (v) a deferred profit sharing plan, (vi) a plan that is deemed by subsection 147(15) of the Income Tax Act not to be a deferred profit sharing plan, (vii) an annuity contract purchased under a plan referred to in subparagraph (v) or (vi), (viii) an annuity contract where the amount paid by or on behalf of an individual to acquire the contract was deductible under paragraph 60(l) of the Income Tax Act in computing the individual's income for any taxation year (or would have been so deductible if the individual had been resident in Canada), or. (ix) a superannuation, pension or retirement plan not otherwise referred to in this paragraph, and. (b) if the convention includes a definition 'pension', a payment that is a pension for the purposes of the convention or a payment (other than a payment of social security benefits) that would be a periodic pension payment if the convention did not include a definition 'pension'; 'periodic pension payment'.",
+        "id": "PB_6800BC0FFE5309CCE77C68CA1F2BA20B",
+        "title": "CanLII - Income Tax Conventions Interpretation Act, RSC 1985, c I-4 : INTERPRETATION",
+        "document": "/instance/507/deepqa/v1/question/document/PB_6800BC0FFE5309CCE77C68CA1F2BA20B/5065/6381",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "CanLII - Income Tax Conventions Interpretation Act, RSC 1985, c I-4.html",
+          "title": "CanLII - Income Tax Conventions Interpretation Act, RSC 1985, c I-4 : INTERPRETATION",
+          "corpusName": "PB",
+          "deepqaid": "33560626",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560626.xml",
+          "DOCNO": "6800BC0FFE5309CCE77C68CA1F2BA20B"
+        }
+      },
+      {
+        "value": "5.975573440082371E-4",
+        "text": "In respect of service rendered during World War I, service rendered during World War II other than in the non-permanent active militia or the reserve army, service in the Korean War, service as a member of the special force, and special duty service, (a) where a member of the forces suffers disability resulting from an injury or disease or an aggravation thereof that was attributable to or was incurred during such military service, a pension shall, on application, be awarded to or in respect of the member in accordance with the rates for basic and additional pension set out in Schedule I; (b) where a member of the forces dies as a result of an injury or disease or an aggravation thereof that was attributable to or was incurred during such military service, a pension shall be awarded in respect of the member in accordance with the rates set out in Schedule II; (c) no deduction shall be made from the degree of actual disability of a member of the forces who has rendered service in a theatre of actual war, service in the Korean War or special duty service on account of a disability or disabling condition that existed in the member before the member's period of service in World War I or World War II, service in the Korean War or special duty service, as the case may be, except. (i)",
+        "id": "PB_A4C12EB66A72079E598E4F243B743753",
+        "title": "Pension Act : PART IIIPENSIONS",
+        "document": "/instance/507/deepqa/v1/question/document/PB_A4C12EB66A72079E598E4F243B743753/205/1503",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : PART IIIPENSIONS",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33559003",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33559003.xml",
+          "DOCNO": "A4C12EB66A72079E598E4F243B743753"
+        }
+      },
+      {
+        "value": "5.736324819736183E-4",
+        "text": "an amount received under a War Savings Certificate issued by His Majesty in right of Canada or under a similar savings certificate issued by His Majesty in right of Newfoundland before April 1, 1949; Marginal note:Ship or aircraft of non-residents. (c) the income for the year of a non-resident person earned in Canada from the operation of a ship or aircraft in international traffic, if the country where that person resided grants substantially similar relief for the year to a person resident in Canada; Marginal note:Service pension, allowance or compensation. (d) a pension payment, an allowance or compensation that is received under or is subject to the Pension Act,the Civilian War-related Benefits Act or the War Veterans Allowance Act, an amount received under the Gallantry Awards Order or compensation received under the regulations made under section 9 of the Aeronautics Act; Marginal note:Canadian Forces members and veterans amounts. (d.1) the total of all amounts received by the taxpayer in the year on account of a Canadian Forces income support benefit payable to the taxpayer under Part 2 of the Canadian Forces Members and Veterans Re-establishment and Compensation Act or on account of a disability award, death benefit, clothing allowance or detention benefit payable to the taxpayer under Part 3 of that Act; Marginal note:War pensions. (e)",
+        "id": "PB_CE18108BBD5F817D738E3489A7657DDE",
+        "title": "Income Tax Act : PART IINCOME TAX : Division BComputation of Income : Subdivision gAmounts Not Included in Computing Income",
+        "document": "/instance/507/deepqa/v1/question/document/PB_CE18108BBD5F817D738E3489A7657DDE/751/2117",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Income Tax Act.html",
+          "title": "Income Tax Act : PART IINCOME TAX : Division BComputation of Income : Subdivision gAmounts Not Included in Computing Income",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. 1 (5th Supp.), Income Tax Act, Income Tax Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33560863",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560863.xml",
+          "DOCNO": "CE18108BBD5F817D738E3489A7657DDE"
+        }
+      },
+      {
+        "value": "4.4458534102886915E-4",
+        "text": "Statute Law Revision Act, 1950. A very broad Act which repealed many laws enacted by the Parliaments of England, Great Britain, and the United Kingdom, some dating from before 1800. In Canada's case, section 118 of the Constitution Act, 1867, was repealed. British North America Act, 1951 (Partially repealed by the Constitution Act, 1964, Repealed by the Constitution Act, 1982). Gave the Federal government the power to enact laws regarding old age pensions, such as, e.g. Canada Pension Plan.",
+        "id": "PB_DF7A9E1590D40B37BB94BCAB37726797",
+        "title": "solonorg : Canadian Constitutional Documents : Formatting Notes",
+        "document": "/instance/507/deepqa/v1/question/document/PB_DF7A9E1590D40B37BB94BCAB37726797/8809/9304",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "solonorg.html",
+          "title": "solonorg : Canadian Constitutional Documents : Formatting Notes",
+          "corpusName": "PB",
+          "deepqaid": "33560280",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560280.xml",
+          "DOCNO": "DF7A9E1590D40B37BB94BCAB37726797"
+        }
+      },
+      {
+        "value": "3.33194388076663E-4",
+        "text": "Division of pension payments. (3) If payment of the first instalment of a party's pension under a pension plan is due on or before the family law valuation date, the domestic contract may provide for the division of pension payments, but not for any other division of the party's interest in the plan. 2009, c. 11, s. 37. Restrictions re certain pension plans. (4) If the Pension Benefits Act applies to the pension plan, the restrictions under sections 67.3 and 67.4 of that Act apply with respect to the division of the party's interest in the plan under a domestic contract. 2009, c. 11, s.",
+        "id": "PB_E6D9450482BC87ACDA849B2BF14B0947",
+        "title": "CanLII - Family Law Act, RSO 1990, c F.3 : Family Law Act, RSO 1990, c F.3 : Current version: in force since Jul 24, 2014",
+        "document": "/instance/507/deepqa/v1/question/document/PB_E6D9450482BC87ACDA849B2BF14B0947/116988/117581",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "CanLII - Family Law Act, RSO 1990, c F.3.htm",
+          "title": "CanLII - Family Law Act, RSO 1990, c F.3 : Family Law Act, RSO 1990, c F.3 : Current version: in force since Jul 24, 2014",
+          "corpusName": "PB",
+          "deepqaid": "33560646",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560646.xml",
+          "DOCNO": "E6D9450482BC87ACDA849B2BF14B0947"
+        }
+      },
+      {
+        "value": "2.5920194457285106E-4",
+        "text": "Same. (7) For the purposes of clause (6) (e), an individual is described in this subsection if, (a) the individual is an individual in respect of whom a tax credit under section 118.3 of the Federal Act may be claimed; (b) the individual is eligible for income support or employment supports under the Ontario Disability Support Program Act, 1997 immediately prior to commencing employment with the employer or partnership; (c) the individual is in receipt of a Disability Benefits Canada Pension under the Canada Pension Plan Act immediately prior to commencing employment with the employer or partnership; (d) the individual is registered with the Canadian National Institute for the Blind; (e) the individual is eligible to receive assistance from the Assistive Devices Program administered by the Ministry of Health and Long-Term Care; or. (f) the individual satisfies the conditions prescribed by the regulations. 1998, c. 34, s.",
+        "id": "PB_85E9D12A4335A54CECC73BA6A9C0F9EB",
+        "title": "CanLII - Income Tax Act, RSO 1990, c I.2 : Income Tax Act, RSO 1990, c I.2 : Current version: in force since Jul 24, 2014",
+        "document": "/instance/507/deepqa/v1/question/document/PB_85E9D12A4335A54CECC73BA6A9C0F9EB/203557/204491",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "CanLII - Income Tax Act, RSO 1990, c I.2.html",
+          "title": "CanLII - Income Tax Act, RSO 1990, c I.2 : Income Tax Act, RSO 1990, c I.2 : Current version: in force since Jul 24, 2014",
+          "corpusName": "PB",
+          "deepqaid": "33560643",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560643.xml",
+          "DOCNO": "85E9D12A4335A54CECC73BA6A9C0F9EB"
+        }
+      },
+      {
+        "value": "2.4633598513901234E-4",
+        "text": "tax, interest or penalty owing by the taxpayer for that or a prior taxation year under this Act, the income statute of an agreeing province or the federal Act; (b) contribution, penalty or interest owing by the taxpayer for that or a prior taxation year as a result of payments required from the taxpayer under the Canada Pension Plan Act (Canada); and. (c) premium, interest or penalty owing by the taxpayer for that or a prior taxation year under the Employment Insurance Act ( Canada ), and the part of the amount not so applied shall be paid to the taxpayer. (4) A taxpayer referred to in subsection (3) does not include a taxpayer that is exempt from tax under section 149 of the federal Act. (5)",
+        "id": "PB_B68212410FE39EA5ED90AF0106E0C682",
+        "title": "CanLII - Income Tax Act, 2000, SNL 2000, c I-1.1 : Income Tax Act, 2000, SNL 2000, c I-1.1 : Past version: in force between May 31, 2011 and Jun 26, 2012",
+        "document": "/instance/507/deepqa/v1/question/document/PB_B68212410FE39EA5ED90AF0106E0C682/89107/89808",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "snl-2000-c-i-1.1.html",
+          "title": "CanLII - Income Tax Act, 2000, SNL 2000, c I-1.1 : Income Tax Act, 2000, SNL 2000, c I-1.1 : Past version: in force between May 31, 2011 and Jun 26, 2012",
+          "corpusName": "PB",
+          "deepqaid": "33560859",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560859.xml",
+          "DOCNO": "B68212410FE39EA5ED90AF0106E0C682"
+        }
+      },
+      {
+        "value": "2.217367582488805E-4",
+        "text": "the minimum amount for an account of a taxpayer under a money purchase provision of a registered pension plan is the amount determined in accordance with subsection 8506(5) of the Regulations. NOTE: Application provisions are not included in the consolidated text; see relevant amending Acts. 2009, c. 2, s. 15. Marginal note:Definitions. 60.03 (1) The following definitions apply in this section. 'eligible pension income'.",
+        "id": "PB_CE18108BBD5F817DA052367D93B20D0D",
+        "title": "Income Tax Act : PART IINCOME TAX : Division BComputation of Income : Subdivision eDeductions in Computing Income",
+        "document": "/instance/507/deepqa/v1/question/document/PB_CE18108BBD5F817DA052367D93B20D0D/54303/54727",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Income Tax Act.html",
+          "title": "Income Tax Act : PART IINCOME TAX : Division BComputation of Income : Subdivision eDeductions in Computing Income",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. 1 (5th Supp.), Income Tax Act, Income Tax Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33560835",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560835.xml",
+          "DOCNO": "CE18108BBD5F817DA052367D93B20D0D"
+        }
+      },
+      {
+        "value": "2.1871607168577611E-4",
+        "text": "Home. Laws Website Home. Consolidated Acts.",
+        "id": "PB_A4C12EB66A72079E8CB91BE2DC253F",
+        "title": "Pension Act : Breadcrumb trail",
+        "document": "/instance/507/deepqa/v1/question/document/PB_A4C12EB66A72079E8CB91BE2DC253F/136/180",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Breadcrumb trail",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33558994",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558994.xml",
+          "DOCNO": "A4C12EB66A72079E8CB91BE2DC253F"
+        }
+      },
+      {
+        "value": "2.140483120456338E-4",
+        "text": "c. A-29.011; Marginal note:Benefits under CPP/QPP. (a.1) where the taxpayer is an estate that arose on or as a consequence of the death of an individual, each benefit received under section 71 of the Canada Pension Plan, or under a similar provision of a provincial pension plan as defined in section 3 of that Act, after July 1997 and in the year in respect of the death of the individual; Marginal note:Pension income reallocation. (a.2) where the taxpayer is a pension transferee (as defined in subsection 60.03(1)), any amount that is a split-pension amount (as defined in that subsection) in respect of the pension transferee for the taxation year; Marginal note:Parents of victims of crime. (a.3) amounts received by the taxpayer in the year under a program established under the authority of the Department of Employment and Social Development Act in respect of children who are deceased or missing as a result of an offence, or a probable offence, under the Criminal Code; Marginal note:Support. (b)",
+        "id": "PB_CE18108BBD5F817D5AC7CB4A5BAAB8D6",
+        "title": "Income Tax Act : PART IINCOME TAX : Division BComputation of Income : Subdivision dOther Sources of Income",
+        "document": "/instance/507/deepqa/v1/question/document/PB_CE18108BBD5F817D5AC7CB4A5BAAB8D6/3398/4405",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Income Tax Act.html",
+          "title": "Income Tax Act : PART IINCOME TAX : Division BComputation of Income : Subdivision dOther Sources of Income",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. 1 (5th Supp.), Income Tax Act, Income Tax Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33560829",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560829.xml",
+          "DOCNO": "CE18108BBD5F817D5AC7CB4A5BAAB8D6"
+        }
+      },
+      {
+        "value": "2.0611357467714697E-4",
+        "text": "Effective January 1, 2013, if you have a valid Canadian social insurance number (SIN), you can participate in a PRPP if you: are employed or self-employed in the Nunavut, Yukon or Northwest Territories; work in a federally regulated business or industry for an employer who chooses to participate in a PRPP; or live in a province that has the required provincial standards legislation in place. Note The Pooled Registered Pension Plan Act (PRPP Act) applies to PRPPs within the legislative authority of the federal government.",
+        "id": "PB_2437D5FDC65A79027222A1C010E9AA40",
+        "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Eligibility",
+        "document": "/instance/507/deepqa/v1/question/document/PB_2437D5FDC65A79027222A1C010E9AA40/184/711",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "t4040-13e.pdf",
+          "title": "t4040 13e : RRSPs and Other Registered Plans for Retirement : Y : Eligibility",
+          "corpusName": "PB",
+          "deepqaid": "33561778",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561778.xml",
+          "DOCNO": "2437D5FDC65A79027222A1C010E9AA40"
+        }
+      },
+      {
+        "value": "1.9467773381620646E-4",
+        "text": "Constitutional Documents. Acts.",
+        "id": "PB_A4C12EB66A72079EEA2F99114249E673",
+        "title": "Pension Act : Site menu : Laws",
+        "document": "/instance/507/deepqa/v1/question/document/PB_A4C12EB66A72079EEA2F99114249E673/138/170",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "abstract": "Federal laws of canada",
+          "originalfile": "Pension Act.html",
+          "title": "Pension Act : Site menu : Laws",
+          "corpusName": "PB",
+          "keywords": "Consolidated federal laws of canada, R.S.C., 1985, c. P-6, Pension Act, Pension Act",
+          "description": "Federal laws of canada",
+          "deepqaid": "33558993",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33558993.xml",
+          "DOCNO": "A4C12EB66A72079EEA2F99114249E673"
+        }
+      },
+      {
+        "value": "1.93239378859289E-4",
+        "text": "  Under the Family Relations Act, spouses generally share all assets that were used for a family purpose, regardless of the origin of the property. Significant discretion is used by the courts to divide family property. This regime is criticized because it is too difficult to predict and it promotes litigation. The Family Law Act reforms property division so that certain property, such as pre-relationship property and inheritances generally will not be shared upon separation, except for the growth in value of the excluded property during the relationship. The general rule is that family property and family debts are divided 50/50 upon separation. If an equal division of family property and debts causes significant unfairness, judges can provide one spouse with a larger share of the family property. In limited cases, such as long interdependent relationships, excluded property may be divided. These measures ensure there remains some flexibility to take into account a spouse's unique circumstances or vulnerabilities where appropriate. The most compelling reasons for changing the property regime are to make the law simpler, clearer, easier to apply and more fair. As a result, fewer people will need to go to court to settle their property disputes and the expense currently associated with property division will be reduced. The new property regime provides a default for property division, based on sharing the property that accrues during the relationship. If a couple does not wish to have property division rules apply to them, they can choose to opt out and make different arrangements through a written agreement. Judges will have less ability to overturn these agreements.",
+        "id": "T_5BAC66398E6E3E7AC4128040107872C2",
+        "title": "Family Law Act Frequently Asked Questions : Questions and Answers : Property Division : Is property division different under the new Family Law Act than under the Family Relations Act?",
+        "document": "/instance/507/deepqa/v1/question/document/T_5BAC66398E6E3E7AC4128040107872C2/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "Family Law Act Frequently Asked Questions.docx",
+          "author": "Cody",
+          "title": "Family Law Act Frequently Asked Questions : Questions and Answers : Property Division : Is property division different under the new Family Law Act than under the Family Relations Act?",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33559171.xml",
+          "DOCNO": "5BAC66398E6E3E7A92E1067BC3DBC333",
+          "CorpusPlusDocno": "PB_5BAC66398E6E3E7A92E1067BC3DBC333"
+        }
+      },
+      {
+        "value": "1.922132505569607E-4",
+        "text": "Noteup a specific section or subsection from this regulation: Citing or noting up a specific section or subsection If the present regulation has a \"Show Table of Contents\" button, you will see that each section and subsection number is displayed with a link offering you convenient citation and noteup tools that are specific to each provision. You may want to use these tools instead of the above search box. Enabled Regulations Pension Benefits Act, RSO 1990, c P.8 11 Regulations In force Abibow Canada inc. Pension Plans, O Reg 196/11. Algoma Steel inc. Pension Plans, O Reg 202/02.",
+        "id": "PB_BFE3ECE1D67BEF0BAA7DF14D7A2AE9A7",
+        "title": "CanLII - Family Law Matters, O Reg 287/11 : Family Law Matters, O Reg 287/11",
+        "document": "/instance/507/deepqa/v1/question/document/PB_BFE3ECE1D67BEF0BAA7DF14D7A2AE9A7/508/1094",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "o-reg-287-11.html",
+          "title": "CanLII - Family Law Matters, O Reg 287/11 : Family Law Matters, O Reg 287/11",
+          "corpusName": "PB",
+          "deepqaid": "33559708",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33559708.xml",
+          "DOCNO": "BFE3ECE1D67BEF0BAA7DF14D7A2AE9A7"
+        }
+      },
+      {
+        "value": "1.5508363139815629E-4",
+        "text": " Part 4 - Miscellaneous.",
+        "id": "T_BC5ED67918F33C17D77BA569AA5DB8AB",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act : [RSBC 1996] CHAPTER 215",
+        "document": "/instance/507/deepqa/v1/question/document/T_BC5ED67918F33C17D77BA569AA5DB8AB/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rsbc-1996-c-215-part-5.html",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act : [RSBC 1996] CHAPTER 215",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561004.xml",
+          "DOCNO": "BC5ED67918F33C17EC662D449288E6CE",
+          "CorpusPlusDocno": "PB_BC5ED67918F33C17EC662D449288E6CE"
+        }
+      },
+      {
+        "value": "1.4540953270625323E-4",
+        "text": " 78 The costs and expenses incurred for the purposes of this Act must, in the absence of any special appropriation of the Legislature available for that purpose, be paid out of the consolidated revenue fund. Copyright (c) Queen's Printer, Victoria, British Columbia, Canada. Scope of Databases Tools. Terms of Use. Privacy. Help. Contact Us. About. by. for the. Federation of Law Societies of Canada.",
+        "id": "T_BC5ED67918F33C17432B5CD13B811F3",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act : [RSBC 1996] CHAPTER 215 : Costs and expenses",
+        "document": "/instance/507/deepqa/v1/question/document/T_BC5ED67918F33C17432B5CD13B811F3/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rsbc-1996-c-215-part-5.html",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act : [RSBC 1996] CHAPTER 215 : Costs and expenses",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561009.xml",
+          "DOCNO": "BC5ED67918F33C172F3AA985069516C",
+          "CorpusPlusDocno": "PB_BC5ED67918F33C172F3AA985069516C"
+        }
+      },
+      {
+        "value": "1.3955423492006958E-4",
+        "text": " 77 All commissioners and other officers, clerks, and sub-agents of the Ministry of Agriculture and Lands throughout British Columbia, the registrars of titles, government agents, mining recorders, gold commissioners and other officers or agents of the government of British Columbia must, on the written request of the deputy head or other authorized officer, provide him or her without charge with the information he or she considers necessary for the purposes of this Act.",
+        "id": "T_BC5ED67918F33C17DC824B6D808CC235",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act : [RSBC 1996] CHAPTER 215 : Duty of officers of government to provide information",
+        "document": "/instance/507/deepqa/v1/question/document/T_BC5ED67918F33C17DC824B6D808CC235/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rsbc-1996-c-215-part-5.html",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act, RSBC 1996, c 215, Part 4 - Miscellaneous : Income Tax Act : [RSBC 1996] CHAPTER 215 : Duty of officers of government to provide information",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561007.xml",
+          "DOCNO": "BC5ED67918F33C174752DAB939E3CE91",
+          "CorpusPlusDocno": "PB_BC5ED67918F33C174752DAB939E3CE91"
+        }
+      },
+      {
+        "value": "1.3441233022604138E-4",
+        "text": " 71 If a collection agreement is in effect and an amount is remitted to the Receiver General for Canada under section 153 (1) of the federal Act, as it applies for the purposes of this Act, on account of the tax of an individual who is resident on the last day of the taxation year in another agreeing province, (a) no action lies for recovery of the amount by that individual, and. (b) the amount may not be applied in discharge of any liability of that individual under this Act.",
+        "id": "T_E76A511A652A4A85865C9E31BE235D4C",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act : [RSBC 1996] CHAPTER 215 : No action against persons withholding tax",
+        "document": "/instance/507/deepqa/v1/question/document/T_E76A511A652A4A85865C9E31BE235D4C/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 — Collection of Tax.htm",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act : [RSBC 1996] CHAPTER 215 : No action against persons withholding tax",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560612.xml",
+          "DOCNO": "E76A511A652A4A856366367D8D68BFD2",
+          "CorpusPlusDocno": "PB_E76A511A652A4A856366367D8D68BFD2"
+        }
+      },
+      {
+        "value": "1.1568875925149769E-4",
+        "text": "Exceptions to prohibitions. 26 (1) Section 25 does not apply in any of the following circumstances: (a) if the money accepted by a member of the Legislative Assembly is. (i) basic compensation, as defined in the Members' Remuneration and Pensions Act, or any salary payable under section 4 (1) or (6) of that Act, or. (ii) the Capital City allowance under section 3 (1) (d.1) of the Legislative Assembly Management Committee Act or any other payment that is authorized by the Legislative Assembly Management Committee and required to be provided or paid by the government pursuant to section 3 of that Act; (b) if the money accepted is for the reasonable out of pocket, travelling and other expenses incurred by a member in the discharge of the member's duties. (i)",
+        "id": "PB_42D58E48FD40C379DB4EB7C86001311A",
+        "title": "Constitution Act 1996",
+        "document": "/instance/507/deepqa/v1/question/document/PB_42D58E48FD40C379DB4EB7C86001311A/12603/13368",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "Constitution Act 1996.docx",
+          "author": "Patricio Andrés Córdova",
+          "title": "Constitution Act 1996",
+          "corpusName": "PB",
+          "deepqaid": "33560551",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560551.xml",
+          "DOCNO": "42D58E48FD40C379DB4EB7C86001311A"
+        }
+      },
+      {
+        "value": "1.1148739577038214E-4",
+        "text": " 129 Without limiting any provision of this Act or the federal Act, for the purpose of determining eligibility for a tax credit under this Part, the Commissioner of Income Tax has powers equivalent to the federal minister under sections 230 (3), 231, 231.1 and 233 of the federal Act, and for that purpose those sections apply.",
+        "id": "T_E5EFD071560D71DAB011F3DC40AE9E45",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act : [RSBC 1996] CHAPTER 215 : Powers of audit",
+        "document": "/instance/507/deepqa/v1/question/document/T_E5EFD071560D71DAB011F3DC40AE9E45/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rsbc-1996-c-215-part-10.html",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act : [RSBC 1996] CHAPTER 215 : Powers of audit",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560989.xml",
+          "DOCNO": "E5EFD071560D71DA38118D1B8F00F526",
+          "CorpusPlusDocno": "PB_E5EFD071560D71DA38118D1B8F00F526"
+        }
+      },
+      {
+        "value": "1.0961017687804997E-4",
+        "text": " 123 (1) In this section: \"completion date\", in respect of an employee, means the date on which the employee completed the level 3 requirements or the level 4 or higher requirements for an eligible training program; \"eligible period\", in relation to an employee completing the level 3 requirements or the level 4 or higher requirements for an eligible training program, means the period that. (a) ends at any time in the month that includes the employee's completion date for that level, (b) does not exceed 12 months, and. (c) begins no earlier than January 1, 2007; \"employee\" means an individual who is registered in an eligible training program. (2) This section applies to an eligible employer for a taxation year in respect of an employee if. (a) the employee is employed in a position that. (i) is in a business carried on in British Columbia in the taxation year by the eligible employer, and. (ii) relates to the eligible training program in which the employee is registered in the taxation year, and. (b) the employee's completion date is in the taxation year and in the applicable period. (3) An eligible employer may claim a tax credit for the taxation year in respect of the employee in the amount that is the total of the following: (a) if the employee completed in the taxation year the level 3 requirements for an eligible training program, the lesser of. (i) $2 500, and. (ii) 15% of the amount determined under subsection (4); (b) if the employee completed in the taxation year the level 4 or higher requirements for an eligible training program, the lesser of. (i) $3 000, and. (ii) 15% of the amount determined under subsection (4). (4) The amount for the purpose of subsection (3) (a) (ii) or (b) (ii) is the amount determined by the following formula: amount = salary and wages - designated assistance where designated assistance = the total of all amounts of government assistance and non-government assistance that can reasonably be considered to be in respect of the salary and wages payable in the eligible period to the employee and that, at the time of filing of the eligible employer's return of income for the taxation year, (a) the eligible employer has received or is entitled to receive or can reasonably be expected to receive, (b) have not been repaid under a legal obligation to do so, and (c) have not otherwise reduced the salary and wages; salary and wages = the amount of salary and wages payable by the eligible employer in the eligible period to the employee in respect of the employment referred to in subsection (2) (a), other than remuneration that is the following: (a) profits; (b) bonuses; (c) amounts described in section 6 or 7 of the federal Act; (d) amounts deemed to be incurred under section 78 (4) of the federal Act.",
+        "id": "T_E5EFD071560D71DAE362C0F3A1BB064F",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act : [RSBC 1996] CHAPTER 215 : Completion tax credit for employers",
+        "document": "/instance/507/deepqa/v1/question/document/T_E5EFD071560D71DAE362C0F3A1BB064F/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rsbc-1996-c-215-part-10.html",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act : [RSBC 1996] CHAPTER 215 : Completion tax credit for employers",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560972.xml",
+          "DOCNO": "E5EFD071560D71DA14DDD6C04B685653",
+          "CorpusPlusDocno": "PB_E5EFD071560D71DA14DDD6C04B685653"
+        }
+      },
+      {
+        "value": "1.0776444105431437E-4",
+        "text": " 122 (1) In this section: \"eligible period\", in relation to an employee employed by an eligible employer in a taxation year of the eligible employer, means that part of the taxation year that. (a) is within 24 months after the date the employee entered into the industry training agreement, and. (b) is in the applicable period; \"employee\" means an individual who is registered in an eligible recognized program. (2) This section applies to an eligible employer for a taxation year in respect of an employee if. (a) the employee is employed in a position that. (i) is in a business carried on in British Columbia in the taxation year by the eligible employer, and. (ii) relates to the eligible recognized program, other than an ineligible program, in which the employee is registered in the taxation year, and. (b) the employee has an eligible period in the taxation year. (3) An eligible employer may claim a tax credit for the taxation year in respect of the employee in the amount that is the lesser of. (a) $4 000, and. (b) 20% of the amount determined by the following formula: amount = salary and wages - designated assistance where designated assistance = the total of all amounts of government assistance and non-government assistance that can reasonably be considered to be in respect of the salary and wages payable in the eligible period to the employee and that, at the time of filing of the eligible employer's return of income for the taxation year, (i) the eligible employer has received or is entitled to receive or can reasonably be expected to receive, (ii) have not been repaid under a legal obligation to do so, and (iii) have not otherwise reduced the salary and wages; salary and wages = the amount of salary and wages payable by the eligible employer in the eligible period to the employee in respect of the employment referred to in subsection (2) (a), other than remuneration that is the following: (i) profits; (ii) bonuses; (iii) amounts described in section 6 or 7 of the federal Act; (iv) amounts deemed to be incurred under section 78 (4) of the federal Act.",
+        "id": "T_E5EFD071560D71DADF96B223A787A305",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act : [RSBC 1996] CHAPTER 215 : Basic tax credit for employers",
+        "document": "/instance/507/deepqa/v1/question/document/T_E5EFD071560D71DADF96B223A787A305/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rsbc-1996-c-215-part-10.html",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act : [RSBC 1996] CHAPTER 215 : Basic tax credit for employers",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560971.xml",
+          "DOCNO": "E5EFD071560D71DAD161AB6B7EAA7F2A",
+          "CorpusPlusDocno": "PB_E5EFD071560D71DAD161AB6B7EAA7F2A"
+        }
+      },
+      {
+        "value": "1.0594978812150657E-4",
+        "text": " 126.2 (1) In this section: \"eligible industry program\" means. (a) an eligible recognized program, or. (b) an accredited program, as defined in the Industry Training Authority Act; \"eligible period\", in relation to an employee employed by an eligible industry employer in a taxation year of the eligible industry employer, means that part of the taxation year that. (a) is within 24 months after the date the employee entered into the industry training agreement, and. (b) is in the applicable period; \"employee\" means an individual who is registered in an eligible industry program. (2) This section applies to an eligible industry employer for a taxation year in respect of an employee if. (a) the employee is employed in a position that. (i) is in a business carried on in British Columbia in the taxation year by the eligible industry employer, and. (ii) relates to the eligible industry program in which the employee is registered in the taxation year, and. (b) the employee has an eligible period in the taxation year. (3) An eligible industry employer may claim a tax credit for the taxation year in respect of the employee in the amount that is the lesser of. (a) $5 250, and. (b) 20% of the amount determined by the following formula: amount = salary and wages - designated assistance where designated assistance = the total of all amounts of government assistance and non-government assistance that can reasonably be considered to be in respect of the salary and wages payable in the eligible period to the employee and that, at the time of filing of the eligible industry employer's return of income for the taxation year, (i) the eligible industry employer has received or is entitled to receive or can reasonably be expected to receive, (ii) have not been repaid under a legal obligation to do so, and (iii) have not otherwise reduced the salary and wages; salary and wages = the amount of salary and wages payable by the eligible industry employer in the eligible period to the employee in respect of the employment referred to in subsection (2) (a), other than remuneration that is the following: (i) profits; (ii) bonuses; (iii) amounts described in section 6 or 7 of the federal Act; (iv) amounts deemed to be incurred under section 78 (4) of the federal Act. where : where : where! designated assistance : = : the total of all amounts of government assistance and non-government assistance that can reasonably be considered to be in respect of the salary and wages payable in the eligible period to the employee and that, at the time of filing of the eligible industry employer's return of income for the taxation year,! : : (i) the eligible industry employer has received or is entitled to receive or can reasonably be expected to receive,! : : (ii) have not been repaid under a legal obligation to do so, and! : : (iii) have not otherwise reduced the salary and wages,! salary and wages : = : the amount of salary and wages payable by the eligible industry employer in the eligible period to the employee in respect of the employment referred to in subsection (2) (a), other than remuneration that is the following:! : : (i) profits,! : : (ii) bonuses,! : : (iii) amounts described in section 6 or 7 of the federal Act,! : : (iv) amounts deemed to be incurred under section 78 (4) of the federal Act.!",
+        "id": "T_E5EFD071560D71DA921B4A7EC61FD110",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act : [RSBC 1996] CHAPTER 215 : Basic tax credit for eligible industry employers",
+        "document": "/instance/507/deepqa/v1/question/document/T_E5EFD071560D71DA921B4A7EC61FD110/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rsbc-1996-c-215-part-10.html",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act, RSBC 1996, c 215, Part 9 - Training Tax Credits : Income Tax Act : [RSBC 1996] CHAPTER 215 : Basic tax credit for eligible industry employers",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560982.xml",
+          "DOCNO": "E5EFD071560D71DAF16DE3856BFC290F",
+          "CorpusPlusDocno": "PB_E5EFD071560D71DAF16DE3856BFC290F"
+        }
+      },
+      {
+        "value": "1.0170174209633842E-4",
+        "text": " 70 (1) A collection agreement may provide that if any payment is received by the federal minister on account of tax payable by a taxpayer for a taxation year under this Act, the federal Act or an income tax statute of another agreeing province, or under any 2 or more of those statutes, the payment received may be applied by the federal minister toward the tax payable by the taxpayer under any of the statutes in the manner specified in the agreement, even though the taxpayer directed that the payment be applied in any other manner or made no direction for its application. (2) Any payment or part of it applied by the federal minister under a collection agreement toward the tax payable by a taxpayer for a taxation year under this Act. (a) relieves the taxpayer of liability to pay the tax to the extent of the payment, and. (b) is deemed to have been applied in accordance with a direction made by the taxpayer.",
+        "id": "T_36742F13D1AE1584958459CBB8CCD628",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act : [RSBC 1996] CHAPTER 215 : Payments on account",
+        "document": "/instance/507/deepqa/v1/question/document/T_36742F13D1AE1584958459CBB8CCD628/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rsbc-1996-c-215-part-4.html",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act : [RSBC 1996] CHAPTER 215 : Payments on account",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560872.xml",
+          "DOCNO": "36742F13D1AE1584715782E33AF09913",
+          "CorpusPlusDocno": "PB_36742F13D1AE1584715782E33AF09913"
+        }
+      },
+      {
+        "value": "9.998905443353578E-5",
+        "text": " 73 (1) In this section: \"adjusting payment\" means a payment, calculated under this section, made by or on the direction of British Columbia to a non-agreeing province; \"amount deducted or withheld\" does not include any refund made in respect of that amount; \"non-agreeing province\" means a province that is not an agreeing province. (2) If, in respect of a taxation year, a non-agreeing province is authorized to make a payment to British Columbia that, in the opinion of the finance minister, corresponds to an adjusting payment, the Lieutenant Governor in Council may authorize the finance minister to make an adjusting payment to that non-agreeing province and enter into any agreement that may be necessary to carry out the purposes of this section. (3) If a collection agreement is entered into, the adjusting payment that may be made under subsection (2) may be made by the government of Canada if it has agreed to act on the direction of British Columbia as communicated by the finance minister to the federal minister. (4) The adjusting payment to be made under this section is an amount that equals the aggregate of the amounts deducted or withheld under section 153 (1) of the federal Act, as it applies for the purposes of this Act, in respect of the tax payable for a taxation year by individuals who. (a) file returns under the federal Act, (b) are taxable under that Act for that year, and. (c) are resident on the last day of that year in the non-agreeing province to which the adjusting payment is to be made. (5) If an adjusting payment is to be made and there has been an amount deducted or withheld under section 153 (1) of the federal Act, as it applies for the purposes of this Act, on account of the tax for a taxation year of an individual who is taxable under the federal Act in respect of that year and who is resident on the last day of that taxation year in the non-agreeing province, (a) no action lies for the recovery of the amount by that individual, and. (b) the amount may not be applied in discharge of any liability of that individual under this Act. (6) If an adjusting payment to a non-agreeing province is to be made under this section for a taxation year, an individual resident in British Columbia on the last day of the taxation year is not required to remit any amount on account of tax payable by the individual under this Act for the taxation year to the extent of the amount deducted or withheld on account of the individual's income tax for that year under the law of that non-agreeing province. (7) If an adjusting payment to a non-agreeing province is to be made under this section for a taxation year, the total amount deducted or withheld on account of tax payable under this Act and on account of the income tax payable under the law of the non-agreeing province by an individual resident in British Columbia on the last day of the taxation year to whom subsection (6) applies exceeds the tax payable by the individual under this Act for that year, section 40 of this Act applies to the individual as though the excess were an overpayment under this Act. (8) If a collection agreement is entered into and the government of Canada has agreed in respect of a taxation year to carry out the direction of British Columbia and to make an adjusting payment on behalf of British Columbia, the adjusting payment. (a) must be made out of any money that has been collected on account of tax under this Act for any taxation year, and. (b) is the amount calculated by the federal minister to be the amount required to be paid under subsection (4). (9) The adjusting payment under subsection (8) discharges any obligation the government of Canada may have to pay British Columbia for any amount deducted or withheld under section 153 (1) of the federal Act, as it applies for the purposes of this Act, to which subsection (5) of this section applies.",
+        "id": "T_E76A511A652A4A852AE95FD130D7B0FF",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act : [RSBC 1996] CHAPTER 215 : Non-agreeing provinces",
+        "document": "/instance/507/deepqa/v1/question/document/T_E76A511A652A4A852AE95FD130D7B0FF/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 — Collection of Tax.htm",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act : [RSBC 1996] CHAPTER 215 : Non-agreeing provinces",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560614.xml",
+          "DOCNO": "E76A511A652A4A85531FE8DF6A544157",
+          "CorpusPlusDocno": "PB_E76A511A652A4A85531FE8DF6A544157"
+        }
+      },
+      {
+        "value": "9.830531780607998E-5",
+        "text": " 73 (1) In this section: \"adjusting payment\" means a payment, calculated under this section, made by or on the direction of British Columbia to a non-agreeing province; \"amount deducted or withheld\" does not include any refund made in respect of that amount; \"non-agreeing province\" means a province that is not an agreeing province. (2) If, in respect of a taxation year, a non-agreeing province is authorized to make a payment to British Columbia that, in the opinion of the finance minister, corresponds to an adjusting payment, the Lieutenant Governor in Council may authorize the finance minister to make an adjusting payment to that non-agreeing province and enter into any agreement that may be necessary to carry out the purposes of this section. (3) If a collection agreement is entered into, the adjusting payment that may be made under subsection (2) may be made by the government of Canada if it has agreed to act on the direction of British Columbia as communicated by the finance minister to the federal minister. (4) The adjusting payment to be made under this section is an amount that equals the aggregate of the amounts deducted or withheld under section 153 (1) of the federal Act, as it applies for the purposes of this Act, in respect of the tax payable for a taxation year by individuals who. (a) file returns under the federal Act, (b) are taxable under that Act for that year, and. (c) are resident on the last day of that year in the non-agreeing province to which the adjusting payment is to be made. (5) If an adjusting payment is to be made and there has been an amount deducted or withheld under section 153 (1) of the federal Act, as it applies for the purposes of this Act, on account of the tax for a taxation year of an individual who is taxable under the federal Act in respect of that year and who is resident on the last day of that taxation year in the non-agreeing province, (a) no action lies for the recovery of the amount by that individual, and. (b) the amount may not be applied in discharge of any liability of that individual under this Act. (6) If an adjusting payment to a non-agreeing province is to be made under this section for a taxation year, an individual resident in British Columbia on the last day of the taxation year is not required to remit any amount on account of tax payable by the individual under this Act for the taxation year to the extent of the amount deducted or withheld on account of the individual's income tax for that year under the law of that non-agreeing province. (7) If an adjusting payment to a non-agreeing province is to be made under this section for a taxation year, the total amount deducted or withheld on account of tax payable under this Act and on account of the income tax payable under the law of the non-agreeing province by an individual resident in British Columbia on the last day of the taxation year to whom subsection (6) applies exceeds the tax payable by the individual under this Act for that year, section 40 of this Act applies to the individual as though the excess were an overpayment under this Act. (8) If a collection agreement is entered into and the government of Canada has agreed in respect of a taxation year to carry out the direction of British Columbia and to make an adjusting payment on behalf of British Columbia, the adjusting payment. (a) must be made out of any money that has been collected on account of tax under this Act for any taxation year, and. (b) is the amount calculated by the federal minister to be the amount required to be paid under subsection (4). (9) The adjusting payment under subsection (8) discharges any obligation the government of Canada may have to pay British Columbia for any amount deducted or withheld under section 153 (1) of the federal Act, as it applies for the purposes of this Act, to which subsection (5) of this section applies.",
+        "id": "T_36742F13D1AE15842AE95FD130D7B0FF",
+        "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act : [RSBC 1996] CHAPTER 215 : Non-agreeing provinces",
+        "document": "/instance/507/deepqa/v1/question/document/T_36742F13D1AE15842AE95FD130D7B0FF/0/-1",
+        "copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+        "termsOfUse": "http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+        "metadataMap": {
+          "originalfile": "rsbc-1996-c-215-part-4.html",
+          "title": "CanLII - Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act, RSBC 1996, c 215, Part 3 - Collection of Tax : Income Tax Act : [RSBC 1996] CHAPTER 215 : Non-agreeing provinces",
+          "corpusName": "PB",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33560875.xml",
+          "DOCNO": "36742F13D1AE1584531FE8DF6A544157",
+          "CorpusPlusDocno": "PB_36742F13D1AE1584531FE8DF6A544157"
+        }
+      },
+      {
+        "value": "6.342956476146355E-5",
+        "text": "Generally, the Act provides for the immediate use of the Family Law Act upon becoming effective March18, 2013, even where a case has been started, but not resolved, under the Family Relations Act or where there are existing agreements or orders made under the Family Relations Act. This promotes a speedy transition to the new law and ensures the tools and benefits of the new law can be realized immediately by all families. There are a couple of exceptions to this general transition rule: With the exception of pensions, property division proceedings that were commenced under the Family Relations Act will be determined under the Family Relations Act unless the parties agree to use the Family Law Act; and. restraining orders granted under the Family Relations Act will remain in effect.",
+        "id": "PB_5BAC66398E6E3E7AEF6D48EAE8C3726E",
+        "title": "Family Law Act Frequently Asked Questions : Questions and Answers : General : I am already involved in a court case. Does the new act change anything for me?",
+        "document": "/instance/507/deepqa/v1/question/document/PB_5BAC66398E6E3E7AEF6D48EAE8C3726E/266/1058",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "Family Law Act Frequently Asked Questions.docx",
+          "author": "Cody",
+          "title": "Family Law Act Frequently Asked Questions : Questions and Answers : General : I am already involved in a court case. Does the new act change anything for me?",
+          "corpusName": "PB",
+          "deepqaid": "33559125",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33559125.xml",
+          "DOCNO": "5BAC66398E6E3E7AEF6D48EAE8C3726E"
+        }
+      },
+      {
+        "value": "2.049860813713167E-5",
+        "text": "For more information, see Guide T4130, Employers' Guide - Taxable Benefits and Allowances; honorariums from employment or office, a share of profit that an employer paid, incentive payments, director's fees, management fees, fees paid to board or committee members, and executor's, liquidator's, or administrator's fees earned to administer an estate (as long as the executor, liquidator, or administrator does not act in this capacity in the regular course of business). For more information on whether employment of an individual who is in tenure of office is pensionable, go to \"Specific employments\" and then \"Tenure of Office\" at www.cra.gc.ca/cppeiexplained; certain tips and gratuities received for services performed. For more information on when tips and gratuities are subject to CPP contributions, go to \"Tips and gratuities\" at www.cra.gc.ca/cppeiexplained;",
+        "id": "PB_3AA8C92905057D7596673BDDA1318D00",
+        "title": "t4001 13e : Payroll Deductions and Remittances : Payroll Deductions and Remittances : F : Amounts and benefits subject to CPP contributions",
+        "document": "/instance/507/deepqa/v1/question/document/PB_3AA8C92905057D7596673BDDA1318D00/1012/1881",
+        "copyright": "No copyright specified for this supporting passage or document.",
+        "termsOfUse": "No license specified for this supporting passage or document.",
+        "metadataMap": {
+          "originalfile": "t4001-13e.pdf",
+          "title": "t4001 13e : Payroll Deductions and Remittances : Payroll Deductions and Remittances : F : Amounts and benefits subject to CPP contributions",
+          "corpusName": "PB",
+          "deepqaid": "33561448",
+          "fileName": "/watsondata/ingestion/201409192017/eng/di/output/trec/intermediate/xml-splitTrecTrim/33561448.xml",
+          "DOCNO": "3AA8C92905057D7596673BDDA1318D00"
+        }
+      }
+    ],
+    "synonymList": [
+      {
+        "partOfSpeech": "noun",
+        "value": "act",
+        "lemma": "act",
+        "synSet": [
+          {
+            "name": "Wordnet_act-noun-1",
+            "synonym": [
+              {
+                "isChosen": true,
+                "value": "enactment",
+                "weight": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "value": "is",
+        "lemma": "be",
+        "synSet": [
+          {
+            "name": "Lemma_Expansion",
+            "synonym": [
+              {
+                "isChosen": true,
+                "value": "be",
+                "weight": 1.0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pipelineid": "29820934",
+    "formattedAnswer": false,
+    "category": "",
+    "items": 5,
+    "status": "Complete",
+    "id": "BCFD1341D4804DB5B3BE7979F85CB31E",
+    "questionText": "What is the Pension Act?",
+    "evidenceRequest": {
+      "items": -1,
+      "profile": "NO"
+    },
+    "answers": [
+      {
+        "id": 0,
+        "text": "A4C12EB66A72079EBBB3270AEAE5FB96 - Pension Act : Pension Act (R.S.C., 1985, c. P-6)",
+        "pipeline": "Descriptive,TAO",
+        "confidence": 0.07758
+      },
+      {
+        "id": 1,
+        "text": "A4C12EB66A72079E143A17DA5B1D0F7B - Pension Act",
+        "pipeline": "TAO",
+        "confidence": 0.06598
+      },
+      {
+        "id": 2,
+        "text": "A4C12EB66A72079EDB1FA62F5966F2D - Pension Act : Search",
+        "pipeline": "TAO",
+        "confidence": 0.03437
+      },
+      {
+        "id": 3,
+        "text": "A4C12EB66A72079E3D2C5EC4B5891AFB - Pension Act : CONSTRUCTION",
+        "pipeline": "TAO",
+        "confidence": 0.03416
+      },
+      {
+        "id": 4,
+        "text": "A4C12EB66A72079EF3B68FFED4766C55 - Pension Act : Site menu",
+        "pipeline": "TAO",
+        "confidence": 0.02595
+      }
+    ],
+    "errorNotifications": [],
+    "passthru": ""
+  }
+}
