@@ -94,17 +94,25 @@ Properties of `question` in the request body:
                 <dt><code>items</code></dt>
                 <dd>Integer: the maximum number of supporting passages to return for each answer. Default: 3.</dd>
                 <dt><code>url</code></dt>
-                <dd>
-                    Whether to return evidence profiles (indicators for where the evidence came from) for each possible answer. <code>"yes"</code> or <code>"no"</code> (default).
-                </dd>
+                <dd>Whether to return evidence profiles (indicators for where the evidence came from) for each possible answer. <code>"yes"</code> or <code>"no"</code> (default).</dd>
             </dl>
         </td>
     </tr>
     <tr>
         <td>filters</td>
-        <td>string</td>
-        <td></td>
-        <td></td>
+        <td>array</td>
+        <td>No</td>
+        <td>
+            <p>
+                The container for a set of filters. Filters allow the use of metadata to restrict answers to come from specific documents.
+            </p>
+            <p>
+                When you include more than one filter in this container, they are combined with a logical AND to restrict the search. For example, you want to filter for answers from Wikipedia documents created in 2013. In contrast, multiple entries in the <code>question.filters.filter.values</code> container are combined with a logical OR.
+            </p>
+            <p>
+                See <strong>Filter Parameters</strong> below for properties of each object in <code>filters</code>.
+            </p>
+        </td>
     </tr>
     <tr>
         <td>formattedAnswer</td>
@@ -141,6 +149,39 @@ Properties of `question` in the request body:
         <td>string</td>
         <td></td>
         <td></td>
+    </tr>
+</table>
+
+#### Filter Parameters
+
+Properties of each object in `question.filters` in the request body:
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Required</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>filterType</td>
+        <td>string</td>
+        <td>Yes</td>
+        <td>
+            <p>
+                The type of filter. Supported values:
+            </p>
+            <dl>
+                <dt><code>"dateRangeFilter"</code></dt>
+                <dd>Filter the answer by date.</dd>
+                <dt><code>"metadataFilter"</code></dt>
+                <dd>Filter the answer by an indexed metadata field name.</dd>
+                <dt><code>"prefixFilter"</code></dt>
+                <dd>Filter the answer by terms that start with the same prefix.</dd>
+                <dt><code>"queryFilter"</code></dt>
+                <dd>Filter the answer by an indexed metadata field name.</dd>
+            </dl>
+        </td>
     </tr>
 </table>
 
