@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/tr/_Launcher",{tooManyOpenWorkspaces:"En fazla ${maxOpen} \"${workspaceTypeName}\"‎ çalışma alanı açık olabilir.  Mümkünse açık olan  \"${workspaceTypeName}\"‎ çalışma alanını kapatın."});

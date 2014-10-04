@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/th/ModalDialog",{Error:"ข้อผิดพลาด",Warning:"คำเตือน",Information:"ข้อมูล",Success:"สำเร็จ",Confirmation:"การยืนยัน",Question:"คำถาม",closeButtonLabel:"ปิด",cancelButtonLabel:"ยกเลิก",executeButtonLabel:"ตกลง",checked:"ไม่ต้องถามอีก"});

@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/pt-pt/_Launcher",{tooManyOpenWorkspaces:"Não é possível abrir mais de ${maxOpen} \"${workspaceTypeName}\"‎ espaços de trabalho.  Se possível, feche os \"${workspaceTypeName}\"‎ espaços de trabalho que já estão abertos."});

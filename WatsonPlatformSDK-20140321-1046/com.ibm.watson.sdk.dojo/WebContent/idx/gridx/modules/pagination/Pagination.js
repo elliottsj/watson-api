@@ -1,0 +1,2 @@
+//>>built
+define("idx/gridx/modules/pagination/Pagination",["dojo/_base/kernel","../Pagination"],function(_1,_2){_1.deprecated("Pagination is moved from gridx/modules/pagination/Pagination to gridx/modules/Pagination.","Use the new path instead.","1.2");return _2;});

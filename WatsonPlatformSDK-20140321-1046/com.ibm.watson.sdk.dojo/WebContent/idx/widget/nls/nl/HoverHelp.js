@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/nl/HoverHelp",{defaultHrefLabel:"Meer informatie",defaultMessage:"[Er is geen Help-tekst gedefinieerd]‎",defaultTitle:"Beweeg de muiscursor of klik om Help af te beelden"});

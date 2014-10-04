@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+
+<html>
+	<head>   
+	
+		<link rel='stylesheet' href='/dojo/dijit/themes/tundra/tundra.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/dijit/themes/claro/claro.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/themes/oneui/oneui.css' type='text/css'></link>
+		<link rel='stylesheet' href='/watson/app/com/ibm/watson/ui/css/theme.css' type='text/css'></link>
+		<link rel='stylesheet' href='css/weaSampleTheme.css' type='text/css'></link>
+		
+		
+		<script type="text/javascript">   
+	        var dojoConfig = {
+	        	paths: {
+					"com/ibm/watson/ui":"/watson/app/com/ibm/watson/ui"
+				}
+			};
+		</script>	
+		
+		<script type="text/javascript" src="/dojo/dojo/dojo.js" data-dojo-config="async:true"></script>
+		
+		<script type="text/javascript">
+	        
+	        require(["dojo/parser", 
+				"com/ibm/watson/ui/RatingSystem"
+				], function (parser) {
+						parser.parse();
+					}
+			);
+		
+		</script>
+	
+	</head>
+	
+	<body class="oneui claro wea_sample_page" style="padding-bottom:100px;background-color:none;height:auto;width:75%;margin-left:10%">
+		
+		<p></p>
+		<div class="pageTitle">Rating Control 
+		</div>
+		<hr/>
+	
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:40px">
+			<legend class="fieldLegend">Simple default rating system widget. </legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.RatingSystem"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:40px">
+			<legend class="fieldLegend">Rating system widget with a default positioned label. </legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.RatingSystem" data-dojo-props="label:'Quality'"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:40px">
+			<legend class="fieldLegend">Rating system widget with a label positioned above the stars, initial selection set to 3 stars </legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.RatingSystem" data-dojo-props="label:'High Quality',displayLabel:'north',value:3"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:40px">
+			<legend class="fieldLegend">Rating system widget with a label positioned below the stars, using 8 stars instead of 5, initial value of 4</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.RatingSystem" data-dojo-props="label:'Low Quality',displayLabel:'south',value:4,numStars:8"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:40px">
+			<legend class="fieldLegend">Rating system widget with a label positioned to the left the stars, using 10 stars instead of 5, initial value of 8</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.RatingSystem" data-dojo-props="label:'Left Label',displayLabel:'west',value:8,numStars:10"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:40px">
+			<legend class="fieldLegend">Rating system widget with hover text applied to the stars </legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.RatingSystem" data-dojo-props="hoverText:'one,two,three,four,five',label:'Ratings with hover text'"></div> 
+			</div>
+		</fieldset>
+		
+	</body>
+	
+</html>

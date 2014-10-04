@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/ko/ModalDialog",{Error:"오류",Warning:"경고",Information:"정보",Success:"완료",Confirmation:"확인",Question:"질문",closeButtonLabel:"닫기",cancelButtonLabel:"취소",executeButtonLabel:"확인",checked:"다시 묻지 않음"});

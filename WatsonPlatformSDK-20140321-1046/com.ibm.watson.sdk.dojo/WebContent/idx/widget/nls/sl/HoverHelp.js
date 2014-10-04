@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/sl/HoverHelp",{defaultHrefLabel:"Več informacij",defaultMessage:"[Določeno ni bilo nobeno besedilo pomoči]‎",defaultTitle:"Z miško lebdite nad elementom ali kliknite za prikaz pomoči"});

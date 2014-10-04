@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/kk/_Launcher",{tooManyOpenWorkspaces:"${maxOpen} \"${workspaceTypeName}\"‎ артық жұмыс кеңістігі ашылмайды.  Егер мүмкін болса, \"${workspaceTypeName}\"‎ жұмыс кңістіктері бұрыннан ашық болса жабыңыз."});

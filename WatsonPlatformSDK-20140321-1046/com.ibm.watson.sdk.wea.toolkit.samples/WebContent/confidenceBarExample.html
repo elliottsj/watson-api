@@ -1,0 +1,332 @@
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+
+<!DOCTYPE HTML>
+<html>
+	<head>   
+	
+		<link rel='stylesheet' href='/dojo/dijit/themes/tundra/tundra.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/dijit/themes/claro/claro.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/themes/oneui/oneui.css' type='text/css'></link>
+		<link rel='stylesheet' href='/watson/app/com/ibm/watson/ui/css/theme.css' type='text/css'></link>
+		<link rel='stylesheet' href='css/weaSampleTheme.css' type='text/css'></link>
+
+		
+		<script type="text/javascript">   
+	        var dojoConfig = {
+	        	paths: {
+					"com/ibm/watson/ui":"/watson/app/com/ibm/watson/ui"
+				}
+			};
+		</script>	
+		
+		<script type="text/javascript" src="/dojo/dojo/dojo.js" data-dojo-config="async:true"></script>
+		
+		<script type="text/javascript">
+	        
+	        require(["dojo/parser", 
+				"com/ibm/watson/ui/ConfidenceBar",
+				"dijit/form/MultiSelect"
+				], function (parser) {
+						parser.parse();
+					}
+			);
+			
+			function displayConfidenceBar(){
+				var confidence_bar_height_field = document.getElementById("confBarHeight");
+				var percentage_field = document.getElementById("percentage");
+				var percentage_north_field = document.getElementById("percentage_north");
+				var percentage_south_field = document.getElementById("percentage_south");
+				var percentage_east_field = document.getElementById("percentage_east");
+				var percentage_west_field = document.getElementById("percentage_west");
+				var confidence_north_field = document.getElementById("confidence_north");
+				var confidence_south_field = document.getElementById("confidence_south");
+				var confidence_east_field = document.getElementById("confidence_east");
+				var confidence_west_field = document.getElementById("confidence_west");
+				var display_separator_field = document.getElementById("display_separator");
+				var display_clipped_field = document.getElementById("display_clipped");
+				var custom_confidence_levels_field = document.getElementById("custom_confidence_levels");
+				var custom_clipped_confidence_levels_field = document.getElementById("custom_clipped_confidence_levels");
+				var confidence_bar_width_field = document.getElementById("confBarWidth");
+				var show_Small_Bars_field = document.getElementById("useSmallBars");
+				var use_dark_background_field = document.getElementById("useDarkBackground");
+				
+				var percentage;
+				var percentage_north;
+				var percentage_south;
+				var percentage_east;
+				var percentage_west;
+				var confidence_north;
+				var confidence_south;
+				var confidence_east;
+				var confidence_west;
+				var display_separator;
+				var display_clipped;
+				var custom_confidence_levels;
+				var custom_clipped_confidence_levels;
+				var confidence_bar_width;
+				var confidence_bar_height;
+				var showSmallBars;
+				var useDarkBackground;
+				
+				if(null !=use_dark_background_field && use_dark_background_field != undefined){
+					useDarkBackground = use_dark_background_field.checked;
+				}
+				if(null !=show_Small_Bars_field && show_Small_Bars_field != undefined){
+					showSmallBars = show_Small_Bars_field.checked;
+				}
+				if(null !=confidence_bar_height_field && confidence_bar_height_field != undefined){
+					confidence_bar_height = confidence_bar_height_field.value;
+				}
+				if(null !=confidence_bar_width_field && confidence_bar_width_field != undefined){
+					confidence_bar_width = confidence_bar_width_field.value;
+				}
+				if(null !=percentage_field && percentage_field != undefined){
+					percentage = percentage_field.value;
+				}
+				if(null != percentage_north_field && percentage_north_field != undefined){
+					percentage_north = percentage_north_field.checked;
+				}
+				if(null != percentage_south_field && percentage_south_field != undefined){
+					percentage_south = percentage_south_field.checked;
+				}
+				if(null != percentage_east_field && percentage_east_field != undefined){
+					percentage_east = percentage_east_field.checked;
+				}
+				if(null != percentage_west_field && percentage_west_field != undefined){
+					percentage_west = percentage_west_field.checked;
+				}
+				if(null != confidence_north_field && confidence_north_field != undefined){
+					confidence_north = confidence_north_field.checked;
+				}
+				if(null != confidence_south_field && confidence_south_field != undefined){
+					confidence_south = confidence_south_field.checked;
+				}
+				if(null != confidence_east_field && confidence_east_field != undefined){
+					confidence_east = confidence_east_field.checked;
+				}
+				if(null != confidence_west_field && confidence_west_field != undefined){
+					confidence_west = confidence_west_field.checked;
+				}
+				if(null != display_separator_field && display_separator_field != undefined){
+					display_separator = display_separator_field.checked;
+				}
+				if(null != display_clipped_field && display_clipped_field != undefined){
+					display_clipped = display_clipped_field.checked;
+				}
+				if(null != custom_confidence_levels_field && custom_confidence_levels_field != undefined){
+					custom_confidence_levels = custom_confidence_levels_field.value;
+				}
+				if(null != custom_clipped_confidence_levels_field && custom_clipped_confidence_levels_field != undefined){
+					custom_clipped_confidence_levels = custom_clipped_confidence_levels_field.value;
+				}
+				var displayPercentage = "";
+				if(percentage_north){
+					displayPercentage=displayPercentage + "north";
+				}
+				if(percentage_south){
+					if(displayPercentage != ""){
+						displayPercentage=displayPercentage + ",";
+					}
+					displayPercentage=displayPercentage + "south";	
+				}
+				if(percentage_east){
+					if(displayPercentage != ""){
+						displayPercentage=displayPercentage + ",";
+					}
+					displayPercentage=displayPercentage + "east";	
+				}
+				if(percentage_west){
+					if(displayPercentage != ""){
+						displayPercentage=displayPercentage + ",";
+					}
+					displayPercentage=displayPercentage + "west";	
+				}
+				
+				var displayConfidence = "";
+				if(confidence_north){
+					displayConfidence=displayConfidence + "north";
+				}
+				if(confidence_south){
+					if(displayConfidence != ""){
+						displayConfidence=displayConfidence + ",";
+					}
+					displayConfidence=displayConfidence + "south";	
+				}
+				if(confidence_east){
+					if(displayConfidence != ""){
+						displayConfidence=displayConfidence + ",";
+					}
+					displayConfidence=displayConfidence + "east";	
+				}
+				if(confidence_west){
+					if(displayConfidence != ""){
+						displayConfidence=displayConfidence + ",";
+					}
+					displayConfidence=displayConfidence + "west";	
+				}
+				
+				require(["com/ibm/watson/ui/ConfidenceBar"
+				], function (ConfidenceBar4) {
+						var ConfidenceBar4 = new ConfidenceBar4({
+							useDarkBackground:useDarkBackground,
+							useSmallConfidenceBars:showSmallBars,
+							confidence:percentage,
+							displayPercentage:displayPercentage,
+							displayLevel:displayConfidence,
+							displaySeparator:display_separator,
+							confidenceLevelStrings:custom_confidence_levels,
+							confidenceLevelClippedStrings:custom_clipped_confidence_levels,
+							clipConfidenceLevelString:display_clipped,
+							confidenceBarWidth:confidence_bar_width,
+							confidenceBarHeight:confidence_bar_height
+						});
+						dojo.place(ConfidenceBar4.domNode, document.getElementById("displayConfidenceBarHere"),"only");
+				});
+			}
+		
+		</script>
+	
+	</head>
+	
+	<body class="oneui claro wea_sample_page" style="padding-bottom:100px;background-color:none;height:auto;width:75%;margin-left:10%" onload="displayConfidenceBar()">
+		
+		<p></p>
+		<div class="pageTitle">Confidence Bar Control 
+		</div>
+		<hr/>
+	
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">Statically declared confidence bar with low confidence, percentage and confidence level on right (default)</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:10"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">Statically declared confidence bar with moderate confidence, percentage and confidence on top</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:50,displayPercentage:'north',displayLevel:'north'"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">Statically declared confidence bar with high confidence, percentage and confidence below</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:90,displayPercentage:'south',displayLevel:'south',displaySeparator:false"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">Statically declared confidence bars with clipped confidence level strings. Light grey bars on black background</legend>
+			<div style="background-color:black;width:300px">
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:10,clipConfidenceLevelString:true"></div> 
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:50,clipConfidenceLevelString:true"></div> 
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:90,clipConfidenceLevelString:true"></div> 
+			</div>
+		</fieldset>
+		
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">Statically declared confidence bars with custom confidence level strings. Dark grey bars on black background</legend>
+			<div style="background-color:black;width:300px">
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:10,confidenceLevelStrings:'Below Average,Average,Above Average',useDarkBackground:true"></div> 
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:50,confidenceLevelStrings:'Below Average,Average,Above Average',useDarkBackground:true"></div> 
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:90,confidenceLevelStrings:'Below Average,Average,Above Average',useDarkBackground:true"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">Statically declared confidence bars with custom clipped confidence level strings</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:10,confidenceLevelClippedStrings:'Lo,Med,Hi',clipConfidenceLevelString:true"></div> 
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:50,confidenceLevelClippedStrings:'Lo,Med,Hi',clipConfidenceLevelString:true"></div> 
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:90,confidenceLevelClippedStrings:'Lo,Med,Hi',clipConfidenceLevelString:true"></div> 
+			</div>
+		</fieldset>
+		
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">Statically declared confidence bars with custom confidence levels. Low is less that 80%, Medium is 80% to 89% and High is 90% or higher</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:10,confidenceLevelBegin_Medium:80,confidenceLevelBegin_High:90"></div> 
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:50,confidenceLevelBegin_Medium:80,confidenceLevelBegin_High:90"></div> 
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:70,confidenceLevelBegin_Medium:80,confidenceLevelBegin_High:90"></div>
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:85,confidenceLevelBegin_Medium:80,confidenceLevelBegin_High:90"></div> 
+				<div data-dojo-type="com.ibm.watson.ui.ConfidenceBar" data-dojo-props="confidence:95,confidenceLevelBegin_Medium:80,confidenceLevelBegin_High:90"></div>  
+			</div>
+		</fieldset>
+				
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">A dynamically created confidence bar. Modify the values below to update the confidence bar. Press enter in text fields to have the values applied.</legend>
+			<div>
+				<input id="useDarkBackground" type="checkbox" name="useDarkBackground" value="true" onchange="displayConfidenceBar()"><b>Use dark grey in bars</b>
+				</br></br>
+				
+				<input id="useSmallBars" type="checkbox" name="showSmallBars" value="true" onchange="displayConfidenceBar()"><b>Show smaller confidence bar</b>
+				</br></br>
+				
+				<span style="font-weight:bold">Height:</span> </br>
+       			<input id="confBarHeight" type="text" value="16" onchange="displayConfidenceBar()">
+       			</br></br>
+			
+				<span style="font-weight:bold">Width:</span> </br>
+       			<input id="confBarWidth" type="text" value="100" onchange="displayConfidenceBar()">
+       			</br></br>
+       			
+				<span style="font-weight:bold">Percentage:</span> </br>
+       			<input id="percentage" type="text" value="50" onchange="displayConfidenceBar()">
+       			</br></br>
+       			
+       			<span style="font-weight:bold">Display Percentage:</span> </br>
+       			<input id="percentage_north" type="checkbox" name="percentage_north" value="true" checked onchange="displayConfidenceBar()">North
+       			<input id="percentage_south" type="checkbox" name="percentage_south" value="true" onchange="displayConfidenceBar()">South
+       			<input id="percentage_east" type="checkbox" name="percentage_east" value="true" onchange="displayConfidenceBar()">East
+       			<input id="percentage_west" type="checkbox" name="percentage_west" value="true" onchange="displayConfidenceBar()">West
+				</br></br>
+				
+				<span style="font-weight:bold">Display Confidence Level:</span> </br>
+       			<input id="confidence_north" type="checkbox" name="confidence_north" value="true" checked onchange="displayConfidenceBar()">North
+       			<input id="confidence_south" type="checkbox" name="confidence_south" value="true" onchange="displayConfidenceBar()">South
+       			<input id="confidence_east" type="checkbox" name="confidence_east" value="true" onchange="displayConfidenceBar()">East
+       			<input id="confidence_west" type="checkbox" name="confidence_west" value="true" onchange="displayConfidenceBar()">West
+				</br></br>
+				
+				<div style="display:none">
+					<span style="font-weight:bold">Display Percentage/Confidence Level Separator:</span> </br>
+	       			<input id="display_separator" type="checkbox" name="diaplsy_separator" value="true" checked onchange="displayConfidenceBar()">Display Separator
+					</br></br>
+				</div>
+				
+				<span style="font-weight:bold">Display Clipped Confidence Levels:</span> </br>
+       			<input id="display_clipped" type="checkbox" name="display_clipped" value="true" onchange="displayConfidenceBar()">Display Clipped Levels
+				</br></br>
+				
+				<span style="font-weight:bold">Set custom confidence levels:</span> </br>
+       			<input id="custom_confidence_levels" type="text" style="width:800px" value="Low,Medium,High" onchange="displayConfidenceBar()"> </br>Must be in the form "&lt;low confidence level&gt;,&lt;medium confidence level&gt;,&lt;high confidence level&gt;"
+       			</br></br>
+       			
+       			<span style="font-weight:bold">Set custom clipped confidence levels:</span> </br>
+       			<input id="custom_clipped_confidence_levels" type="text" style="width:800px" value="Low,Med,High" onchange="displayConfidenceBar()"> </br>Must be in the form "&lt;low confidence level clipped&gt;,&lt;medium confidence level clipped&gt;,&lt;high confidence level clipped&gt;"
+       			</br></br>
+				
+				<span style="font-weight:bold">Set custom confidence level values:</span> </br>
+       			Medium confidence level begin: <input id="medium_confidence_level" type="text" value="40" onchange="displayConfidenceBar()">
+       			</br>
+       			High confidence level begin: <input id="high_confidence_level" type="text" value="70" onchange="displayConfidenceBar()">
+       			</br></br>
+				
+				<div id="displayConfidenceBarHere"></div> 
+			</div>
+		</fieldset>
+
+	</body>
+	
+</html>

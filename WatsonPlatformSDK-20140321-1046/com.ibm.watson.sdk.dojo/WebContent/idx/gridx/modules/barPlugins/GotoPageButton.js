@@ -1,0 +1,2 @@
+//>>built
+define("idx/gridx/modules/barPlugins/GotoPageButton",["dojo/_base/kernel","../../support/GotoPageButton"],function(_1,_2){_1.deprecated("GotoPageButton is moved from gridx/modules/barPlugins/ to gridx/support/.","Please use the new path.","1.2");return _2;});

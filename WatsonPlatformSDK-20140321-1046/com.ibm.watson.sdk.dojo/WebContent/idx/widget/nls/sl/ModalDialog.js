@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/sl/ModalDialog",{Error:"Napaka",Warning:"Opozorilo",Information:"Informacije",Success:"Uspelo",Confirmation:"Potrditev",Question:"Vprašanje",closeButtonLabel:"Zapri",cancelButtonLabel:"Prekliči",executeButtonLabel:"V redu",checked:"Ne vprašaj me več"});

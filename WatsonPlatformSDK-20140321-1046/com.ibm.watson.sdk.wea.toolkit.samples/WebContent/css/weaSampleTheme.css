@@ -1,0 +1,26 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* Licensed Materials - Property of IBM                              */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          */
+/*                                                                   */
+/* US Government Users Restricted Rights - Use, duplication or       */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. */
+/*                                                                   */
+/* ***************************************************************** */
+
+.wea_sample_page {
+	background-color: #f7f7f7;
+}
+
+.wea_sample_page .fieldLegend {
+	color: #00649d;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.wea_sample_page .pageTitle {
+	color: #222222;
+	font-size: 24px;
+	font-weight: bold;
+}

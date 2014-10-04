@@ -1,0 +1,2 @@
+//>>built
+define("idx/gridx/modules/barPlugins/DropDownSizer",["dojo/_base/kernel","../../support/DropDownSizer"],function(_1,_2){_1.deprecated("DropDownSizer is moved from gridx/modules/barPlugins/ to gridx/support/.","Please use the new path.","1.2");return _2;});

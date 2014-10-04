@@ -1,0 +1,157 @@
+{
+	"question": {
+		"questionText": "delay",
+		"answers": [
+		{
+			"id": 0,
+			"text": "Latency",
+			"confidence": 0.63598,
+			"evidence": [{
+				"title": "Latency (engineering)",
+				"text": "Latency is a measure of time delay experienced in a system, the precise definition of which depends on the system and the time being measured. In communications, the lower limit of latency is determined by the medium being used for communications. In reliable two-way communication systems, latency limits the maximum rate that information can be transmitted, as there is often a limit on the amount of information that is \"in-flight\" at any one moment. In the field of human-machine interaction, perceptible latency has a strong effect on user satisfaction and usability.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Latency_(engineering)",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"title": "Latency (audio)",
+				"text": "Latency refers to a short period of delay (usually measured in milliseconds) between when an audio signal enters and when it emerges from a system. Potential contributors to latency in an audio system include analog-to-digital conversion, buffering, digital signal processing, transmission time, digital-to-analog conversion and the speed of sound in air.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Latency_(audio)",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"Another related link",
+						"url":"http://www.google.com"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 1,
+			"text": "Tom DeLay",
+			"confidence": 0.60803,
+			"evidence": [{
+				"title": "Tom DeLay",
+				"text": "Thomas Dale \"Tom\" DeLay (born April 8, 1947) is a former member of the United States House of Representatives, representing Texas's 22nd congressional district from 1984 until 2006. He was Republican Party (GOP) House Majority Leader from 2003 to 2005, when he resigned because of felony money laundering charges in connection with a campaign finance investigation. He was convicted in January 2011 and sentenced to three years in prison but is free on bail while appealing his conviction.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Tom_DeLay",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]
+			}]
+		},
+		{
+			"id": 2,
+			"text": "Enrique Pena Nieto",
+			"confidence": 0.36376,
+			"evidence": [{
+				"title": "Enrique Pena Nieto",
+				"text": "Enrique Pena Nieto (born 20 July 1966) is the 57th and current President of Mexico, in office since 2012. He is a member of the Institutional Revolutionary Party (PRI) and was Governor of the State of Mexico from 2005 to 2011. Pena Nieto was declared President-elect after the 2012 general election was declared valid by the Federal Electoral Tribunal, amidst some accusations of electoral fraud. He assumed the office on 1 December 2012, succeeding Felipe Calderon as President, thereby marking the return to power of the party that ruled Mexican politics for 71 consecutive years.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Enrique_Pe%C3%B1a_Nieto",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"Another related link",
+						"url":"http://www.google.com"
+					}
+				]
+			}]
+		},
+		{
+			"id": 3,
+			"text": "Cristina Fernandez de Kirchner",
+			"confidence": 0.23091,
+			"evidence": [{
+				"title": "Cristina Fernandez de Kirchner",
+				"text": "Cristina Elisabet Fernandez de Kirchner (born 19 February 1953 in La Plata, Argentina), commonly known as Cristina Kirchner or CFK, is the 55th and current President of Argentina and the widow of former President Néstor Kirchner. She is Argentina's first elected female president, the second woman to hold the position (after Isabel Martínez de Peron, 1974–1976) and the first woman reelected to it. A Justicialist, Fernandez served one term as National Deputy and three terms as National Senator for both Santa Cruz and Buenos Aires provinces.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Cristina_Fern%C3%A1ndez_de_Kirchner",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"Another related link",
+						"url":"http://www.google.com"
+					}
+				]
+			}]
+		},
+		{
+			"id": 4,
+			"text": "Ginni Rometty",
+			"confidence": 0.20091,
+			"evidence": [{
+				"title": "Ginni Rometty",
+				"text": "Virginia Marie \"Ginni\" Rometty (born July 1957 or 1958) is an American business executive. She is the current Chairman and CEO of IBM, and the first woman to head the company. Prior to becoming president and CEO in January 2012 she held the position of Senior Vice President and Group Executive for Sales, Marketing, and Strategy at IBM. She has been named to Fortune magazine's \"50 Most Powerful Women in Business\" for eight consecutive years, ranking #1 for 2012, and she was ranked #15 on Forbes magazine's \"World's 100 Most Powerful Women\" for the same year. She was also named to the Time 100 in 2012, and was included in the 50 Most Influential list of Bloomberg Markets Magazine in September 2012.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Ginni_Rometty",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"IBM Corporation",
+						"url":"http://www.ibm.com"
+					}
+				]
+			},
+			{
+				"title": "IBM",
+				"text": "Key people:  Ginni Rometty (Chairman, President, and CEO)",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/IBM",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"IBM.com",
+						"url":"http://www.ibm.com"
+					}
+				]
+			}
+			]
+		}]
+	}
+}

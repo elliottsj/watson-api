@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/hu/LoginFrame",{loginTitle:"Bejelentkezés",labelUserName:"Felhasználónév",labelPassword:"Jelszó",invalidMessageTitle:"Érvénytelen bejelentkezési kísérlet",invalidMessage:"Nem adott meg érvényes értéket mindkét kötelező mezőben."});

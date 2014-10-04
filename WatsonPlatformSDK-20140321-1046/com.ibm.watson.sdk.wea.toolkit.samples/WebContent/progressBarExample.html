@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+
+<html>
+	<head>   
+	
+		<link rel='stylesheet' href='/dojo/dijit/themes/tundra/tundra.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/dijit/themes/claro/claro.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/themes/oneui/oneui.css' type='text/css'></link>
+		<link rel='stylesheet' href='/watson/app/com/ibm/watson/ui/css/theme.css' type='text/css'></link>
+		<link rel='stylesheet' href='css/weaSampleTheme.css' type='text/css'></link>
+
+		<script type="text/javascript">   
+	        var dojoConfig = {
+	        	paths: {
+					"com/ibm/watson/ui":"/watson/app/com/ibm/watson/ui"
+				}
+			};
+	        
+	        
+		</script>
+		
+		<script type="text/javascript" src="/dojo/dojo/dojo.js" data-dojo-config="async:true"></script>
+		
+		<script type="text/javascript">
+	        
+	        require(["dojo/parser", 
+				"com/ibm/watson/ui/ProgressBar"
+				], function (parser) {
+						parser.parse();
+					}
+			);
+	       	        
+	        function displayProgressBar(){
+				var progress_bar_height_field = document.getElementById("progBarHeight");
+				var progress_bar_width_field = document.getElementById("progBarWidth");
+				var percentage_field = document.getElementById("percentage");
+				var label_field = document.getElementById("progBarLabel");
+				var label_north_field = document.getElementById("label_north");
+				var label_south_field = document.getElementById("label_south");
+				var label_east_field = document.getElementById("label_east");
+				var label_west_field = document.getElementById("label_west");
+				
+				var percentage;
+				var label_north;
+				var label_south;
+				var label_east;
+				var label_west;
+				var progress_bar_width;
+				var progress_bar_height;
+				var progress_bar_label;
+				
+				if(null !=progress_bar_height_field && progress_bar_height_field != undefined){
+					progress_bar_height = progress_bar_height_field.value;
+				}
+				if(null !=progress_bar_width_field && progress_bar_width_field != undefined){
+					progress_bar_width = progress_bar_width_field.value;
+				}
+				if(null !=percentage_field && percentage_field != undefined){
+					percentage = percentage_field.value;
+				}
+				if(null !=label_field && label_field != undefined){
+					progress_bar_label = label_field.value;
+				}
+				if(null != label_north_field && label_north_field != undefined){
+					label_north = label_north_field.checked;
+				}
+				if(null != label_south_field && label_south_field != undefined){
+					label_south = label_south_field.checked;
+				}
+				if(null != label_east_field && label_east_field != undefined){
+					label_east = label_east_field.checked;
+				}
+				if(null != label_west_field && label_west_field != undefined){
+					label_west = label_west_field.checked;
+				}
+				var displayLabel="";
+				if(label_north){
+					displayLabel=displayLabel + "north";
+				}
+				if(label_south){
+					if(displayLabel != ""){
+						displayLabel=displayLabel + ",";
+					}
+					displayLabel=displayLabel + "south";	
+				}
+				if(label_east){
+					if(displayLabel != ""){
+						displayLabel=displayLabel + ",";
+					}
+					displayLabel=displayLabel + "east";	
+				}
+				if(label_west){
+					if(displayLabel != ""){
+						displayLabel=displayLabel + ",";
+					}
+					displayLabel=displayLabel + "west";	
+				}
+
+				
+				require(["com/ibm/watson/ui/ProgressBar"
+				], function (ProgressBar) {
+						 var aProgressBar = new ProgressBar({
+							percentage:percentage,
+							label:progress_bar_label,
+							displayLabel:displayLabel,
+							progressBarHeight:progress_bar_height,
+							progressBarWidth:progress_bar_width
+						}); 
+						dojo.place(aProgressBar.domNode, document.getElementById("displayProgressBarHere"),"only");
+				});
+			}
+		
+		</script>
+	
+	</head>
+	
+	<body class="oneui claro wea_sample_page" style="padding-bottom:100px;background-color:none;height:auto;width:75%;margin-left:10%" onload="displayProgressBar()">
+		
+		<p></p>
+		<div class="pageTitle">Progress Bar Control 
+		</div>
+		<hr/>
+	
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:20px">
+			<legend class="fieldLegend">Simple progress bar control. </legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.ProgressBar"></div> 
+			</div>
+		</fieldset>
+		<br>
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:30px">
+			<legend class="fieldLegend">A dynamically created progress bar.</legend>
+			Modify the values below to update the progress bar. Press enter in text fields to have the values applied.</br></br>
+			<div>
+				
+				<span style="font-weight:bold">Height:</span> </br>
+       			<input id="progBarHeight" type="text" value="20" onchange="displayProgressBar()">
+       			</br></br>
+			
+				<span style="font-weight:bold">Width:</span> </br>
+       			<input id="progBarWidth" type="text" value="100" onchange="displayProgressBar()">
+       			</br></br>
+       			
+				<span style="font-weight:bold">Percentage:</span> </br>
+       			<input id="percentage" type="text" value="50" onchange="displayProgressBar()">
+       			</br></br>
+       			
+       			<span style="font-weight:bold">Label:</span> </br>
+       			<input id="progBarLabel" type="text" value="Label" onchange="displayProgressBar()">
+       			</br></br>
+       			
+       			<span style="font-weight:bold">Display Label:</span> </br>
+       			<input id="label_north" type="checkbox" name="label_north" value="true" onchange="displayProgressBar()">North
+       			<input id="label_south" type="checkbox" name="label_south" value="true" onchange="displayProgressBar()">South
+       			<input id="label_east" type="checkbox" name="label_east" value="true" checked onchange="displayProgressBar()">East
+       			<input id="label_west" type="checkbox" name="label_west" value="true" onchange="displayProgressBar()">West
+				</br></br>
+				
+				<div id="displayProgressBarHere"></div> 
+			</div>
+		</fieldset>
+	</body>
+	
+</html>

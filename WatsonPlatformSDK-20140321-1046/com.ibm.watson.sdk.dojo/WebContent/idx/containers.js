@@ -1,0 +1,2 @@
+//>>built
+define("idx/containers",["dojo/_base/lang","idx/main","dijit/_Container","dijit/_WidgetBase","idx/widgets"],function(_1,_2,_3){var _4=_1.getObject("containers",true,_2);var _5=_3.prototype;var _6=_5.addChild;var _7=_5.removeChild;_5.addChild=function(_8,_9){if(_6){_6.call(this,_8,_9);}if(this._started){this._idxStyleChildren();}};_5.removeChild=function(_a){if(_7){_7.call(this,_a);}if(typeof _a=="number"){_a=this.getChildren()[_a];}if(this._started){this._idxStyleChildren();}};return _4;});

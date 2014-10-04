@@ -1,0 +1,44 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* Licensed Materials - Property of IBM                              */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2012. All Rights Reserved.          */
+/*                                                                   */
+/* US Government Users Restricted Rights - Use, duplication or       */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. */
+/*                                                                   */
+/* ***************************************************************** */
+
+.wea_rating_system .td{
+	display:inline-block;
+}
+
+.wea_rating_system .hide {
+    display: none;
+}
+
+.wea_rating_system .east.label {
+  	margin: 0 5px 0 5px;
+    color: #555555;
+    position: relative;
+   	font-weight: bold;
+}
+
+.wea_rating_system .north.label {
+  	 color: #555555;
+    position: relative;
+    font-weight: bold;
+}
+
+.wea_rating_system .west.label {
+  	margin: 0 5px 0 5px;
+    color: #555555;
+    position: relative;
+    font-weight: bold;
+}
+
+.wea_rating_system .south.label {
+  	color: #555555;
+    position: relative;
+    font-weight: bold;
+}

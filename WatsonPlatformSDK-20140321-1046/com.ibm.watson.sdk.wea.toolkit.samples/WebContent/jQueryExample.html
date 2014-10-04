@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+
+<html>
+  <head>
+    <link rel='stylesheet' href='/dojo/dijit/themes/tundra/tundra.css' type='text/css'></link>
+    <link rel="stylesheet" type="text/css" href="/dojo/dijit/themes/dijit.css"></link> 
+ 	<link rel='stylesheet' href='/watson/app/com/ibm/watson/ui/css/theme.css' type='text/css'></link>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>   
+
+    <script type="text/javascript">   
+        var dojoConfig = {
+            paths: {
+                "com/ibm/watson/ui":"/watson/app/com/ibm/watson/ui"
+            }
+        };
+    </script>   
+    <script src="/dojo/dojo/dojo.js"></script>
+    <script>
+        function dijitAsPlugin(Constructor){
+          return function(args){
+              return new Constructor(args, this);
+          };
+        }
+        jQuery.fn.dijit = {};
+    </script>
+    <script>
+        dojo.require("com.ibm.watson.ui.ProgressMonitor");
+        dojo.require("dojo.topic");
+
+        jQuery.fn.dijit.watsonprogress = dijitAsPlugin(com.ibm.watson.ui.ProgressMonitor);
+    </script>
+    <script>
+        $(document).ready(function(){
+            
+            $().dijit.watsonprogress({
+                openTopic : "openTopicId",
+                statusTopic : "statusTopicId", 
+                divId : "displayProgressHere",
+                cancelTopic:"cancelTopicId",
+                progressTopic:"progressTopicId"
+            }).placeAt("progDlgTest");
+            dojo.topic.publish("openTopicId", "");
+            
+            $("button").button().click(function( event ) {
+                dojo.topic.publish("statusTopicId", $("#statusTextBox").val());
+            });
+            
+            $("#slider").slider({
+                min: 0,
+                max: 100,
+                value: 0,
+                slide: function(event, ui) {
+                    dojo.topic.publish("progressTopicId", ui.value);
+                }
+            });
+                        
+        });
+    </script>
+  </head>
+  <body class="tundra">
+    <input id="statusTextBox" type="text" style="height: 28px; width: 200px;"></input>
+    <button>Update progress dialog message</button>
+    <br/>
+    <div id="slider" style="margin: 10px; width: 500px;"></div>
+    <br/><br/>
+    <div id="progDlgTest"></div>
+  </body>
+</html>

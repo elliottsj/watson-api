@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/fi/ModalDialog",{Error:"Virhe",Warning:"Varoitus",Information:"Ilmoitus",Success:"Onnistui",Confirmation:"Vahvistus",Question:"Kysymys",closeButtonLabel:"Sulje",cancelButtonLabel:"Peruuta",executeButtonLabel:"OK",checked:"Älä kysy uudelleen"});

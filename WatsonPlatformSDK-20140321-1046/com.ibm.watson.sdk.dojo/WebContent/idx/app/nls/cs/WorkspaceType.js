@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/cs/WorkspaceType",{loadingMessage:"Probíhá načítání pracovního prostoru ${workspaceTitle}. Čekejte, prosím...",failedLoadMessage:"Pracovní prostor ${workspaceTitle} se nepodařilo načíst."});

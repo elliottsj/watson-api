@@ -1,0 +1,33 @@
+<table class="wea_progress_bar">
+	<tr class="${north_row_class}">
+		<td></td>
+		<td colspan=2>
+	        <span class="${north_label_class}">${label}</span>
+	    </td>
+	</tr>
+	<tr>
+		<td>
+	        <span class="${west_label_class}">${label}</span>   
+	    </td>
+		<td style="width:${progressBarWidth}px">
+			<table style="height:${progressBarHeight}px;width:${progressBarWidth}px" class="progressTable ${doneClass}">
+				<tr>
+					<td class="progressLeft" style="${leftPercentage}">
+					</td>
+					<td class="progressRight" style="${rightPercentage}">
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td>
+	        <span class="${east_label_class}">${label}</span> 
+	    </td>
+    </tr>
+    <tr class="${south_row_class}">
+    	<td></td>
+		<td colspan=2>
+	        <span class="${south_label_class}">${label}</span>
+	    </td>
+	</tr>
+</table>
+	

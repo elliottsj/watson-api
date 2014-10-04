@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/ja/ModalDialog",{Error:"エラー",Warning:"警告",Information:"情報",Success:"成功",Confirmation:"確認",Question:"質問",closeButtonLabel:"閉じる",cancelButtonLabel:"キャンセル",executeButtonLabel:"OK",checked:"今後この質問をしない"});

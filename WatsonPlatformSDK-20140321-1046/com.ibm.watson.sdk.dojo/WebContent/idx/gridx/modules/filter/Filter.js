@@ -1,0 +1,2 @@
+//>>built
+define("idx/gridx/modules/filter/Filter",["dojo/_base/kernel","../Filter"],function(_1,_2){_1.deprecated("Filter is moved from gridx/modules/filter/Filter to gridx/modules/Filter.","Use the new path instead.","1.2");return _2;});

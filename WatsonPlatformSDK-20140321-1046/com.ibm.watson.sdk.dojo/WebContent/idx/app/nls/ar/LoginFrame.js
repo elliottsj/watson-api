@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/ar/LoginFrame",{loginTitle:"بدء الاتصال",labelUserName:"اسم المستخدم",labelPassword:"كلمة السرية",invalidMessageTitle:"محاولة بدء اتصال غير صحيحة",invalidMessage:"تم ادخال قيمة غير صحيحة بكلا المجالات المطلوبة."});

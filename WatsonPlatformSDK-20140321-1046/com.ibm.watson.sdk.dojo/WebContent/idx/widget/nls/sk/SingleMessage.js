@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/sk/SingleMessage",{viewAll:"Zobraziť všetkých ({num})",viewDetails:"Viac podrobností",refresh:"Obnoviť",showDetails:"Zobraziť podrobnosti",hideDetails:"Skryť podrobnosti"});

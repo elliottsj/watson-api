@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/sk/ModalDialog",{Error:"Chyba",Warning:"Varovanie",Information:"Informácia",Success:"Úspech",Confirmation:"Potvrdenie",Question:"Otázka",closeButtonLabel:"Zatvoriť",cancelButtonLabel:"Zrušiť",executeButtonLabel:"OK",checked:"Už sa nepýtať"});

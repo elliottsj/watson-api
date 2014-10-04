@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<!--
+	Licensed Materials - Property of IBM
+	(C) Copyright IBM Corp. 2010, 2012 All Rights Reserved
+	US Government Users Restricted Rights - Use, duplication or
+	disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-->
+<html>
+<head>
+	<title>One UI toolkit interactive benchmark tool</title>
+
+	<!-- make display better on mobile, so that results appear under the controls rather than to the right of them -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+	<script type="text/javascript" src="../tests/dojoVersion.js"></script>
+	<style type="text/css">
+		@import "../../../dojo_1.8.1/dojo/resources/dojo.css";
+		@import "../../../dojo_1.8.1/dijit/themes/dijit.css";
+        @import "../themes/oneui/oneui.css";
+        @import "../tests/test.css";
+		@import "benchTool.css";
+    </style>
+
+	<script type="text/javascript">
+		dojoConfig = dojoVersions["1.8.1-amd"].dojoConfig;
+		dojoConfig.parseOnLoad = true;
+	</script>
+	<script type="text/javascript" src="../../../dojo_1.8.1/dojo/dojo.js"></script>
+	
+    <script type="text/javascript">
+        var testStoreShort = null;
+        var testStoreLong = null;
+        var treeModel = null;
+        var benchTool = null;
+        
+        require(["dojo/ready", "idx/bench/benchUtil", "dojo/fx", "dijit/dijit", "dojo/data/ItemFileReadStore", "dijit/tree/TreeStoreModel", "dijit/form/Button", "dijit/layout/TabContainer", "dijit/layout/ContentPane", "idx/form/Select", "idx/form/NumberTextBox", "idx/form/ComboBox", "idx/form/RadioButtonSet"], function(ready, benchUtil){
+            ready(function(){
+                benchTool = benchUtil;
+                testStoreShort = new dojo.data.ItemFileReadStore({
+                    data: {
+                        identifier: "value",
+                        label: "label",
+                        items: [{
+                            value: "TN",
+                            selected: true,
+                            label: "Tennessee"
+                        }, {
+                            value: "VA",
+                            label: "Virginia"
+                        }, {
+                            value: "WA",
+                            label: "Washington"
+                        }, {
+                            value: "FL",
+                            label: "Florida"
+                        }, {
+                            value: "CA",
+                            label: "California"
+                        }]
+                    }
+                });
+                testStoreLong = new dojo.data.ItemFileReadStore({
+                    url: '../widget/tests/_data/states.json'
+                });
+                
+                treeModel = new dijit.tree.TreeStoreModel({
+                    store: (new dojo.data.ItemFileReadStore({
+                        url: '../widget/tests/_data/countries.json'
+                    })),
+                    query: {
+                        id: "ROOT"
+                    },
+                    rootId: "continentRoot",
+                    rootLabel: "Continents",
+                    childrenAttrs: ["children"]
+                });
+				
+				dijit.byId("singleRunner").onClick = dojo.hitch(benchTool, benchTool.runSingleTest);
+				dijit.byId("compareRunner").onClick = dojo.hitch(benchTool, benchTool.runPairTests);
+				dijit.byId("compareAllRunner").onClick = dojo.hitch(benchTool, benchTool.runAllTests);
+				dijit.byId("chartingButton").onClick = dojo.hitch(benchTool,'generateCharting');
+				dijit.byId("clearAll").onClick = dojo.hitch(benchTool,'clearAllReports');
+				dijit.byId("summaryButton").onClick = dojo.hitch(benchTool,'showSummary');
+				
+                benchTool.init();
+            })
+        })
+    </script>
+	<script type="text/javascript" src="../tests/commonTest.js"></script>
+</head>
+<body style="margin: 0; padding: 15px;" class="oneui">
+	<h1 class="testTitle">One UI Benchmark Tool</h1>
+	
+	<div data-dojo-type="dojo.data.ItemFileReadStore" data-dojo-id="oneuiWidgetStore"
+		data-dojo-props="url:'./oneuiWidgetFactory.json'"></div>
+	<div id="testControl">
+		<div id="leftForm" class="dijitInline">
+			<!--<select data-dojo-type="idx.form.Select"
+					data-dojo-props="id: 'toolkitSelect', label: 'Toolkit', labelAlignment: 'vertical', fieldWidth:100">
+				<option selected="selected" value="oneui">oneui</option>
+				<option value="dojo">dojo</option>
+			</select>-->
+			
+			<select data-dojo-type="idx.form.ComboBox"
+				data-dojo-props='
+					id:"widgetList", 
+					store:oneuiWidgetStore, 
+					searchAttr:"clazz",
+					label: "Class", 
+					labelAlignment: "vertical",
+					fieldWidth: 250,
+					displayedValue: "Please select a widget..."
+				'>
+			</select>
+			<br>
+			<input data-dojo-type="idx.form.NumberTextBox"
+					data-dojo-props="id:'count', value:'1000', label: 'Count', labelAlignment: 'vertical'"/>
+			<br>
+			<!--<select id="creationMethod" data-dojo-type="idx.form.RadioButtonSet" data-dojo-props='
+				label: "Method",
+				labelAlignment: "vertical",
+				name: "method"
+			'>
+				<option value ="parse">Parse with "data-dojo-type" syntax</option>
+				<option value ="create" selected="selected">Create programatically</option>
+			</select>-->
+			
+			<br>
+			<input data-dojo-type="dijit.form.Button" data-dojo-props="
+				label: 'Run Single Test',
+				id: 'singleRunner',
+				disabled: true,
+				baseClass:'dijitButton idxButtonCompact'
+			"/>
+			<input data-dojo-type="dijit.form.Button" data-dojo-props="
+				label: 'Compare with base widget',
+				id: 'compareRunner',
+				disabled: true
+			"/><br><br>
+			<input data-dojo-type="dijit.form.Button" data-dojo-props="
+				label: 'Compare each oneui widget with its base widget',
+				baseClass: 'dijitButton idxSpecialButton',
+				id: 'compareAllRunner'
+			"/><br>
+		</div>
+		<div id="sampleContainer" class="dijitInline" style="display: none;">
+			<h2>Please Select a widget sample:</h2>
+			<div id="widgetSamples">
+			</div>
+		</div>
+	</div>
+
+	<div data-dojo-type="dijit.layout.TabContainer" data-dojo-props="id: 'resultTabs', style:{height: '450px'}">
+		<div id="resultsContainer" data-dojo-type="dijit.layout.ContentPane" data-dojo-props="title:'Results', style:'padding:10px 15px 15px 10px;'">
+			<div id="resultActions" style="display:none;">
+				<input data-dojo-type='dijit/form/CheckBox' data-dojo-props='
+					"id": "masterCheckBox"
+				'></input>
+				<button data-dojo-type="dijit.form.Button" data-dojo-props="
+					id:'chartingButton', 
+					baseClass: 'dijitButton idxSpecialButton'
+				">Charting for selected test results</button>
+				<button data-dojo-type="dijit.form.Button" data-dojo-props="
+					id: 'clearAll',
+					baseClass: 'dijitButton'
+				">Clear All</button>
+			</div>
+			<div id="results" style="display:none;"></div>
+		</div>
+		<div data-dojo-type="dijit.layout.ContentPane" data-dojo-props="title:'Generated Widgets', style:'padding:15px 10px 15px 10px;'">
+			<div id="widgetsContainer" style="clear: both;"></div>
+		</div>
+		<div data-dojo-type="dijit.layout.ContentPane" data-dojo-props="id: 'benchPane',title:'Benchmark Chart', style:'padding:15px 10px 15px 10px;'">
+			<div id="chartContainer">
+				<div id="benchChart" style="height: 320px"></div>
+				<div id="legend"></div>
+				<button data-dojo-type="dijit.form.Button"  data-dojo-props="
+					id:'summaryButton', 
+					baseClass: 'dijitButton idxSpecialButton'
+				">Show Summary</button>
+			</div>
+		</div>
+	</div>
+	<div id="summaryDialog"></div>
+</body>
+</html>

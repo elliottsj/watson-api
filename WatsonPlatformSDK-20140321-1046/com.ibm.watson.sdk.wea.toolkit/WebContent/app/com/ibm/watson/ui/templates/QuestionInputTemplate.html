@@ -1,0 +1,28 @@
+<div class="questionInputArea">
+	<table class="questionInputTable">
+		<tr class="questionInputRow">
+			<td class="questionInputCell">
+				<div class="questionInputTextArea" data-dojo-attach-point="questionInputTextAreaAttachPoint">
+					<table class="textEntryTable" data-dojo-attach-point="textEntryTableAttachPoint">
+						<tr class="textEntryRow">
+							<td class="textEntryLeftMargin"/>
+							<td class="textEntryInput">
+								<div id="questionInputTextId" class="questionInputText" onkeypress="if(event.keyCode==13 && event.shiftKey===false){ return false;}"
+									 contenteditable="true" data-dojo-attach-point="questionInputTextAttachPoint"></div>
+							</td>
+							<td class="textEntryRightMargin"/>
+						</tr>
+					</table>
+				</div>
+			</td>
+			<td class="questionHistoryCell">
+				<div class="historyMenuContainer">
+					<div class="askButton" data-dojo-attach-event="onclick:_askQuestion"><span class="buttonText">Ask</span></div>
+					<div class="clearButton"  data-dojo-attach-event="onclick:_clearQuestion"><span class="buttonText">New Question</span></div>
+					<div class="historyButton" data-dojo-attach-event="onclick:_showHistory"><span class="buttonText">History...</span></div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div data-dojo-type="com.ibm.watson.ui.ErrorDialogHandler"></div>
+</div>

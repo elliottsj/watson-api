@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/fi/LoginFrame",{loginTitle:"Sisäänkirjaus",labelUserName:"Käyttäjätunnus",labelPassword:"Salasana",invalidMessageTitle:"Virheellinen sisäänkirjaus",invalidMessage:"Pakollisiin kenttiin ei ole annettu kelvollisia arvoja."});

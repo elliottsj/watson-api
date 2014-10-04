@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/el/ModalDialog",{Error:"Σφάλμα",Warning:"Προειδοποίηση",Information:"Πληροφορίες",Success:"Επιτυχία",Confirmation:"Επιβεβαίωση",Question:"Ερώτηση",closeButtonLabel:"Κλείσιμο",cancelButtonLabel:"Ακύρωση",executeButtonLabel:"OK",checked:"Να μην ερωτηθώ ξανά"});

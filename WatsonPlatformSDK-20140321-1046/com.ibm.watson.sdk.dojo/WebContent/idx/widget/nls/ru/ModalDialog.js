@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/ru/ModalDialog",{Error:"Ошибка",Warning:"Предупреждение",Information:"Информация",Success:"Успешно",Confirmation:"Подтверждение",Question:"Вопрос",closeButtonLabel:"Закрыть",cancelButtonLabel:"Отмена",executeButtonLabel:"OK",checked:"Больше не спрашивать"});

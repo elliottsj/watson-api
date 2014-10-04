@@ -1,0 +1,8 @@
+/*
+	Copyright (c) 2004-2012, The Dojo Foundation All Rights Reserved.
+	Available via Academic Free License >= 2.1 OR the modified BSD license.
+	see: http://dojotoolkit.org/license for details
+*/
+
+//>>built
+define("dojo/cldr/nls/fr/japanese",{"dateFormatItem-yyyyMMMEd":"E d MMM y G","dateFormatItem-MMMEd":"E d MMM","dateFormatItem-MMdd":"dd/MM","dateFormatItem-MMM":"LLL","dateFormatItem-Gy":"y G","dateFormatItem-y":"y G","dateFormatItem-MMMdd":"dd MMM","dateFormatItem-yyyy":"y G","dateFormatItem-Ed":"E d","dateFormatItem-yyyyMMMM":"MMMM y G","dateFormat-long":"d MMMM y G","dateFormatItem-Hm":"HH:mm","dateFormatItem-MMd":"d/MM","dateFormatItem-yyMM":"MM/y GGGGG","dateFormat-medium":"d MMM, y G","dateFormatItem-Hms":"HH:mm:ss","dateFormatItem-yyMMM":"MMM y G","dateFormatItem-yyQQQQ":"QQQQ y G","dateFormatItem-ms":"mm:ss","dateFormatItem-yyMMMd":"d MMM y G","dateFormatItem-yyyyMd":"d/M/y GGGGG","dateFormatItem-yyyyMMMd":"d MMM y G","dateFormatItem-MMMMEd":"E d MMMM","dateFormatItem-yyyyMEd":"E d/M/y GGGGG","dateFormatItem-MMMd":"d MMM","dateFormatItem-yyMMMEd":"E d MMM y G","dateFormatItem-yyQ":"'T'Q y G","dateFormatItem-M":"L","dateFormatItem-MEd":"E d/M","dateFormatItem-yyyyQQQ":"QQQ y G","dateFormat-short":"d/M/y GGGGG","dateFormatItem-yyyyM":"M/y GGGGG","dateFormat-full":"EEEE d MMMM y G","dateFormatItem-Md":"d/M","dateFormatItem-yyyyQ":"'T'Q y G","dateFormatItem-yyyyMMM":"MMM y G","dateFormatItem-d":"d"});

@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/ca/ModalDialog",{Error:"Error",Warning:"Advertiment",Information:"Informació",Success:"Èxit",Confirmation:"Confirmació",Question:"Pregunta",closeButtonLabel:"Tanca",cancelButtonLabel:"Cancel·la",executeButtonLabel:"D'acord",checked:"No ho tornis a preguntar"});

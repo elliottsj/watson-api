@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/hu/SingleMessage",{viewAll:"Összes megjelenítése ({num})",viewDetails:"További részletek",refresh:"Frissítés",showDetails:"Részletek megjelenítése",hideDetails:"Részletek elrejtése"});

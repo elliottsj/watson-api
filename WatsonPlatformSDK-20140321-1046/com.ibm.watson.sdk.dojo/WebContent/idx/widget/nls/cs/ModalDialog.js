@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/cs/ModalDialog",{Error:"Chyba",Warning:"Varování",Information:"Informace",Success:"Úspěch",Confirmation:"Potvrzení",Question:"Otázka",closeButtonLabel:"Zavřít",cancelButtonLabel:"Storno",executeButtonLabel:"OK",checked:"Tento dotaz již nezobrazovat"});

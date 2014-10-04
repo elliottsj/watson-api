@@ -1,0 +1,7 @@
+//>>built
+define("idx/gridx/nls/hr/Body", {     
+	loadingInfo: "Učitavanje...",
+	emptyInfo: "Nema stavki za prikaz",
+	loadFailInfo: "Učitavanje podataka nije uspjelo!"
+});
+

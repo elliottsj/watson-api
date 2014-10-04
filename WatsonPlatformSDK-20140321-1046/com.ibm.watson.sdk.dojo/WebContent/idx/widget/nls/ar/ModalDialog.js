@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/ar/ModalDialog",{Error:"خطأ",Warning:"تحذير",Information:"معلومات",Success:"نجاح",Confirmation:"تأكيد",Question:"سؤال",closeButtonLabel:"اغلاق",cancelButtonLabel:"الغاء",executeButtonLabel:"حسنا",checked:"عدم السؤال مرة أخرى"});

@@ -1,0 +1,2 @@
+//>>built
+define("idx/gridx/modules/barPlugins/LinkPager",["dojo/_base/kernel","../../support/LinkPager"],function(_1,_2){_1.deprecated("LinkPager is moved from gridx/modules/barPlugins/ to gridx/support/.","Please use the new path.","1.2");return _2;});

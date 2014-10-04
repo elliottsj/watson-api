@@ -1,0 +1,23 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* Licensed Materials - Property of IBM                              */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          */
+/*                                                                   */
+/* US Government Users Restricted Rights - Use, duplication or       */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. */
+/*                                                                   */
+/* ***************************************************************** */
+
+@import url('ConfidenceBar.css');
+@import url('ProgressDialog.css');
+@import url('ProgressBar.css');
+@import url('EvidenceButton.css');
+@import url('/dojo/dojox/form/resources/Rating.css');
+@import url('RatingSystem.css');
+@import url('Evidence.css');
+@import url('EvidenceEvaluation.css');
+@import url('QuestionInput.css');
+@import url('HistoryDialog.css');
+@import url('ErrorDialog.css');
+@import url('QuestionInputWithDialoging.css');

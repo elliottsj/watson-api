@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/jackson-all-1.8.1.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/jaxb-api-2.2.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/jaxb-impl-2.2.1.1.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/wink-1.2.1-incubating.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/wink-client-1.2.1-incubating.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/wink-common-1.2.1-incubating.jar"/>
+	<classpathentry kind="lib" path="/com.ibm.watson.sdk/libs/wink-server-1.2.1-incubating.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

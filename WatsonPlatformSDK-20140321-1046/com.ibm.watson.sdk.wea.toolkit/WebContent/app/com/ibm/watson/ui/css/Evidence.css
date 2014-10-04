@@ -1,0 +1,48 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* Licensed Materials - Property of IBM                              */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          */
+/*                                                                   */
+/* US Government Users Restricted Rights - Use, duplication or       */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. */
+/*                                                                   */
+/* ***************************************************************** */
+
+.evidence_container{
+	border-style:solid;
+	border-width:1px;
+	border-color:#999999;
+	background-color:#F8F8F8;
+	background-image: url("../images/Watermark_140x75.png");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+.evidence_container .evidence_header_div{
+	height:32px;
+	background-image: url("../images/EvidenceHeader_Repeat_32x32.png");
+	background-repeat: repeat-x;
+}
+
+.evidence_container .evidence_header_div .evidence_watson_icon{
+	display:inline-block;
+	height:24px;
+	width:24px;
+	background-image: url("../images/Icon_White_24x24.png");
+	position:relative;
+	top:4px;
+	margin-left:5px;
+}
+
+.evidence_container .evidence_header_div .evidence_header_label{
+	padding-left:5px;
+	color:#FFFFFF;
+	position:relative;
+	top:-3px;
+}
+
+.evidence_container .evidence_body_div{
+	height:100%;
+	padding:20px;
+}

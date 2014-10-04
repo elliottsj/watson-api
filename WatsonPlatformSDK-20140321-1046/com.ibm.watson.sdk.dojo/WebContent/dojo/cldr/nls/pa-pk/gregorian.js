@@ -1,0 +1,8 @@
+/*
+	Copyright (c) 2004-2012, The Dojo Foundation All Rights Reserved.
+	Available via Academic Free License >= 2.1 OR the modified BSD license.
+	see: http://dojotoolkit.org/license for details
+*/
+
+//>>built
+define("dojo/cldr/nls/pa-pk/gregorian",{"quarters-standAlone-wide":["چوتھاي پہلاں","چوتھاي دوجا","چوتھاي تيجا","چوتھاي چوتھا"],"quarters-format-abbr":["چوتھاي پہلاں","چوتھاي دوجا","چوتھاي تيجا","چوتھاي چوتھا"],"quarters-standAlone-abbr":["چوتھاي پہلاں","چوتھاي دوجا","چوتھاي تيجا","چوتھاي چوتھا"],"field-week":"ہفتہ","days-format-short":["اتوار","پیر","منگل","بُدھ","جمعرات","جمعہ","ہفتہ"],"months-standAlone-wide":["جنوری","فروری","مارچ","اپریل","مئ","جون","جولائی","اگست","ستمبر","اکتوبر","نومبر","دسمبر"],"field-year":"ورھا","months-standAlone-abbr":["جنوری","فروری","مارچ","اپریل","مئ","جون","جولائی","اگست","ستمبر","اکتوبر","نومبر","دسمبر"],"field-minute":"منٹ","days-standAlone-short":["اتوار","پیر","منگل","بُدھ","جمعرات","جمعہ","ہفتہ"],"field-hour":"گھنٹا","field-day":"دئن","field-month":"مہينا","months-format-wide":["جنوری","فروری","مارچ","اپریل","مئ","جون","جولائی","اگست","ستمبر","اکتوبر","نومبر","دسمبر"],"days-standAlone-wide":["اتوار","پیر","منگل","بُدھ","جمعرات","جمعہ","ہفتہ"],"months-format-abbr":["جنوری","فروری","مارچ","اپریل","مئ","جون","جولائی","اگست","ستمبر","اکتوبر","نومبر","دسمبر"],"days-standAlone-abbr":["اتوار","پیر","منگل","بُدھ","جمعرات","جمعہ","ہفتہ"],"days-format-wide":["اتوار","پیر","منگل","بُدھ","جمعرات","جمعہ","ہفتہ"],"quarters-format-wide":["چوتھاي پہلاں","چوتھاي دوجا","چوتھاي تيجا","چوتھاي چوتھا"],"field-weekday":"ہفتے دا دن","field-zone":"ٹپہ","days-format-abbr":["اتوار","پیر","منگل","بُدھ","جمعرات","جمعہ","ہفتہ"]});

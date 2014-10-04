@@ -1,0 +1,2 @@
+//>>built
+define("gridx/modules/extendedSelect/_RowCellBase",["dojo/_base/declare","dojo/_base/lang","dojo/_base/query","./_Base","../../core/model/Marker"],function(_1,_2,_3,_4,_5){return _1(_4,{modelExtensions:[_5],_getRowIdByVisualIndex:function(_6){var _7=_3("[visualindex=\""+_6+"\"]",this.grid.bodyNode)[0];return _7&&_7.getAttribute("rowid");},_init:function(){this.batchConnect([this.grid.body,"onMoveToCell","_onMoveToCell"],[this.model,"onMarked",_2.hitch(this,"_onMark",true)],[this.model,"onMarkRemoved",_2.hitch(this,"_onMark",false)]);}});});

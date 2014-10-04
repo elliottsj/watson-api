@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/it/HoverHelp",{defaultHrefLabel:"Ulteriori informazioni",defaultMessage:"[Non è stato definito alcun testo di guida]‎",defaultTitle:"Passare il mouse o fare clic per visualizzare la guida"});

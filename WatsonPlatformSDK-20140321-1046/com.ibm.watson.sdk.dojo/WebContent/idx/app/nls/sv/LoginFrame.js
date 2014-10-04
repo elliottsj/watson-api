@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/sv/LoginFrame",{loginTitle:"Logga in",labelUserName:"Användarnamn",labelPassword:"Lösenord",invalidMessageTitle:"Ogiltigt inloggningsförsök",invalidMessage:"Ett giltigt värde har inte angetts i båda fälten."});

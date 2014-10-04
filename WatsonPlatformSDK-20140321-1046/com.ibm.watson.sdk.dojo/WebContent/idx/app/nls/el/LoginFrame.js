@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/el/LoginFrame",{loginTitle:"Σύνδεση",labelUserName:"Όνομα χρήστη",labelPassword:"Κωδικός πρόσβασης",invalidMessageTitle:"Μη έγκυρη προσπάθεια σύνδεσης",invalidMessage:"Δεν καταχωρήθηκε έγκυρη τιμή και στα δύο απαραίτητα πεδία."});

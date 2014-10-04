@@ -1,0 +1,2 @@
+//>>built
+define("gridx/modules/exporter/_WriterAPI",["dojo"],function(_1){_1.declare("_WriterAPI",null,{beforeHeader:function(_2,_3){},handleHeaderCell:function(_4,_5){},afterHeader:function(_6,_7){},beforeBody:function(_8){},beforeProgress:function(_9,_a){},beforeRow:function(_b,_c){},handleCell:function(_d,_e){},afterRow:function(_f,_10){},afterProgress:function(_11,_12){},afterBody:function(_13){}});});

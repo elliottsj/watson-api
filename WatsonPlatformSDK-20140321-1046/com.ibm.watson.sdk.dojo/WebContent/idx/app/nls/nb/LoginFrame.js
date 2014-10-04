@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/nb/LoginFrame",{loginTitle:"Logg på",labelUserName:"Brukernavn",labelPassword:"Passord",invalidMessageTitle:"Ugyldig påloggingsforsøk",invalidMessage:"Det er ikke oppgitt en gyldig verdi i begge obligatoriske felt."});

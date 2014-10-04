@@ -1,0 +1,161 @@
+{
+	"question": {
+		"questionText": "Who is the president of the USA?",
+		"answers": [
+		{
+			"id": 0,
+			"text": "Barack Obama",
+			"confidence": 0.93598,
+			"evidence": [{
+				"title": "Barack Obama",
+				"text": "Barack Hussein Obama II (born August 4, 1961) is the 44th and current President of the United States, in office since 2009. He is the first African American to hold the office. Born in Honolulu, Hawaii, Obama is a graduate of Columbia University and Harvard Law School, where he was president of the Harvard Law Review. He was a community organizer in Chicago before earning his law degree. He worked as a civil rights attorney in Chicago and taught constitutional law at the University of Chicago Law School from 1992 to 2004. He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004, running unsuccessfully for the United States House of Representatives in 2000.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Barak_Obama",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"Another related link",
+						"url":"http://en.wikipedia.org/wiki/United_States"
+					}
+				]	
+			},
+			{
+				"title": "United States",
+				"text": "Government:  Federal presidential constitutional republic<br/> - President:  Barack Obama (D)<br/> - Vice President:  Joe Biden (D)<br/> - Speaker of the House:  John Boehner (R)<br/> - Chief Justice:  John Roberts",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/United_States",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"Another related link",
+						"url":"http://www.google.com"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 1,
+			"text": "George W. Bush",
+			"confidence": 0.3803,
+			"evidence": [{
+				"title": "George W. Bush",
+				"text": "George Walker Bush (born July 6, 1946) is an American politician and businessman who was the 43rd President of the United States from 2001 to 2009 and the 46th Governor of Texas from 1995 to 2000. The eldest son of Barbara and George H. W. Bush, he was born in New Haven, Connecticut. After graduating from Yale University in 1968 and Harvard Business School in 1975, Bush worked in oil businesses. He married Laura Welch in 1977 and ran unsuccessfully for the House of Representatives shortly thereafter. He later co-owned the Texas Rangers baseball team before defeating Ann Richards in the 1994 Texas gubernatorial election. Bush was elected president in 2000 after a close and controversial election, becoming the fourth president to be elected while receiving fewer popular votes nationwide than his opponent. Bush is the second president to have been the son of a former president, the first being John Quincy Adams. He is also the brother of Jeb Bush, former Governor of Florida.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/George_W._Bush",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]
+			}]
+		},
+		{
+			"id": 2,
+			"text": "Enrique Pena Nieto",
+			"confidence": 0.36376,
+			"evidence": [{
+				"title": "Enrique Pena Nieto",
+				"text": "Enrique Pena Nieto (born 20 July 1966) is the 57th and current President of Mexico, in office since 2012. He is a member of the Institutional Revolutionary Party (PRI) and was Governor of the State of Mexico from 2005 to 2011. Pena Nieto was declared President-elect after the 2012 general election was declared valid by the Federal Electoral Tribunal, amidst some accusations of electoral fraud. He assumed the office on 1 December 2012, succeeding Felipe Calderon as President, thereby marking the return to power of the party that ruled Mexican politics for 71 consecutive years.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Enrique_Pe%C3%B1a_Nieto",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"Another related link",
+						"url":"http://www.google.com"
+					}
+				]
+			}]
+		},
+		{
+			"id": 3,
+			"text": "Cristina Fernandez de Kirchner",
+			"confidence": 0.23091,
+			"evidence": [{
+				"title": "Cristina Fernandez de Kirchner",
+				"text": "Cristina Elisabet Fernandez de Kirchner (born 19 February 1953 in La Plata, Argentina), commonly known as Cristina Kirchner or CFK, is the 55th and current President of Argentina and the widow of former President Néstor Kirchner. She is Argentina's first elected female president, the second woman to hold the position (after Isabel Martínez de Peron, 1974–1976) and the first woman reelected to it. A Justicialist, Fernandez served one term as National Deputy and three terms as National Senator for both Santa Cruz and Buenos Aires provinces.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Cristina_Fern%C3%A1ndez_de_Kirchner",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"Another related link",
+						"url":"http://www.google.com"
+					}
+				]
+			}]
+		},
+		{
+			"id": 4,
+			"text": "Ginni Rometty",
+			"confidence": 0.20091,
+			"evidence": [{
+				"title": "Ginni Rometty",
+				"text": "Virginia Marie \"Ginni\" Rometty (born July 1957 or 1958) is an American business executive. She is the current Chairman and CEO of IBM, and the first woman to head the company. Prior to becoming president and CEO in January 2012 she held the position of Senior Vice President and Group Executive for Sales, Marketing, and Strategy at IBM. She has been named to Fortune magazine's \"50 Most Powerful Women in Business\" for eight consecutive years, ranking #1 for 2012, and she was ranked #15 on Forbes magazine's \"World's 100 Most Powerful Women\" for the same year. She was also named to the Time 100 in 2012, and was included in the 50 Most Influential list of Bloomberg Markets Magazine in September 2012.",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Ginni_Rometty",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"IBM Corporation",
+						"url":"http://www.ibm.com"
+					}
+				]
+			},
+			{
+				"title": "IBM",
+				"text": "Key people:  Ginni Rometty (Chairman, President, and CEO)",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/IBM",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					},
+					{
+						"label":"IBM.com",
+						"url":"http://www.ibm.com"
+					}
+				]
+			}
+			]
+		}]
+	}
+}

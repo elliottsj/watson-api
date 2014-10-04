@@ -1,0 +1,2 @@
+//>>built
+define("idx/gridx/modules/SummaryBar",["dojo/_base/declare","../support/Summary","../core/_Module","./Bar"],function(_1,_2,_3){return _1(_3,{name:"summaryBar",required:["bar"],preload:function(){this.grid.bar.defs.push({bar:"bottom",row:0,col:0,pluginClass:_2,className:"gridxBarSummary"});}});});

@@ -1,0 +1,31 @@
+<div class="questionInputWithDialoging questionInputArea">
+	<table class="questionInputTable" data-dojo-attach-point="questionInputTableAttachPoint">
+		<tr class="questionInputRow">
+			<td class="questionInputCell">
+				<table class="dialogContainerTable" data-dojo-attach-point="dialogContainerTableAttachPoint">
+					<tr class="dialogContainerRow">
+						<td class="dialogContainerCell">
+							<div data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="design:'sidebar',gutters:false"  data-dojo-attach-point="questionInputTextAreaAttachPoint">
+								<div data-dojo-type="dijit.layout.ContentPane" class="questionInputContentPane" data-dojo-props="region:'top', splitter:'true'" >
+									<div id="questionInputTextId" class="questionInputText instructionsMessage" onkeypress="if(event.keyCode==13 && event.shiftKey===false){ return false;}" data-dojo-attach-event="onfocus:_inputOnFocus, onblur:_inputFocusLost"contenteditable="true" data-dojo-attach-point="questionInputTextAttachPoint">${enterQuestionText}</div>
+								</div>
+								<div data-dojo-type="dijit.layout.ContentPane" class="questionHistoryContentPane" data-dojo-props="region:'center'">
+									<div class="questionHistoryDiv" data-dojo-attach-point="questionHistoryDivAttachPoint">
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td class="questionHistoryCell">
+				<div class="historyMenuContainer">
+					<div class="askButton" data-dojo-attach-event="onclick:_askQuestion"><span class="buttonText">Ask</span></div>
+					<div class="clearButton"  data-dojo-attach-event="onclick:_clearQuestion"><span class="buttonText">New Question</span></div>
+					<div class="historyButton" data-dojo-attach-event="onclick:_showHistory"><span class="buttonText">History...</span></div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div data-dojo-type="com.ibm.watson.ui.ErrorDialogHandler"></div>
+</div>

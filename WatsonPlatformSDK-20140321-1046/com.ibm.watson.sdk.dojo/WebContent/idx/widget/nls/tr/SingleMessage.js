@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/tr/SingleMessage",{viewAll:"Tümünü Görüntüle ({num})",viewDetails:"Diğer Ayrıntılar",refresh:"Yenile",showDetails:"Ayrıntıları Göster",hideDetails:"Ayrıntıları Gizle"});

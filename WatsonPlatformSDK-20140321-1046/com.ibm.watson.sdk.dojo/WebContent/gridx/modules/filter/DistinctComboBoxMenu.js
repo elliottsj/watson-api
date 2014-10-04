@@ -1,0 +1,2 @@
+//>>built
+define("gridx/modules/filter/DistinctComboBoxMenu",["dojo","dijit","dijit/form/_ComboBoxMenu"],function(_1,_2){_1.declare("gridx.modules.filter.DistinctComboBoxMenu",_2.form._ComboBoxMenu,{createOptions:function(_3,_4,_5){var _6={};arguments[0]=_3.filter(function(_7){var _8=_5(_7).label;if(_6[_8]){return false;}else{return _6[_8]=true;}});this.inherited(arguments);}});return gridx.modules.filter.DistinctComboBoxMenu;});

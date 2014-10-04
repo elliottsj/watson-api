@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/zh/ModalDialog",{Error:"错误",Warning:"警告",Information:"信息",Success:"成功",Confirmation:"确认",Question:"问题",closeButtonLabel:"关闭",cancelButtonLabel:"取消",executeButtonLabel:"确定",checked:"不再询问"});

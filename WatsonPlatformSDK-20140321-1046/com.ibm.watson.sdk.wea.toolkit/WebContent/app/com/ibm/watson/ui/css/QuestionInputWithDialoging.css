@@ -1,0 +1,299 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* Licensed Materials - Property of IBM                              */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          */
+/*                                                                   */
+/* US Government Users Restricted Rights - Use, duplication or       */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. */
+/*                                                                   */
+/* ***************************************************************** */
+
+.questionInputWithDialoging.questionInputArea{
+	width:100%;
+	height:100%;
+	border-bottom:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#767676;
+	background: -moz-linear-gradient(top, #D2D2D2, #999999);
+    background-image: -webkit-linear-gradient(top, #D2D2D2, #999999); 
+    background-image: -o-linear-gradient(top, #D2D2D2, #999999);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2D2D2, endColorstr=#999999)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2D2D2, endColorstr=#999999);
+}
+
+.oneui .questionInputWithDialoging.questionInputArea .dijitLayoutContainer .dijitSplitterH, .oneui .questionInputWithDialoging.questionInputArea .dijitLayoutContainer .dijitSplitterHHover {
+    background-color: transparent;
+    background:none;
+    background-image:none; 
+    height: 5px;
+    filter: none;
+}
+
+.questionInputWithDialoging .questionInputTable{
+	width:100%;
+	border-collapse:collapse;
+}
+
+.questionInputWithDialoging .questionInputContentPane{
+	box-shadow: 0 4px 4px #999999 inset;
+	height: 18px;
+	width: 100%; 
+	background-color:#FFFFFF;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top:5px;
+	padding-left:0px
+}
+
+.questionInputWithDialoging .questionHistoryContentPane{
+	box-shadow: 0 4px 4px #999999 inset;
+	width:100%; 
+	background-color:#FFFFFF;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top:5px;
+	padding-left:0px;
+	overflow:hidden;
+}
+
+.questionInputWithDialoging .questionHistoryContentPane .questionHistoryDiv{
+	margin-left:1px;
+	overflow:auto;
+	height:100%;
+}
+
+.questionInputWithDialoging .questionHistoryContentPane .questionHistoryDiv .inputQuestionInHistory{
+	padding-left:9px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.questionInputWithDialoging .questionHistoryContentPane .questionHistoryDiv .inputQuestionInHistory .inputQuestionInHistoryText{
+	
+}
+
+.questionInputWithDialoging .questionHistoryContentPane .questionHistoryDiv .followUpInHistory{
+	padding-left:9px;
+	padding-top:2px;
+	padding-bottom:2px;
+	background-color:#F0F0F0;
+}
+
+.questionInputWithDialoging .questionHistoryContentPane .questionHistoryDiv .followUpInHistoryText{
+	font-style: italic;
+	color:#0D6DA6;
+}
+
+
+.questionInputWithDialoging .questionInputCell{
+	padding:15px;
+}
+
+.questionInputWithDialoging .questionInputTextArea{
+	background-color:#FFFFFF;
+	box-shadow: 0 5px 5px #666666 inset;
+}
+
+.questionInputWithDialoging .questionInputText {
+    background-color: transparent;
+    overflow: auto;
+    padding-left:10px;
+	padding-right:0px;
+	height:100%;
+	width:auto;
+	position:static;
+	left:auto;
+	top:auto;
+}
+
+.questionInputWithDialoging .questionInputText.instructionsMessage{
+	color:#666666;
+	font-style: italic;
+}
+
+.questionInputWithDialoging .questionInputText.disabled {
+	background-color:#E6E6E6;
+}
+
+.questionInputWithDialoging .clearQuestionIcon{
+	background-image: url("/watson/wicc/images/clear_normal.png");
+    cursor: pointer;
+    height: 16px;
+    margin-top: 10px;
+    position: absolute;
+    right: 75px;
+    top: 15px;
+    width: 16px;
+}
+
+.questionInputWithDialoging .clearQuestionIcon:hover{
+	background-image: url("/watson/wicc/images/clear_hover.png");
+}
+
+.questionInputWithDialoging .questionHistoryCell{
+	width:115px;
+	padding-top: 15px;
+    vertical-align: top;
+    padding-left:0px;
+}
+
+.questionInputWithDialoging .historyMenuContainer{
+	cursor:pointer;	
+}
+
+.questionInputWithDialoging .questionInputHistoryDivider{
+	width:2px;
+	padding:0px;
+}
+
+.questionInputWithDialoging .questionInputArea .leftDivider{
+	width:1px;
+	height:100%;
+	display:inline-block;
+	background-color:#767676;
+	padding:0px;
+}
+
+.questionInputWithDialoging .questionInputArea .rightDivider{
+	width:1px;
+	height:100%;
+	display:inline-block;
+	background-color:#B5B5B5;
+	padding:0px;
+}
+
+.questionInputWithDialoging .historyIcon{
+	background: url("/watson/wicc/images/History_Icon_36.png");
+	background-repeat:no-repeat;
+	height:36px;
+	width:36px;	
+	margin-left:7px;
+}
+
+.questionInputWithDialoging .historyChevron{
+	background: url("/watson/wicc/images/Chevron_14x9.png");
+	background-repeat:no-repeat;
+	width:14px;
+	height:9px;	
+	margin-left:17px;
+	margin-top:5px;
+}
+
+.questionInputWithDialoging .questionHistoryCell .askButton{
+	background-color:#008ABF;
+	background: -moz-linear-gradient(top, #008ABF, #085884);
+    background-image: -webkit-linear-gradient(top, #008ABF, #085884); 
+    background-image: -o-linear-gradient(top, #008ABF, #085884);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#008ABF, endColorstr=#085884)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#008ABF, endColorstr=#085884);
+    border:1px solid #0A5F8E;
+    color:#FFFFFF;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.35);
+    margin-bottom: 3px;
+    text-align: center;
+    width: 95px;
+    border-radius: 3px 3px 3px 3px;
+    height:25px;
+    font-weight:bold;
+}
+
+.questionInputWithDialoging .questionHistoryCell .askButton:hover{
+	background: -moz-linear-gradient(top, #1a95c5, #206b93);
+    background-image: -webkit-linear-gradient(top, #1a95c5, #206b93); 
+    background-image: -o-linear-gradient(top, #1a95c5, #206b93);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1a95c5, endColorstr=#206b93)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1a95c5, endColorstr=#206b93);
+}
+
+.questionInputWithDialoging .questionHistoryCell .askButton:active{
+	background: -moz-linear-gradient(top, #085884, #008ABF);
+    background-image: -webkit-linear-gradient(top, #085884, #008ABF); 
+    background-image: -o-linear-gradient(top, #085884, #008ABF);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#008ABF, endColorstr=#008ABF)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#085884, endColorstr=#008ABF); 
+}
+
+.questionInputWithDialoging .questionHistoryCell .clearButton{
+	background-color:#3f3f3f;
+	background: -moz-linear-gradient(top, #3f3f3f, #1f1f1f);
+    background-image: -webkit-linear-gradient(top, #3f3f3f, #1f1f1f); 
+    background-image: -o-linear-gradient(top, #3f3f3f, #1f1f1f);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3f3f3f, endColorstr=#1f1f1f)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3f3f3f, endColorstr=#1f1f1f);
+    border:1px solid #454545;
+    color:#FFFFFF;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.35);
+    margin-bottom: 3px;
+    text-align: center;
+    width: 95px;
+    border-radius: 3px 3px 3px 3px;
+    height:25px;
+}
+
+.questionInputWithDialoging .questionHistoryCell .clearButton:hover{
+	background: -moz-linear-gradient(top, #515151, #2d2d2e);
+    background-image: -webkit-linear-gradient(top, #515151, #2d2d2e); 
+    background-image: -o-linear-gradient(top, #515151, #2d2d2e);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#515151, endColorstr=#2d2d2e)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#515151, endColorstr=#2d2d2e);
+}
+
+.questionInputWithDialoging .questionHistoryCell .clearButton:active{
+	background: -moz-linear-gradient(top, #1f1f1f, #3f3f3f);
+    background-image: -webkit-linear-gradient(top, #1f1f1f, #3f3f3f); 
+    background-image: -o-linear-gradient(top, #1f1f1f, #3f3f3f);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1f1f1f, endColorstr=#3f3f3f)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1f1f1f, endColorstr=#3f3f3f);
+}
+
+.questionInputWithDialoging .questionHistoryCell .historyButton{
+	background-color:#3f3f3f;
+	background: -moz-linear-gradient(top, #3f3f3f, #1f1f1f);
+    background-image: -webkit-linear-gradient(top, #3f3f3f, #1f1f1f); 
+    background-image: -o-linear-gradient(top, #3f3f3f, #1f1f1f);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3f3f3f, endColorstr=#1f1f1f)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3f3f3f, endColorstr=#1f1f1f);
+    border:1px solid #454545;
+    color:#FFFFFF;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.35);
+    text-align: center;
+    width: 95px;
+    border-radius: 3px 3px 3px 3px;
+    height:25px;
+}
+
+.questionInputWithDialoging .questionHistoryCell .historyButton:hover{
+	background: -moz-linear-gradient(top, #515151, #2d2d2e);
+    background-image: -webkit-linear-gradient(top, #515151, #2d2d2e); 
+    background-image: -o-linear-gradient(top, #515151, #2d2d2e);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#515151, endColorstr=#2d2d2e)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#515151, endColorstr=#2d2d2e);
+}
+
+.questionInputWithDialoging .questionHistoryCell .historyButton:active{
+	background: -moz-linear-gradient(top, #1f1f1f, #3f3f3f);
+    background-image: -webkit-linear-gradient(top, #1f1f1f, #3f3f3f); 
+    background-image: -o-linear-gradient(top, #1f1f1f, #3f3f3f);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1f1f1f, endColorstr=#3f3f3f)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1f1f1f, endColorstr=#3f3f3f);
+}
+
+.questionInputWithDialoging .questionHistoryCell .buttonText{
+	position:relative;
+	top:4px;
+}
+
+.questionInputWithDialoging .dialogContainerTable{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.questionInputWithDialoging .dialogContainerRow{
+	width: 100%;
+}
+
+.questionInputWithDialoging .dialogContainerCell{
+	width: auto;
+	padding: 0px;
+}

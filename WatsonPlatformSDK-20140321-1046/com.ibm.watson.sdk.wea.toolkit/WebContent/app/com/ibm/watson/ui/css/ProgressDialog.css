@@ -1,0 +1,242 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* Licensed Materials - Property of IBM                              */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          */
+/*                                                                   */
+/* US Government Users Restricted Rights - Use, duplication or       */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. */
+/*                                                                   */
+/* ***************************************************************** */
+ .deepqa.progress_div, .deepqa.progress_dialog{
+ 	display:none;
+  	width: 310px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    opacity: 0;
+    -webkit-transition: opacity 0.25s linear;
+    -ms-transition: opacity 0.25s linear;
+    -moz-transition: opacity 0.25s linear;
+    -o-transition: opacity 0.25s linear;
+ }
+
+.deepqa.progress_dialog {
+    height: 0;
+    position: fixed;
+    top: 50%;
+    margin: -175px 0 0 -165px;
+    left: 50%;
+    z-index: 3000;
+}
+
+.deepqa.progress_dialog.open, .deepqa.progress_div.open {
+    opacity: 1;
+    display: block;
+}
+
+.deepqa.progress_dialog .close{
+    background: url("../images/BasicQA_Sprite-Progress.png") 0px -380px;
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    right: 6px;
+    top: -2px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.deepqa.progress_dialog .close:hover {
+    background-position: 0px -410px;
+}
+
+.deepqa.progress_dialog .close:active {
+    background-position: 0px -440px;
+}
+
+.deepqa.progress_dialog .animation, .deepqa.progress_div .animation {
+    background: url('../images/Avatar_150.gif');
+    width: 150px;
+    height: 150px;
+    margin: 0px auto;
+    position: relative;
+    top: -10px;
+}
+
+.deepqa.progress_dialog .indicator, .deepqa.progress_div .indicator {
+	background: url("../images/BasicQA_Sprite-Progress.png") 0px -470px;
+    height: 10px;
+    width: 197px;
+    margin: 15px auto;
+}
+
+.deepqa.progress_dialog.twenty .indicator, .deepqa.progress_div.twenty .indicator {
+    background-position: 0px -480px;
+}
+
+.deepqa.progress_dialog.forty .indicator, .deepqa.progress_div.forty .indicator {
+    background-position: 0px -490px;
+}
+
+.deepqa.progress_dialog.sixty .indicator, .deepqa.progress_div.sixty .indicator {
+    background-position: 0px -500px;
+}
+
+.deepqa.progress_dialog.eighty .indicator, .deepqa.progress_div.eighty .indicator {
+    background-position: 0px -510px;
+}
+
+.deepqa.progress_dialog.onehundred .indicator, .deepqa.progress_div.onehundred .indicator{
+    background-position: 0px -520px;
+}
+
+.deepqa.progress_dialog .cancel, .deepqa.progress_div .cancel{
+	background:none;
+    height: 30px;
+    margin: auto;
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.deepqa.progress_dialog .cancel.cancelButton, .deepqa.progress_div .cancel.cancelButton{
+	margin: auto;
+}
+
+.deepqa.progress_dialog .cancel.cancelButton .in_progress_cell, .deepqa.progress_div .cancel.cancelButton .in_progress_cell{
+	vertical-align:top;
+}
+
+.deepqa.progress_div .cancel .in_progress, .deepqa.progress_dialog .cancel .in_progress{
+	background: url("../images/BasicQA_Sprite-Progress.png")  0px -562px;
+    display: inline-block;
+    position: relative;
+    padding-right: 5px;
+    padding-left:5px;
+}
+
+.deepqa.progress_dialog .cancel .left_border, .deepqa.progress_div .cancel .left_border{
+	background: url("../images/BasicQA_Sprite-Progress.png") 0px -531px;
+	height: 30px;
+	width: 5px;
+	display: inline-block;
+    position: relative;
+}
+
+
+.deepqa.progress_dialog .cancel .right_border, .deepqa.progress_div .cancel .right_border{
+	background: url("../images/BasicQA_Sprite-Progress.png");
+ 	background-position: 0 -593px;
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    width: 5px;
+}
+
+.deepqa.progress_dialog .cancel:hover .in_progress, .deepqa.progress_div .cancel:hover .in_progress {
+    background-position: 0px -654px;
+}
+
+.deepqa.progress_dialog .cancel:hover .left_border, .deepqa.progress_div .cancel:hover .left_border {
+    background-position: 0px -623px;
+}
+
+.deepqa.progress_dialog .cancel:hover .right_border, .deepqa.progress_div .cancel:hover .right_border {
+    background-position: 0px -685px;
+}
+
+.deepqa.progress_dialog .cancel:active .in_progress, .deepqa.progress_div .cancel:active .in_progress
+{
+    background-position: 0px -747px;
+}
+
+.deepqa.progress_dialog .cancel:active .left_border, .deepqa.progress_div .cancel:active .left_border{
+    background-position: 0px -716px;
+}
+
+.deepqa.progress_dialog .cancel:active .right_border, .deepqa.progress_div .cancel:active .right_border {
+    background-position: 0px -778px;
+}
+
+.progressDivClass .left, .progressDivClass .right{
+	width:35px
+}
+.progressDivClass .progressBackground{
+	background: url("../images/BasicQA_Sprite-ProgressBG.png");
+	height:35px;
+	width:35px;
+	background-position:0px 0px; 
+	display: inline-block;
+}
+
+.deepqa.progress_div .topLeft, .deepqa.progress_dialog .topLeft{
+	vertical-align:bottom
+}
+
+.deepqa.progress_div .topCenter, .deepqa.progress_dialog .topCenter{
+	width:100%;
+	background-position: 0px -70px; 
+	vertical-align:bottom;
+}
+
+.deepqa.progress_div .topRight, .deepqa.progress_dialog .topRight{
+	background-position:0px -35px;
+	vertical-align:bottom;
+}
+
+.deepqa.progress_div .centerLeft, .deepqa.progress_dialog .centerLeft{
+	background: url("../images/progress_left.png");
+	background-repeat:repeat-y;
+	height:100%; 
+	width:35px;
+}
+
+.deepqa.progress_div .center, .deepqa.progress_dialog .center{
+	background-color:black;
+	height:100%; 
+	width:100%;
+}
+
+.deepqa.progress_div .centerRight, .deepqa.progress_dialog .centerRight{
+	background: url("../images/progress_right.png");
+	background-repeat:repeat-y;
+	height:100%; 
+	width:35px;
+}
+
+.deepqa.progress_div .bottomLeft, .deepqa.progress_dialog .bottomLeft{
+	background-position:0px -210px;
+}
+
+.deepqa.progress_div .bottomCenter, .deepqa.progress_dialog .bottomCenter{
+	width:100%;
+	background-position:0px -280px;
+}
+
+.deepqa.progress_div .bottomRight, .deepqa.progress_dialog .bottomRight{
+	position:relative;
+	background-position:0px -245px;
+}
+
+.progressDivTopRowClass td, .progressDivBottomRowClass td{
+	height:35px;
+}
+
+.progressDivClass{
+	height:100%;
+	width:100%;
+	border-collapse:collapse;
+}
+
+.progressDivClass td{
+	padding:0px;
+	vertical-align:bottom;
+}
+
+.progressDivTopRowClass{
+	vetical-align:bottom;
+}
+

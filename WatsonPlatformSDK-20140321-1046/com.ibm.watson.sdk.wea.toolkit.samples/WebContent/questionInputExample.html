@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+
+<html>
+	<head>   
+	
+		<link rel='stylesheet' href='/dojo/dijit/themes/tundra/tundra.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/dijit/themes/claro/claro.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/themes/oneui/oneui.css' type='text/css'></link>
+		<link rel='stylesheet' href='/watson/app/com/ibm/watson/ui/css/theme.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/gridx/resources/claro/Gridx.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/gridx/resources/claro/Gridx_rtl.css' type='text/css'></link>
+		<link rel='stylesheet' href='css/weaSampleTheme.css' type='text/css'></link>
+		
+		<script type="text/javascript">   
+	        var dojoConfig = {
+	        	paths: {
+					"com/ibm/watson/ui":"/watson/app/com/ibm/watson/ui"
+				},
+	        	packages: [{
+					name:"idx",
+					location:"/dojo/idx"
+				}]
+			};
+	        
+	        
+		</script>
+		
+		<script type="text/javascript" src="/dojo/dojo/dojo.js" data-dojo-config="async:true"></script>
+
+		<script type="text/javascript">
+	        
+	        require(["dojo/parser", 
+	                 "com/ibm/watson/ui/QuestionInput",
+	                 "com/ibm/watson/ui/HistoryDialog",
+	                 "dijit/form/SimpleTextarea",
+	                 "dijit/form/CheckBox"
+				], function (parser) {
+						parser.parse();
+					}
+			);
+	        
+	        require(["dojo/topic",
+	                 "dijit/form/SimpleTextarea",
+	                 "com/ibm/watson/ui/constants/PubSubTopics",
+	                 "dojo/domReady!"
+	            ], function(topic, dom, watsonUiTopics){
+	        			topic.subscribe(watsonUiTopics.WATSON_QI_ANSWERS_RETRIEVED, function(answers){
+		        			var ta = dijit.byId("resultTxt1");
+	        				var nt = "AnswersRetrieved: ";
+	        				var confVal = 0.0;
+	        				var canFormat = (confVal.toFixed) ? true : false;
+	        				if ((answers != null) && answers.length){
+	        					for (i = 0; i < answers.length; i++){
+	        						confVal = answers[i].confidence * 100;
+	        						if (canFormat){
+	        							confVal = confVal.toFixed(2);
+	        						}
+	        						nt = nt + "\n\n  (ans "+ (i+1) + ") " + answers[i].text + " [conf = " + confVal + "%]";
+	        						if (answers[i].evidence != null){
+		        						if (answers[i].evidence.length){
+		        							for (j = 0; j < answers[i].evidence.length; j++){
+		        								nt = nt + "\n     [ev " + (j+1) +"] " + answers[i].evidence[j].title;
+		        							}
+		        						} else {
+		        							nt = nt + "\n     [answer( "+ (i+1) + ") has zero evidence items]";
+		        						}
+	        						} else {
+	        							nt = nt + "\n     [answer( "+ (i+1) + ") has null evidence]";
+	        						}
+	        					}
+	        				} else {
+	        					nt = nt + "received answer set with zero entries";
+	        				}
+	        				console.log(nt);
+	        				var t = ta.get("value");
+	        				if (t != null){
+	        					t = t + "\n";
+	        				}
+	        				t = t + nt;
+	        				ta.set("value", t);
+	        			});
+	        			topic.subscribe(watsonUiTopics.WATSON_PROGRESS_OPEN, function(text){
+		        			var ta = dijit.byId("resultTxt1");
+	        				var nt = "New Question (Show Progress)";
+	        				console.log(nt);
+	        				var autoclr = dijit.byId("cbAutoClr");
+	        				var bClr = autoclr.get("value");
+	        				if (bClr == false){
+		        				var t = ta.get("value");
+		        				if (t != null && t != ""){
+		        					t = t + "\n\n\n";
+		        				}
+		        				t = t + nt;
+		        				ta.set("value", t);
+	        				} else {
+	        					ta.set("value", nt);
+	        				}
+	        			});
+	        });
+		</script>
+
+	</head>
+	
+	<body class="oneui claro wea_sample_page" style="padding-bottom:100px;background-color:none;height:auto;width:75%;margin-left:10%">
+		
+		<p></p>
+		<div class="pageTitle">Question Input Control 
+		</div>
+		<hr/>
+	
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:20px">
+			<legend class="fieldLegend">A questionInput Widget: </legend>
+			<div style="height:101px" >
+				<!--  use url /watson/wea/api/weaQuestion for direct to wea toolkit proxy, or /watson/weaSample/api/weaQuestion to hit the sample proxy (some canned answers) -->
+				<div id="qiOne" data-dojo-type="com.ibm.watson.ui.QuestionInput" 
+					data-dojo-props="url:'/watson/weaSample/api/weaQuestion',
+									numberAnswers:'4',
+									numberEvidence:'2'"></div> 
+			</div>
+			<div data-dojo-type="com.ibm.watson.ui.HistoryDialog"></div>
+			
+			<br/>
+			Processing progress and results:
+			<br/>
+			<textarea id="resultTxt1" name="resultTxt1" data-dojo-type="dijit.form.SimpleTextarea" rows="10" cols="50" style="width:98%"></textarea><br/>
+			<button data-dojo-type="dijit.form.Button" type="button" style="margin-top:10px">Clear Results
+				<script type="dojo/method" data-dojo-event="onClick" data-dojo-args="evt">
+					var ta = dijit.byId("resultTxt1");
+					ta.set("value", "");
+				</script>
+			</button>
+			<button data-dojo-type="dijit.form.Button" type="button" style="margin-top:10px">Cancel Question
+				<script type="dojo/method" data-dojo-event="onClick" data-dojo-args="evt">
+					var ta = dijit.byId("qiOne");
+					ta.cancelQuestion();
+				</script>
+			</button>
+			<span style="float:right; margin-top:10px">
+				<input id="cbAutoClr" name="cbAutoClr" data-dojo-type="dijit.form.CheckBox" checked> <label for="cbAutoClr">Automatically Clear Results</label>
+			</span>
+		</fieldset>
+		<br>
+	</body>
+	
+</html>

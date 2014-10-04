@@ -1,0 +1,29 @@
+<div class="dijit dijitReset" 
+	><div class="idxMessageHead"
+		><span id="${id}_title" style="position: absolute;clip: rect(0px 0px 0px 0px);" >${type} type message</span
+		><div class="dijitInline idxMessageIcon" tabIndex="${tabIndex}" dojoAttachPoint="iconNode" dojoAttachEvent="onmouseenter: onIconEnter, onmouseleave: onIconLeave" aria-labelledby="${id}_title"
+			><span id="${id}_type" dojoAttachPoint="typeNode" class="idxMessageIconText idxMessageContent idxMessageAltText"></span
+		></div
+		><span class="dijitInline idxMessageContent" dojoAttachPoint="focusNode" dojoAttachEvent="ondijitclick: _onClick" tabIndex="${tabIndex}" role="button" aria-describedby="${id}_messageTitle"
+			><span class="dijitInline idxMessageTitle" dojoAttachPoint="titleNode" id="${id}_messageTitle"></span
+			><span class="dijitInline idxMessageId messagesContrast" dojoAttachPoint="idNode"></span
+		></span
+		><span class="idxMessageFakeContent" dojoAttachPoint="fakeFocusNode" tabIndex="${tabIndex}" dojoAttachEvent="ondijitclick: _onClick" role="button" aria-describedby="${id}_messageFakeTitle"
+			><span class="idxMessageTitle" dojoAttachPoint="fakeTitleNode" id="${id}_messageFakeTitle"></span
+			><span class="idxMessageId messagesContrast" dojoAttachPoint="fakeIdNode"></span
+		></span
+		><div class="dijitInline idxMessageRightAligned" dojoAttachPoint="infoNode"
+			><div class="dijitInline idxMessageTimestamp messagesContrast" dojoAttachPoint="timestampNode">03 March 2011  12:00 PM</div
+			><div class="dijitInline idxMessageSeparator" dojoAttachPoint="separatorNode">|</div
+			><a class="dijitInline idxMessageAction" tabIndex="${tabIndex}" dojoAttachPoint="actionNode" role="button" dojoAttachEvent="ondijitclick: onAction" href="javascript: void(0);"></a
+			><div class="dijitInline idxMessageCloseIcon" role="button" tabIndex="${tabIndex}" dojoAttachEvent="ondijitclick: _onClose" dojoAttachPoint="closeNode"><span class="idxMessageContent idxMessageAltText">X</span></div
+		></div
+	></div
+	><div class="idxMessageSplitter" src="${_blankGif}"></div
+><div class="idxMessageBody" dojoAttachPoint="bodyNode" role="document" aria-label="${id}_detailedMessage"
+	><span class="idxMessageDetail" dojoAttachPoint="descriptionNode" tabIndex="${tabIndex}"></span
+	><a class="idxMessageViewDetails" tabIndex="${tabIndex}" dojoAttachPoint="viewDetailsNode" href="javascript: void(0);" dojoAttachEvent="ondijitclick: onMoreDetails"></a
+></div
+><div class="idxMessageRefresh"
+	><span tabIndex="${tabIndex}" dojoAttachPoint="refreshNode" dojoAttachEvent="ondijitclick: onRefresh" role="button"></span
+></div></div>

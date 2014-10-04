@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+
+<html>
+	<head>
+
+		<link rel='stylesheet' href='/dojo/dijit/themes/tundra/tundra.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/dijit/themes/claro/claro.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/themes/oneui/oneui.css' type='text/css'></link>
+		<link rel='stylesheet' href='/watson/app/com/ibm/watson/ui/css/theme.css' type='text/css'></link>
+		<link rel="stylesheet" type="text/css" href="/dojo/dijit/themes/dijit.css"></link>	
+		<link rel='stylesheet' href='css/weaSampleTheme.css' type='text/css'></link>
+
+		<script type="text/javascript">   
+	        var dojoConfig = {
+	        	paths: {
+					"com/ibm/watson/ui":"/watson/app/com/ibm/watson/ui"
+				}
+			};
+		</script>	
+		
+		<script type="text/javascript" src="/dojo/dojo/dojo.js" data-dojo-config="async:true"></script>
+		
+
+		<script type="text/javascript">
+	        
+	        require(["dojo/parser", 
+				"com/ibm/watson/ui/ProgressDialog",
+				"com/ibm/watson/ui/ProgressMonitor",
+				"dijit/form/TextBox",
+				"dijit/form/HorizontalSlider",
+				"dijit/form/HorizontalRuleLabels",
+				"dijit/form/HorizontalRule",
+				"dijit/form/Slider",
+				"dijit/Declaration"
+				], function (parser, progressDialog) {
+						parser.parse();
+					}
+			);
+		
+			function popupProgressDialog(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var elem = document.getElementById("dialogStatusMessageField");
+							if(null != elem && elem!=undefined){
+								topic.publish(PubSubTopics.WATSON_PROGRESS_OPEN, elem.value);
+							}
+						}
+					);
+			}
+			
+			function displayProgressDiv(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var elem = document.getElementById("divStatusMessageField");
+							if(null != elem && elem!=undefined){
+								topic.publish("openTopicId", elem.value);
+							}
+						}
+					);
+			}
+			
+			function updateProgressDivStatus(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var elem = document.getElementById("divStatusMessageField");
+							if(null != elem && elem!=undefined){
+								topic.publish("statusTopicId", elem.value);
+							}
+						}
+					);
+			}
+			
+			function updateProgressDivProgress(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var value = dijit.byId("horizontalSlider").value;
+							if(null != value && value!=undefined){
+								topic.publish("progressTopicId", value);
+							}
+						}
+					);
+			}
+			
+			function displayFlashProgressDiv(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var elem = document.getElementById("divStatusMessageField2");
+							if(null != elem && elem!=undefined){
+								topic.publish("flashOpenTopicId", elem.value);
+							}
+						}
+					);
+			}
+			
+			function updateFlashProgressDivStatus(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var elem = document.getElementById("divStatusMessageField2");
+							if(null != elem && elem!=undefined){
+								topic.publish("flashStatusTopicId", elem.value);
+							}
+						}
+					);
+			}
+			
+			function updateFlashProgressDivProgress(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var value = dijit.byId("horizontalSlider2").value;
+							if(null != value && value!=undefined){
+								topic.publish("flashProgressTopicId", value);
+							}
+						}
+					);
+			}
+			
+			function displayFlashProgressDiv2(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var elem = document.getElementById("divStatusMessageField3");
+							if(null != elem && elem!=undefined){
+								topic.publish("flashOpenTopicId2", elem.value);
+							}
+						}
+					);
+			}
+			
+			function updateFlashProgressDivStatus2(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var elem = document.getElementById("divStatusMessageField3");
+							if(null != elem && elem!=undefined){
+								topic.publish("flashStatusTopicId2", elem.value);
+							}
+						}
+					);
+			}
+			
+			function updateFlashProgressDivProgress2(){
+				require(["com/ibm/watson/ui/constants/PubSubTopics", 
+						"dojo/topic"], 
+						function(PubSubTopics, topic){
+							var value = dijit.byId("horizontalSlider3").value;
+							if(null != value && value!=undefined){
+								topic.publish("flashProgressTopicId2", value);
+							}
+						}
+					);
+			}
+			
+			
+		</script>
+
+
+</head>
+
+<body class="oneui claro wea_sample_page" style="padding-bottom:100px;background-color:none;height:auto;width:75%;margin-left:10%"">
+  
+	<p></p>
+	<div class="pageTitle">Progress Dialog and Div Controls 
+	</div>
+	<hr/>
+
+	<fieldset
+		style="padding-top: 20px; padding-bottom: 20px; margin-top: 30px">
+		<legend  class="fieldLegend">Enter a status message to display and click the button to bring up the progress dialog</legend>
+		<div>
+			Status Message: <input id="dialogStatusMessageField" dojotype="dijit.form.TextBox">
+			<button id="getEvidenceBtn" style="margin-top:10px" onclick="popupProgressDialog()">Open Progress Dialog</button>
+		</div>
+	</fieldset>
+	
+	<fieldset
+		style="padding-top: 20px; padding-bottom: 20px; margin-top: 30px">
+		<legend  class="fieldLegend">Enter a status message to display and click the button to bring up the progress div</legend>
+		<div>
+			Status Message: <input id="divStatusMessageField" dojotype="dijit.form.TextBox">
+			<div style="margin-top:10px">
+			<button onclick="displayProgressDiv()">Open Dialog With Status</button>
+			<button onclick="updateProgressDivStatus()">Update Dialog Status</button>
+			</div>
+			<br>Set progress 
+			
+			<div id="horizontalSlider" data-dojo-type="dijit.form.HorizontalSlider"
+    				value="0" minimum="0" maximum="100" discreteValues="6" intermediateChanges="true"
+    				showButtons="true" style="width:400px;" name="horizontalSlider" onChange="updateProgressDivProgress()">
+				<ol data-dojo-type="dijit.form.HorizontalRuleLabels" container="topDecoration"
+      				style="height:1.5em;font-size:75%;color:gray;">
+				    <li>0%</li>
+				    <li>20%</li>
+				    <li>40%</li>
+				    <li>60%</li>
+				    <li>80%</li>
+				    <li>100%</li>
+				  </ol>
+  			</div>
+			<div data-dojo-type="com.ibm.watson.ui.ProgressMonitor" data-dojo-props="openTopic:'openTopicId',statusTopic:'statusTopicId',divId:'displayProgressHere',cancelTopic:'cancelTopicId',progressTopic:'progressTopicId'"></div>
+	</fieldset>
+
+	<fieldset
+		style="padding-top: 20px; padding-bottom: 20px; margin-top: 30px">
+		<legend  class="fieldLegend">Progress Div with looping progress bar</legend>
+		<div>
+			Status Message: <input id="divStatusMessageField2" dojotype="dijit.form.TextBox">
+			<div style="margin-top:10px">
+			<button onclick="displayFlashProgressDiv()">Open Flash Dialog With Status</button>
+			<button onclick="updateFlashProgressDivStatus()">Update Flash Dialog Status</button>
+			</div>
+		</div>
+		<div data-dojo-type="com.ibm.watson.ui.ProgressMonitor" data-dojo-props="openTopic:'flashOpenTopicId',statusTopic:'flashStatusTopicId',divId:'displayFlashProgressHere',cancelTopic:'flashCancelTopicId',progressTopic:'flashProgressTopicId',loopProgress:'true'"></div>
+	</fieldset>
+	
+	<fieldset
+		style="padding-top: 20px; padding-bottom: 20px; margin-top: 30px">
+		<legend  class="fieldLegend">Progress Div that shows the percent done</legend>
+		<div>
+			Status Message: <input id="divStatusMessageField3" dojotype="dijit.form.TextBox">
+			<div style="margin-top:10px">
+			<button onclick="displayFlashProgressDiv2()">Open Flash Dialog With Status</button>
+			<button onclick="updateFlashProgressDivStatus2()">Update Flash Dialog Status</button>
+			</div>
+			<br>Set progress 
+			
+			<div id="horizontalSlider3" data-dojo-type="dijit.form.HorizontalSlider"
+    				value="0" minimum="0" maximum="100" discreteValues="6" intermediateChanges="true"
+    				showButtons="true" style="width:400px;" name="horizontalSlider" onChange="updateFlashProgressDivProgress2()">
+				<ol data-dojo-type="dijit.form.HorizontalRuleLabels" container="topDecoration"
+      				style="height:1.5em;font-size:75%;color:gray;">
+				    <li>0%</li>
+				    <li>20%</li>
+				    <li>40%</li>
+				    <li>60%</li>
+				    <li>80%</li>
+				    <li>100%</li>
+				  </ol>
+  			</div>
+		</div>
+		<div data-dojo-type="com.ibm.watson.ui.ProgressMonitor" data-dojo-props="openTopic:'flashOpenTopicId2',statusTopic:'flashStatusTopicId2',divId:'displayFlashProgressHere2',cancelTopic:'flashCancelTopicId2',progressTopic:'flashProgressTopicId2',displayProgressPercent:'true'"></div>
+	</fieldset>
+
+	<div data-dojo-type="com.ibm.watson.ui.ProgressDialog"></div>
+
+</body>
+
+</html>

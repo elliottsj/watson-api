@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/fi/_Launcher",{tooManyOpenWorkspaces:"Lajin \"${workspaceTypeName}\"‎ työtiloja voi avata enintään ${maxOpen}.  Sulje kaikki avoimet lajin \"${workspaceTypeName}\"‎ työtilat, jos se on mahdollista."});

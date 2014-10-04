@@ -1,0 +1,46 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* Licensed Materials - Property of IBM                              */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          */
+/*                                                                   */
+/* US Government Users Restricted Rights - Use, duplication or       */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. */
+/*                                                                   */
+/* ***************************************************************** */
+
+.evidence_evaluation_container{
+	border-style:solid;
+	border-width:0px 1px 1px 1px;
+	border-color:#999999;
+	background-color:#F3F3F3;
+	padding-bottom:20px;
+}
+
+
+.evidence_evaluation_container .evidence_evaluation_container_shadow{
+	background-image: url("../images/Shadow_small_Repeat_6x6.png");
+	height:6px;
+	background-repeat: repeat-x;
+	width:100%
+}
+
+.evidence_evaluation_container .evidence_evaluation_header_div{
+	border-bottom-style:dotted;
+	border-bottom-color:#333333;
+	border-bottom-width:1px;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:10px;
+}
+
+.evidence_evaluation_container .evidence_evaluation_header_div .evidence_evaluation_header_label{
+	font-weight:bold
+}
+
+.evidence_evaluation_container .evidence_evaluation_body_div{
+	height:100%;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:5px;
+}

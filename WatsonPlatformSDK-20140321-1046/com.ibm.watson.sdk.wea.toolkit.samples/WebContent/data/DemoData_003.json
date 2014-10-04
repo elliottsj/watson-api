@@ -1,0 +1,277 @@
+{
+	"question": {
+		"links": {
+			"self": "http://wd2p013.swg.usma.ibm.com:8112/workbench/qa/question/1092222",
+			"feedback": "http://wd2p013.swg.usma.ibm.com:8112/workbench/qa/question/1092222/feedback"
+		},
+		"status": "Complete",
+		"id": 1092222,
+		"questionText": "What is the nearest planet to the sun",
+		"evidenceRequest": {
+			"items": 3,
+			"profile": "no"
+		},
+		"answers": [{
+			"id": 0,
+			"text": "Mercury",
+			"confidence": 0.82421,
+			"evidence": [{
+				"id": "28538",
+				"title": "Solar wind",
+				"text": "Mercury, the nearest planet to the Sun, bears the full brunt of the solar wind, and its atmosphere is vestigial and transient, its surface bathed in radiation",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Solar_wind",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "457895",
+				"title": "Space: 1889",
+				"text": "Only Great Britain maintains a (scientific) base on Mercury. The inner planets reflect an evolutionary progression, the planets nearest to the sun being younger than those farther out. All planets have life, and most bear native sentient species. Mercury is primeval, tide locked and possesses only rudimentary lifeforms",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Space:_1889",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			},
+			{
+				"id": "14580815",
+				"title": "Bach quadrangle",
+				"text": "The history of the region begins prior to the formation of any presently visible surface, when Mercury's internal evolution played a key role in determining subsequent landform development. Because it is the planet nearest the Sun, Mercury represents one extreme in possible cosmochemical models of planet formation",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Bach_quadrangle",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			}]
+		},
+		{
+			"id": 1,
+			"text": "Mars",
+			"confidence": 0.0895,
+			"evidence": [{
+				"id": "155758",
+				"title": "Gravity assist",
+				"text": "Journeys to the nearest planets, Mars and Venus, use a Hohmann transfer orbit, an elliptical path which starts as a tangent to one planet's orbit round the Sun and finishes as a tangent to the other",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Gravity_assist",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			},
+			{
+				"id": "28899646",
+				"title": "Jack Horkheimer: Star Gazer (2010 season)",
+				"text": "Title=The King Of The Planets And Our Nearest Neighbor Make A Dynamic Duo And Another 'Get Ready For Mars' Reminder",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Jack_Horkheimer:_Star_Gazer_(2010_season)",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			},
+			{
+				"id": "25998318",
+				"title": "History of Mars observation",
+				"text": "His list, in order of the most distant to the nearest object, was as follows: Saturn, Jupiter, Mars, Mercury, Venus, the Sun and the Moon",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/History_of_Mars_observation",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			}]
+		},
+		{
+			"id": 2,
+			"text": "Neptune",
+			"confidence": 0.05024,
+			"evidence": [{
+				"id": "19280911",
+				"title": "Astronomy/Featured/October 2008",
+				"text": "These extreme orbits are believed to be the result of gravitational \"scattering\" by the gas giants, and the objects continue to be subject to perturbation by the planet Neptune. While the nearest distance to the Sun approached by scattered objects is about 30 - 35 AU, their orbits can extend well beyond 100 AU",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Astronomy/Featured/October_2008",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			},
+			{
+				"id": "2719753",
+				"title": "Scattered disc",
+				"text": "These extreme orbits are believed to be the result of gravitational \"scattering\" by the gas giants, and the objects continue to be subject to perturbation by the planet Neptune. While the nearest distance to the Sun approached by scattered objects is about 30-35 AU, their orbits can extend well beyond 100 AU",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Scattered_disc",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			}]
+		},
+		{
+			"id": 3,
+			"text": "Pluto",
+			"confidence": 0.0273,
+			"evidence": [{
+				"id": "44469",
+				"title": "Pluto",
+				"text": "First, Pluto's argument of perihelion, the angle between the point where it crosses the ecliptic and the point where it is closest to the Sun, librates around 90 degree . This means that when Pluto is nearest the Sun, it is at its farthest above the plane of the Solar System, preventing encounters with Neptune",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Pluto",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			},
+			{
+				"id": "26491300",
+				"title": "The Amazing Race en Discovery Channel 1",
+				"text": "In the Planetarium at University of Costa Rica, teams had to order the planets of the solar system by their distance from the Sun, from nearest to farthest including Ceres, Pluto and Eris, in order to receive the next clue",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/The_Amazing_Race_en_Discovery_Channel_1",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			},
+			{
+				"id": "27303178",
+				"title": "Francois Brousse",
+				"text": "In 1940 In La Cosmogonie des Pa Koua (The Cosmogony of Pakuas), Liou Tse Houa pictures the existence of a planet called \"Proserpine\" about 6 billion miles from the Sun, beyond Pluto",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Francois_Brousse",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			}]
+		},
+		{
+			"id": 4,
+			"text": "Venus",
+			"confidence": 0.02562,
+			"evidence": [{
+				"id": "155758",
+				"title": "Gravity assist",
+				"text": "Journeys to the nearest planets, Mars and Venus, use a Hohmann transfer orbit, an elliptical path which starts as a tangent to one planet's orbit round the Sun and finishes as a tangent to the other",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Gravity_assist",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			},
+			{
+				"id": "28538",
+				"title": "Solar wind",
+				"text": "Venus, the nearest and most similar planet to Earth in our solar system, has an atmosphere 100 times denser than our own",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Solar_wind",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			},
+			{
+				"id": "46083",
+				"title": "Halley's Comet",
+				"text": "The perihelion, the point in the comet's orbit when it is nearest the Sun, is just 0.6 AU (between the orbits of Mercury and Venus), while its aphelion, or farthest distance from the Sun, is 35 AU (roughly the distance of Pluto",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Halley's_Comet",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+
+			}]
+		}]
+	}
+}

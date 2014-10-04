@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2001, 2014. All Rights Reserved.          -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+
+<html>
+	<head>   
+	
+		<title>Watson Question and Answer Demo Application</title>
+		
+		<link rel='stylesheet' href='/dojo/dijit/themes/tundra/tundra.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/dijit/themes/claro/claro.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/themes/oneui/oneui.css' type='text/css'></link>
+		<link rel='stylesheet' href='/watson/app/com/ibm/watson/ui/css/theme.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/gridx/resources/claro/Gridx_rtl.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/gridx/resources/claro/Gridx.css' type='text/css'></link>
+		<link rel='stylesheet' href='/watson/qa/demo/css/demo.css' type='text/css'></link>
+		
+		
+		<script type="text/javascript">   
+	        var dojoConfig = {
+	        	paths: {
+	        		"com/ibm/watson/ui":"/watson/app/com/ibm/watson/ui",
+	        		"com/ibm/watson/qa/demo" : "/watson/qa/demo/widgets",
+				},
+	        	packages: [{
+					name:"idx",
+					location:"/dojo/idx"
+				}]
+			};
+		</script>
+   
+       
+	
+		<script type="text/javascript" src="/dojo/dojo/dojo.js" data-dojo-config="async:true"></script>
+
+		<script type="text/javascript">
+	        
+	        require(["dojo/parser",
+	                 "com/ibm/watson/ui/QuestionInput",
+	                 "com/ibm/watson/ui/HistoryDialog",
+	                 "com/ibm/watson/ui/ProgressDialog",
+	                 "dijit/layout/BorderContainer",
+		        	 "dijit/layout/ContentPane"
+				], function (parser) {
+						parser.parse();
+					}
+			);
+	        
+	        require(["dojo/topic",
+	                 "com/ibm/watson/ui/constants/PubSubTopics",
+	                 "com/ibm/watson/qa/demo/Answer",
+	                 "dojo/domReady!"
+	                 ], function(topic, watsonUiTopics, answerWidget){
+	                			
+	               		topic.subscribe(watsonUiTopics.WATSON_QI_ANSWERS_RETRIEVED, function(answers){
+	        			if(null != answers){
+	                			for(var i=0; i<answers.length; i++){
+	                				var answer = answers[i];
+	                				if(null != answer && answer != undefined){
+	                					var answerOutputDiv = dijit.byId("solutionsContentPane");
+	                					if(null != answerOutputDiv && answerOutputDiv != undefined){
+	        	        					var answerWidget = new com.ibm.watson.sdk.demo.app.Answer(answer);
+	        	        					answerWidget.placeAt(answerOutputDiv.domNode);
+	                					}
+	                				}
+	                			}
+	                		}
+	                	});
+	                			
+	                	topic.subscribe(watsonUiTopics.WATSON_QI_CLEAR_SOLUTIONS, function(){
+	                		var answerOutputDiv = dijit.byId("solutionsContentPane");
+	          				if(null != answerOutputDiv && answerOutputDiv != undefined){
+	          					answerOutputDiv.destroyDescendants();
+	               			}
+	                	});
+	        	});
+		
+		</script>
+	</head>
+	
+	<body class="oneui claro"> 
+		<div data-dojo-type="dijit.layout.BorderContainer" class="answersBorderContainer" data-dojo-props="gutters:false">			
+			<div data-dojo-type="dijit.layout.ContentPane" class="QuestionInputContentPane" data-dojo-props="region:'top', style:'height:100px;', splitter:'true', minSize:100">
+				<div id="qiOne" data-dojo-type="com.ibm.watson.ui.QuestionInput" data-dojo-props="url:'/proxy/proxy/weaQuestion',numberAnswers:'4',numberEvidence:'2'"></div> 
+			</div>				
+			<div id="solutionsContentPane" data-dojo-type="dijit.layout.ContentPane" class="SolutionsContentPane" data-dojo-props="region:'center', style:'width:100%;', splitter:'true'">		
+			</div>
+		</div>	
+		
+		<div data-dojo-type="com.ibm.watson.ui.ProgressDialog" data-dojo-props="openTopic:'/com/ibm/watson/ui/question/new',closeTopic:'/com/ibm/watson/ui/question/cancel',loopProgress:'true'"></div>
+
+		<div data-dojo-type="com.ibm.watson.ui.HistoryDialog"></div>
+	</body>
+	
+</html>

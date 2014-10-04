@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/kk/LoginFrame",{loginTitle:"Кіру",labelUserName:"Пайдаланушы аты",labelPassword:"Құпия сөз",invalidMessageTitle:"Жарамсыз енгізу әрекеті",invalidMessage:"Жарамды мән сұралған екеуінеде енгізілмеген."});

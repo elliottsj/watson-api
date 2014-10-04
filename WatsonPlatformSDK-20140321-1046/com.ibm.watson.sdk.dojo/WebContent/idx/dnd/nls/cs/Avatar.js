@@ -1,0 +1,2 @@
+//>>built
+define("idx/dnd/nls/cs/Avatar",{copyText:"Kopírovat položky (počet: ${num})",moveText:"Přesunout položky (počet: ${num})",copyOneText:"Kopírovat 1 položku",moveOneText:"Přesunout 1 položku"});

@@ -1,0 +1,2 @@
+//>>built
+define("idx/gridx/modules/Printer",["dojo/_base/kernel","../core/_Module","dojo/_base/declare","../support/printer"],function(_1,_2,_3,_4){_1.deprecated("gridx/modules/Printer is deprecated.","Please use gridx/support/printer instead.","1.2");return _3(_2,{name:"printer",getAPIPath:function(){return {printer:this};},print:function(_5){return _4(this.grid,_5);},toHTML:function(_6){return _4.toHTML(this.grid,_6);}});});

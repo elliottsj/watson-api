@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/el/SingleMessage",{viewAll:"Προβολή όλων ({num})",viewDetails:"Περισσότερες λεπτομέρειες",refresh:"Ανανέωση",showDetails:"Εμφάνιση λεπτομερειών",hideDetails:"Απόκρυψη λεπτομερειών"});

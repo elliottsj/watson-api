@@ -1,0 +1,2 @@
+//>>built
+require(["gridx/Grid","gridx/core/model/AsyncCache","gridx/tests/support/data/MusicData","gridx/tests/support/stores/ItemFileWriteStore","gridx/tests/support/modules","gridx/tests/support/TestPane"],function(_1,_2,_3,_4,_5,_6){grid=new _1({id:"grid",cacheClass:_2,store:_4({dataSource:_3,size:50}),structure:_3.layouts[0],autoHeight:true,autoWidth:true,modules:[_5.Focus,_5.VirtualVScroller,_5.PaginationBar]});grid.placeAt("gridContainer");grid.startup();});

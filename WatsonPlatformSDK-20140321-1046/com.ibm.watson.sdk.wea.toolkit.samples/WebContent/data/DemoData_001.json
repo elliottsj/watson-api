@@ -1,0 +1,280 @@
+{
+	"question": {
+		"links": {
+			"self": "http://watson.ibm.com:8112/workbench/qa/question/1092227",
+			"feedback": "http://watson.ibm.com:8112/workbench/qa/question/1092227/feedback"
+		},
+		"status": "Complete",
+		"id": 1092227,
+		"questionText": "Who is the Mayor of Boston?",
+		"evidenceRequest": {
+			"items": 3,
+			"profile": "no"
+		},
+		"answers": [{
+			"id": 0,
+			"text": "Thomas Menino",
+			"confidence": 0.65045,
+			"evidence": [{
+				"id": "412214",
+				"title": "Bill Russell",
+				"text": "On December 2, 2008, Boston Mayor Thomas Menino and The Mayor's Office of New Bostonians awarded Russell the 2008 We Are Boston Leadership Awards",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Bill_Russell",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "28443",
+				"title": "Syracuse, New York",
+				"text": "The Coalition is co-chaired by Boston Mayor Thomas Menino and New York City Mayor Michael Bloomberg",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Syracuse,_New_York",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "645042",
+				"title": "New York City",
+				"text": "Together with Boston mayor Thomas Menino, in 2006 he founded the Mayors Against Illegal Guns Coalition, an organization with the goal of \"making the public safer by getting illegal guns off the streets",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/New_York_City",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 1,
+			"text": "Massachusetts",
+			"confidence": 0.07121,
+			"evidence": [{
+				"id": "14257265",
+				"title": "Frederick O. Prince",
+				"text": "Massachusetts Whigs. Massachusetts Democrats. Massachusetts lawyers. Massachusetts State Senators. Mayors of Boston, Massachusetts. Members of the Massachusetts House of Representatives",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Massachusetts",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "19531200",
+				"title": "George Lewis (politician)",
+				"text": "PLACE OF DEATH =Boston, Massachusetts. Year of death missing. Mayors of places in Massachusetts. People from Boston, Massachusetts. 1820 births. Mayors of Roxbury, Massachusetts",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/George_Lewis_(politician)",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "21038476",
+				"title": "Boston mayoral election, 2009",
+				"text": "Yoon for Mayor. . Government of Boston, Massachusetts. Mayors of Boston, Massachusetts. United States mayoral elections, 2009. Politics of Boston, Massachusetts",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Boston_mayoral_election,_2009",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 2,
+			"text": "Boston College",
+			"confidence": 0.03682,
+			"evidence": [{
+				"id": "12644385",
+				"title": "Michael A. Sullivan",
+				"text": "Boston College Law School alumni. Mayors of Cambridge, Massachusetts",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Michael_A._Sullivan",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "10847903",
+				"title": "David M. Madden",
+				"text": "Mayors of places in Massachusetts. Boston College alumni",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/David_M._Madden",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "1247009",
+				"title": "R. T. Rybak",
+				"text": "Boston College alumni. Minnesota Democrats. Mayors of Minneapolis, Minnesota",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/R._T._Rybak",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 3,
+			"text": "Roxbury",
+			"confidence": 0.02628,
+			"evidence": [{
+				"id": "19531200",
+				"title": "George Lewis (politician)",
+				"text": "PLACE OF BIRTH =Roxbury, Massachusetts. DATE OF DEATH =October 9, 1887. PLACE OF DEATH =Boston, Massachusetts. Year of death missing. Mayors of places in Massachusetts. People from Boston, Massachusetts. 1820 births. Mayors of Roxbury, Massachusetts",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/George_Lewis_(politician)",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "19488748",
+				"title": "Samuel Walker (politician)",
+				"text": "PLACE OF DEATH =Roxbury, Massachusetts. Mayors of places in Massachusetts. People from Boston, Massachusetts. 1793 births. 1860 deaths. Mayors of Roxbury, Massachusetts",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Samuel_Walker_(politician)",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "19531088",
+				"title": "Theodore Otis",
+				"text": "People from Boston, Massachusetts. Union College, New York alumni. Mayors of Roxbury, Massachusetts",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Theodore_Otis",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 4,
+			"text": "Boston College Law School",
+			"confidence": 0.01242,
+			"evidence": [{
+				"id": "12644385",
+				"title": "Michael A. Sullivan",
+				"text": "Boston College Law School alumni. Mayors of Cambridge, Massachusetts",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Michael_A._Sullivan",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "12498224",
+				"title": "Current members of the United States House of Representatives",
+				"text": "Democratic Roman Catholic State House of Representatives Boston College Boston College Law School 1976 1946. -. Democratic Roman Catholic Mayor of Somerville Dartmouth College Boston College Law School 1999 1952",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Current_members_of_the_United_States_House_of_Representatives",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "11854559",
+				"title": "Members of the 110th United States Congress",
+				"text": "Markey, Ed Democratic Roman Catholic State House of Representatives Boston College, Boston College Law School 1976 1946. -. Capuano, Mike Democratic Roman Catholic Mayor of Somerville Dartmouth College, Boston College Law School 1999 1952",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Members_of_the_110th_United_States_Congress",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		}]
+	}
+}

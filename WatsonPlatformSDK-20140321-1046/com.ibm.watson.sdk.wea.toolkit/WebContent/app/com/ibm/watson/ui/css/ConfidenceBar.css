@@ -1,0 +1,199 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2013                                */
+/*                                                                   */
+/* The source code for this program is not published or otherwise    */
+/* divested of its trade secrets, irrespective of what has been      */
+/* deposited with the U.S. Copyright Office.                         */
+/*                                                                   */
+/* ***************************************************************** */
+
+.wea_answer_confidence.confidence{
+	border-collapse:collapse	
+}
+
+.wea_answer_confidence .confidenceBarGray{
+	display:inline-block;
+	height:100%;
+	width:2px;
+	background-color:#CCCCCC;
+}
+
+.wea_answer_confidence .confidenceBarGray.dark{
+	background-color:#666666;
+}
+
+.wea_answer_confidence .bars {
+    display: inline-block;
+    position:relative;
+    width: auto;
+    height:100%;
+    display:inline-block;
+}
+
+.wea_answer_confidence .bars .background {
+    background: url("../images/BasicQA_Sprite.png") 0px -700px;
+    display: inline-block;
+    width: 100%;
+}
+
+.wea_answer_confidence .bars .background .right_border {
+    background: url("../images/BasicQA_Sprite.png") 0px -1650px no-repeat;
+    display: inline-block;
+    height: 32px;
+    width: 10px;
+    float: right;
+}
+
+.wea_answer_confidence .bars .current {
+    background: url("../images/BasicQA_Sprite.png") 0px -650px;
+    display: inline-block;
+    height: 28px;
+    width: 0;
+    overflow: hidden;
+    position: relative;
+    top: -36px;
+    /* Use slide transitions for setting answer confidence where possible */
+    -webkit-transition-property: width;
+    -moz-transition-property: width;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+}
+
+.wea_answer_confidence .bars .very_high {
+	display:inline-block;
+	background: -moz-linear-gradient(top, #AEDD0F, #99C10D);
+    background-image: -webkit-linear-gradient(top, #AEDD0F, #99C10D); 
+    background-image: -o-linear-gradient(top, #AEDD0F, #99C10D);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#AEDD0F, endColorstr=#99C10D)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AEDD0F, endColorstr=#99C10D);
+}
+
+.wea_answer_confidence .bars .high {
+	display:inline-block;
+	background: -moz-linear-gradient(top, #4CB748, #3C9139);
+	 background-image: -webkit-linear-gradient(top, #4CB748, #3C9139); 
+    background-image: -o-linear-gradient(top, #4CB748, #3C9139);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CB748, endColorstr=#3C9139)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CB748, endColorstr=#3C9139);
+}
+
+.wea_answer_confidence .bars .very_low {
+	display:inline-block;
+	background: -moz-linear-gradient(top, #00B9AB, #009388);
+	 background-image: -webkit-linear-gradient(top, #00B9AB, #009388); 
+    background-image: -o-linear-gradient(top, #00B9AB, #009388);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00B9AB, endColorstr=#009388)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00B9AB, endColorstr=#009388);
+}
+
+.wea_answer_confidence .bars .low {
+	display:inline-block;
+	background: -moz-linear-gradient(top, #67CDF3, #17ADE6);
+	 background-image: -webkit-linear-gradient(top, #67CDF3, #17ADE6); 
+    background-image: -o-linear-gradient(top, #67CDF3, #17ADE6);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#67CDF3, endColorstr=#17ADE6)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#67CDF3, endColorstr=#17ADE6);
+}
+
+.wea_answer_confidence .bars .moderate {
+	display:inline-block;
+	background: -moz-linear-gradient(top, #009ADE, #007AAE);
+	 background-image: -webkit-linear-gradient(top, #009ADE, #007AAE); 
+    background-image: -o-linear-gradient(top, #009ADE, #007AAE);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#009ADE, endColorstr=#007AAE)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#009ADE, endColorstr=#007AAE);
+}
+
+.wea_answer_confidence .hide {
+    display: none;
+}
+
+.wea_answer_confidence .td{
+	position:relative;
+	display:inline-block;
+	padding:0px;
+}
+
+.wea_answer_confidence .inline_td{
+	position:relative;
+	display:i;
+	height:32px;
+	padding:0px;
+}
+
+.wea_answer_confidence .east.percentage {
+  	margin: 0 5px 0 5px;
+    color: #555555;
+    position: relative;
+   	font-weight: bold;
+}
+
+.wea_answer_confidence .east.confidence_level {
+  	/* margin: 0 5px 0 5px; */
+    color: #555555;
+    position: relative;
+}
+
+.wea_answer_confidence .north.percentage {
+  	margin: 0 5px 0 5px;
+    color: #555555;
+    position: relative;
+    font-weight: bold;
+}
+
+.wea_answer_confidence .north.confidence_level {
+  	/* margin: 0 5px 0 5px; */
+    color: #555555;
+    position: relative;
+}
+
+.wea_answer_confidence .west.percentage {
+  	margin: 0 5px 0 5px;
+    color: #555555;
+    position: relative;
+    font-weight: bold;
+}
+
+.wea_answer_confidence .west.confidence_level {
+  	/* margin: 0 5px 0 5px; */
+    color: #555555;
+    position: relative;  
+}
+
+.wea_answer_confidence .south.percentage {
+  	margin: 0 5px 0 5px;
+    color: #555555;
+    position: relative;
+    font-weight: bold;
+}
+
+.wea_answer_confidence .south.confidence_level {
+  	/* margin: 0 5px 0 5px; */
+    color: #555555;
+    position: relative;
+}
+
+.wea_answer_confidence .detail_icon {
+    background: url("../images/EvidenceIcon_Grid_32x32.png");
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin-top: 14px;
+    margin-left:6px;
+    height: 32px;
+    width: 32px;
+    display:
+}
+
+.wea_answer_confidence .detail_icon:hover {
+    background-position: 0px -2900px;
+    cursor: pointer;
+}
+
+.wea_answer_confidence .detail_icon:active {
+    background-position: 0px -2950px;
+}
+
+
+
+

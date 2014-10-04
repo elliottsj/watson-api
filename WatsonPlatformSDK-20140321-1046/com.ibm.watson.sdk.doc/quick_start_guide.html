@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org" />
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  <style type="text/css">
+/*<![CDATA[*/
+
+  body {
+  padding:2em,1em,w3m,70px;
+  margin:10px;
+  font-family: sans-serif;
+  color: black;
+  background: white;
+  }
+
+  DIV.subtoc {
+  padding: 1em;
+  border: solid-thin;
+  margin: 1em;
+  background: #ddd; 
+  }
+
+  DIV.subsection {
+  margin : 10px;
+  }
+
+  A {
+  text-decoration: none;
+  }
+
+
+
+
+
+  strong {
+  font-weight: bold;
+  }
+
+
+
+  /*]]>*/
+  </style>
+
+  <title>Watson Platform Software Development Kit Quick Start Guide</title>
+</head>
+
+<body>
+  <h1>IBM Watson Platform Software Development Kit: Quick Start Guide</h1>
+  <hr />
+
+  <h2>Overview</h2>Welcome to the IBM Watson&trade; Platform SDK for Eclipse. The SDK
+  provides a comprehensive set of applications and libraries to enable you to develop
+  J2EE and JavaScript applications for Watson. Additionally, a PHP example is included as
+  a preview.
+
+  <p>For more documentation, including complete installation and configuration
+  instructions, see the <em>IBM Watson Platform SDK Developer's Guide</em> in the
+  com.ibm.watson.sdk.doc project.</p>
+ <hr/>
+  <h2>Step 1: Installing and configuring the SDK</h2>You install the Watson Platform
+  software development kit (SDK) in Eclipse by importing the SDK project workspace
+  archive file.
+
+  <h3>Installing the SDK</h3>
+
+  <ol>
+    <li>In Eclipse, select <strong>File</strong> &gt; <strong>Import</strong>.</li>
+
+    <li>Select <strong>General</strong> &gt; <strong>Existing Projects into
+    Workspace</strong></li>
+
+    <li>Select the archive file option and browse to the location where you saved the
+    SDK.</li>
+  </ol>
+
+  <h3>Associating SDK projects with the server</h3>
+
+  <p>To run the web-based applications and samples, follow these steps to deploy the Eclipse web projects to a web application server:</p>
+
+  <ol>
+    <li>Install a web application server, such as Tomcat, in your Eclipse
+    environment.</li>
+
+    <li>In the Servers view in Eclipse, right-click the server and select <strong>Add and
+    Remove Projects</strong>.</li>
+
+    <li>In the list of available projects, select the following projects and click
+    <strong>Add</strong>, and then click <strong>Finish</strong>.
+
+      <ul>
+        <li>com.ibm.watson.sdk.dojo</li>
+
+        <li>com.ibm.watson.sdk.wea.toolkit</li>
+
+        <li>com.ibm.watson.sdk.wea.toolkit.samples</li>
+
+        <li>com.ibm.watson.sdk.wea.toolkit.app.samples</li>
+
+        <li>com.ibm.watson.sdk.wea.proxy</li>
+      </ul>
+    </li>
+
+    <li>Publish the applications by right-clicking the server and selecting
+    <strong>Publish</strong>.</li>
+
+    <li>If necessary, start the server.</li>
+  </ol>
+  <hr />
+
+  <h2>Step 2: Ask a question</h2>
+
+  <p>The IBM Watson Platform SDK includes an end-to-end sample application that uses the
+  JavaScript widgets that are included in the SDK. The application posts a question to
+  Watson and returns the answer.</p>
+
+  <p>Access the application at <a target="_blank" href=
+  "http://localhost:8080/watson/qa/demo/index.html">http://localhost:8080/watson/qa/demo/index.html</a>.
+  The link assumes that your web browser runs on localhost on port 8080.</p>
+  <hr />
+
+  <h2>Step 3: Explore the code</h2>Explore either the Java code or the PHP library.
+
+  <h3>Sample Java code to call the Question and Answer service</h3>The SDK includes
+  several samples that are written in Java&trade; to call the Question and Answer REST
+  service. Both the code and the output of the samples might give you ideas for how to
+  code your own application. The samples are stored in the
+  com.ibm.watson.sdk.qaapi.samples project under the
+  com.ibm.watson.sdk.qaapi.web.rest.questionanswer package:
+
+  <ul>
+    <li>QAJsonSample: Asynchronous implementation that returns JSON data.</li>
+
+    <li>QASyncJsonSample: Synchronous implementation that returns JSON data.</li>
+
+    <li>QASyncXmlSample: Synchronous implementation that returns XML data.</li>
+
+    <li>QAXmlSample: Asynchronous implementation that returns XML data.</li>
+  </ul>
+
+  <p>Run a sample in Eclipse by right-clicking the package and selecting <strong>Run
+  As</strong> &gt; <strong>Java Application</strong>.</p>
+
+  <h3>PHP sample</h3>The SDK includes a PHP library that you can use to call services for
+  Watson. You need a PHP runtime environment that is compiled with cURL support and
+  connected to a web server.
+
+  <p>Copy the contents of the com.ibm.watson.sdk/PHP/ directory to your web server</p>
+
+  <p>To run the sample, go to <a href=
+  "http://localhost/question.html">http://localhost/question.html</a>. The link assumes
+  that your SDK PHP library runs on localhost.</p>
+  <hr />
+
+  <h2>Step 4: Explore the JavaScript samples</h2>The SDK provides sample files and
+  widgets to help you create rich, web-based applications that are enabled for Watson.
+
+  <p>View the following samples in your web browser. The links assume that your web
+  browser runs on localhost on port 8080.</p>
+
+  <ul>
+    <li><a target="_blank" href=
+    "http://localhost:8080/weasamples/confidenceBarExample.html">Confidence Bar</a></li>
+
+    <li><a target="_blank" href=
+    "http://localhost:8080/weasamples/evidenceButtonExample.html">Evidence
+    Button</a></li>
+
+    <li><a target="_blank" href=
+    "http://localhost:8080/weasamples/evidenceViewerExample.html">Evidence
+    Viewer</a></li>
+
+    <li><a target="_blank" href=
+    "http://localhost:8080/weasamples/jQueryExample.html">jQuery example</a></li>
+
+    <li><a target="_blank" href=
+    "http://localhost:8080/weasamples/progressBarExample.html">Progress Bar
+    example</a></li>
+
+    <li><a target="_blank" href=
+    "http://localhost:8080/weasamples/progressDialogExample.html">Progress Dialog
+    example</a></li>
+
+    <li><a target="_blank" href=
+    "http://localhost:8080/weasamples/questionInputDialogExample.html">Question Input
+    Dialog</a></li>
+
+    <li><a target="_blank" href=
+    "http://localhost:8080/weasamples/questionInputExample.html">Question Input</a></li>
+
+    <li><a target="_blank" href=
+    "http://localhost:8080/weasamples/ratingExample.html">Rating example</a></li>
+  </ul>The HTML files are stored in the com.ibm.watson.sdk.wea.toolkit.samples project in
+  the WebContent directory.
+  <hr />
+
+  <h2>More information</h2>For more information about the SDK and the Question and Answer
+  REST service, see the <em>IBM Watson Platform SDK Developer's Guide</em> in the
+  com.ibm.watson.sdk.doc project.
+</body>
+</html>

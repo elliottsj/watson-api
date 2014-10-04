@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/ru/LoginFrame",{loginTitle:"Вход в систему",labelUserName:"Имя пользователя",labelPassword:"Пароль",invalidMessageTitle:"Неудачная попытка входа в систему",invalidMessage:"В оба обязательных поля должны быть введены правильные значения."});

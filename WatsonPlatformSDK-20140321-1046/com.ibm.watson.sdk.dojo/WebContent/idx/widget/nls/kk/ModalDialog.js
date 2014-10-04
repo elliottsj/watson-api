@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/kk/ModalDialog",{Error:"Қате",Warning:"Ескерту",Information:"Ақпараттар",Success:"Сәттілік",Confirmation:"Құптау",Question:"Сұрақ",closeButtonLabel:"Жабу",cancelButtonLabel:"Болдырмау",executeButtonLabel:"OK",checked:"Қайтадан сұрауға болмайды"});

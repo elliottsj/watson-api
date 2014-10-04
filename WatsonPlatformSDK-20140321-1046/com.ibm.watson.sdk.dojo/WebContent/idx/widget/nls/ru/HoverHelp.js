@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/ru/HoverHelp",{defaultHrefLabel:"Дополнительная информация",defaultMessage:"[Текст справки не задан]‎",defaultTitle:"Установите указатель мыши или щелкните, чтобы вывести справку"});

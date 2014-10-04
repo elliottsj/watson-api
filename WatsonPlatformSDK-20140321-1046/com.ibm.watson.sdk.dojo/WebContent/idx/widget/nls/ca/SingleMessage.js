@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/ca/SingleMessage",{viewAll:"Veure-ho tot ({num})",viewDetails:"Més informació detallada",refresh:"Renova",showDetails:"Mostra la informació detallada",hideDetails:"Oculta la informació detallada"});

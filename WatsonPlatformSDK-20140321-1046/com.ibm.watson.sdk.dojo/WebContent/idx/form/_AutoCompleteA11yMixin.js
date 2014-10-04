@@ -1,0 +1,2 @@
+//>>built
+define("idx/form/_AutoCompleteA11yMixin",["dojo/_base/declare"],function(_1){return _1("idx.form._AutoCompleteA11yMixin",[],{_showResultList:function(){var _2=this.domNode;this.domNode=this.oneuiBaseNode;this.inherited(arguments);this.domNode=_2;},closeDropDown:function(){var _3=this.domNode;this.domNode=this.oneuiBaseNode;this.inherited(arguments);this.domNode=_3;},_announceOption:function(){this.inherited(arguments);this.focusNode.removeAttribute("aria-activedescendant");}});});

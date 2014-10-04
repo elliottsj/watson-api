@@ -1,0 +1,2 @@
+//>>built
+define("gridx/core/Row",["dojo/_base/declare"],function(_1){return _1("gridx.core.Row",null,{constructor:function(_2,id){this.grid=_2;this.model=_2.model;this.id=id;},index:function(){return this.model.idToIndex(this.id);},cell:function(_3,_4){return this.grid.cell(this,_3,_4);},data:function(){return this.model.byId(this.id).data;},rawData:function(){return this.model.byId(this.id).rawData;},item:function(){return this.model.byId(this.id).item;}});});

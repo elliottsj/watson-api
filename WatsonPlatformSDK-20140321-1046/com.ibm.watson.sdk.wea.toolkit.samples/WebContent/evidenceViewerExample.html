@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+
+<html>
+	<head>   
+	
+		<link rel='stylesheet' href='/dojo/dijit/themes/tundra/tundra.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/dijit/themes/claro/claro.css' type='text/css'></link>
+		<link rel='stylesheet' href='/dojo/idx/themes/oneui/oneui.css' type='text/css'></link>
+		<link rel='stylesheet' href='/watson/app/com/ibm/watson/ui/css/theme.css' type='text/css'></link>
+		<link rel='stylesheet' href='css/weaSampleTheme.css' type='text/css'></link>
+
+		
+		<script type="text/javascript">   
+	        var dojoConfig = {
+	        	paths: {
+					"com/ibm/watson/ui":"/watson/app/com/ibm/watson/ui"
+				}
+			};
+		</script>
+		
+		<script type="text/javascript" src="/dojo/dojo/dojo.js" data-dojo-config="async:true"></script>
+		
+		<script type="text/javascript">
+	        
+	        require(["dojo/parser", 
+				"com/ibm/watson/ui/Evidence",
+	            "com/ibm/watson/ui/EvidenceEvaluation"
+				], function (parser) {
+						parser.parse();
+					}
+			);
+		
+		</script>
+	
+	</head>
+	
+	<body class="oneui claro wea_sample_page" style="padding-bottom:100px;background-color:none;height:auto;width:75%;margin-left:10%">
+
+		<p></p>
+		<div class="pageTitle">Evidence Viewer Control 
+		</div>
+		<hr/>
+
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">A sample evidence viewer</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.Evidence">
+					<span style="font-weight:bold">PolicyGuideline ID:</span>
+					<span style="padding-left:25px">RAD.00041</span>
+					<span style="font-weight:bold;padding-left:150px">Version:</span>
+					<span style="padding-left:25px">2010-05-10</span>
+					<br/>
+					<br/>
+					<span style="font-weight:bold">Title:</span>
+					<span style="padding-left:5px">Intensity Modulated Radiation Therapy (IMRT)</span>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+						fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+						culpa qui officia deserunt mollit anim id est laborum
+					</p>
+					<span style="font-weight:bold">Policy and Guideline Evidence:</span>
+					<br/>
+					<br/>
+					<span>
+						IMRT of the prostate is considered <b>medically neccessary</b> in individuals who meet the following:
+					</span>
+					<ul>
+						<li>In hac habitasse platea dictumst</li>
+						<li>Vivamus semper metus nunc, vitae viverra nulla.</li>
+					</ul>
+				</div>
+				<div data-dojo-type="com.ibm.watson.ui.EvidenceEvaluation">
+					<table>
+						<tr>
+							<td>
+								Recommendation & Evidence
+							</td>
+							<td>
+								<input type="radio">Accept
+								<input type="radio">Reject
+								<input type="radio">Not Reviewed
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Policy and Guideline Version
+							</td>
+							<td>
+								<select>
+								  <option>Policy Guideline is correct</option>
+								  <option>Policy Guideline is incorrect</option>						
+								</select> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Additional Comments
+							</td>
+							<td>
+								<textarea rows="4" cols="50">
+								</textarea> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							</td>
+							<td>
+								<button style="float:right">Submit</button>
+							</td>
+						</tr>
+					</table>
+					
+				</div> 
+			</div>
+		</fieldset>
+		<br/>
+		<br/>
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">A sample evidence viewer with custom labels</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.Evidence" data-dojo-props="evidence_label:'A custom title'">
+					<span style="font-weight:bold">PolicyGuideline ID:</span>
+					<span style="padding-left:25px">RAD.00041</span>
+					<span style="font-weight:bold;padding-left:150px">Version:</span>
+					<span style="padding-left:25px">2010-05-10</span>
+					<br/>
+					<br/>
+					<span style="font-weight:bold">Title:</span>
+					<span style="padding-left:5px">Intensity Modulated Radiation Therapy (IMRT)</span>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+						fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+						culpa qui officia deserunt mollit anim id est laborum
+					</p>
+					<span style="font-weight:bold">Policy and Guideline Evidence:</span>
+					<br/>
+					<br/>
+					<span>
+						IMRT of the prostate is considered <b>medically neccessary</b> in individuals who meet the following:
+					</span>
+					<ul>
+						<li>In hac habitasse platea dictumst</li>
+						<li>Vivamus semper metus nunc, vitae viverra nulla.</li>
+					</ul>
+				</div>
+				<div data-dojo-type="com.ibm.watson.ui.EvidenceEvaluation" data-dojo-props="label:'Custom Evaluation Recommendations Label'">
+					<table>
+						<tr>
+							<td>
+								Recommendation & Evidence
+							</td>
+							<td>
+								<input type="radio">Accept
+								<input type="radio">Reject
+								<input type="radio">Not Reviewed
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Policy and Guideline Version
+							</td>
+							<td>
+								<select>
+								  <option>Policy Guideline is correct</option>
+								  <option>Policy Guideline is incorrect</option>						
+								</select> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Additional Comments
+							</td>
+							<td>
+								<textarea rows="4" cols="50">
+								</textarea> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							</td>
+							<td>
+								<button style="float:right">Submit</button>
+							</td>
+						</tr>
+					</table>
+					
+				</div> 
+			</div>
+		</fieldset>
+		<br/>
+		<br/>
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">A sample evidence viewer, without the evaluation section</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.Evidence">
+					<span style="font-weight:bold">PolicyGuideline ID:</span>
+					<span style="padding-left:25px">RAD.00041</span>
+					<span style="font-weight:bold;padding-left:150px">Version:</span>
+					<span style="padding-left:25px">2010-05-10</span>
+					<br/>
+					<br/>
+					<span style="font-weight:bold">Title:</span>
+					<span style="padding-left:5px">Intensity Modulated Radiation Therapy (IMRT)</span>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+						fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+						culpa qui officia deserunt mollit anim id est laborum
+					</p>
+					<span style="font-weight:bold">Policy and Guideline Evidence:</span>
+					<br/>
+					<br/>
+					<span>
+						IMRT of the prostate is considered <b>medically neccessary</b> in individuals who meet the following:
+					</span>
+					<ul>
+						<li>In hac habitasse platea dictumst</li>
+						<li>Vivamus semper metus nunc, vitae viverra nulla.</li>
+					</ul>
+				</div>
+			</div>
+		</fieldset>
+		<br/>
+		<br/>
+		<fieldset style="padding-top:20px;padding-bottom:20px;margin-top:50px">
+			<legend class="fieldLegend">Evaluation section only</legend>
+			<div>
+				<div data-dojo-type="com.ibm.watson.ui.EvidenceEvaluation">
+					<table>
+						<tr>
+							<td>
+								Recommendation & Evidence
+							</td>
+							<td>
+								<input type="radio">Accept
+								<input type="radio">Reject
+								<input type="radio">Not Reviewed
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Policy and Guideline Version
+							</td>
+							<td>
+								<select>
+								  <option>Policy Guideline is correct</option>
+								  <option>Policy Guideline is incorrect</option>						
+								</select> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Additional Comments
+							</td>
+							<td>
+								<textarea rows="4" cols="50">
+								</textarea> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							</td>
+							<td>
+								<button style="float:right">Submit</button>
+							</td>
+						</tr>
+					</table>
+				</div> 
+			</div>
+		</fieldset>
+	</body>
+	
+</html>

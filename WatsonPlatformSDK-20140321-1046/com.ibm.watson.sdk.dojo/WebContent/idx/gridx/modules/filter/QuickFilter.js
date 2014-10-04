@@ -1,0 +1,2 @@
+//>>built
+define("idx/gridx/modules/filter/QuickFilter",["dojo/_base/declare","../../core/_Module","../../support/QuickFilter","../Bar"],function(_1,_2,_3){return _1(_2,{name:"quickFilter",required:["bar","filter"],preload:function(){this.grid.bar.defs.push({bar:"top",row:0,col:3,pluginClass:_3,className:"gridxBarQuickFilter"});}});});

@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/tr/ModalDialog",{Error:"Hata",Warning:"Uyarı",Information:"Bilgi",Success:"Başarılı",Confirmation:"Doğrulama",Question:"Soru",closeButtonLabel:"Kapat",cancelButtonLabel:"İptal",executeButtonLabel:"Tamam",checked:"Bir daha sorma"});

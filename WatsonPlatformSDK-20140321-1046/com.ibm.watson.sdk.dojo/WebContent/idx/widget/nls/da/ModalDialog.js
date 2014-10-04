@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/da/ModalDialog",{Error:"Fejl",Warning:"Advarsel",Information:"Information",Success:"Udført",Confirmation:"Bekræftelse",Question:"Spørgsmål",closeButtonLabel:"Luk",cancelButtonLabel:"Annullér",executeButtonLabel:"OK",checked:"Spørg mig ikke igen"});

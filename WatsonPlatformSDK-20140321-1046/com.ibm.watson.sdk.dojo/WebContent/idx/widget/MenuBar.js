@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/MenuBar",["dojo/_base/declare","dojo/_base/lang","dijit/MenuBar","./_MenuOpenOnHoverMixin"],function(_1,_2,_3,_4){var _5=_2.getObject("idx.oneui",true);return _5.MenuBar=_1("idx.widget.MenuBar",[_3,_4],{});});

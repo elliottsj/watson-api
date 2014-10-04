@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/ro/HoverHelp",{defaultHrefLabel:"Aflaţi mai multe",defaultMessage:"[Nu a fost definit niciun text de ajutor]‎",defaultTitle:"Treceţi pe deasupra sau faceţi clic pentru a afişa ajutor"});

@@ -1,0 +1,2 @@
+//>>built
+require(["gridx/Grid","gridx/core/model/SyncCache","gridx/tests/support/data/MusicData","gridx/tests/support/stores/ItemFileWriteStore","gridx/tests/support/modules"],function(_1,_2,_3,_4,_5,_6){grid=new _1({id:"grid",cacheClass:_2,store:_4({dataSource:_3,size:1000}),modules:[_5.SingleSort,_5.SelectRow,_5.VirtualVScroller],structure:_3.layouts[4]});grid.placeAt("gridContainer");grid.startup();});

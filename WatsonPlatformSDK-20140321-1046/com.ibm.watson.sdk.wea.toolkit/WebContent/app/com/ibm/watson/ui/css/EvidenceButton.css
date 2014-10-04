@@ -1,0 +1,53 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* Licensed Materials - Property of IBM                              */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          */
+/*                                                                   */
+/* US Government Users Restricted Rights - Use, duplication or       */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. */
+/*                                                                   */
+/* ***************************************************************** */
+
+.evidence_button{
+ 	background: url("../images/EvidenceIcon_Grid_32x32.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 32px;
+    width: 32px;
+    margin:auto;
+}
+
+.evidence_button:hover {
+   background: url("../images/EvidenceIcon_Grid_Hover_32x32.png") no-repeat scroll 0 0 transparent;
+   cursor: pointer;
+}
+
+.wea_evidence_button .td{
+	position:relative;
+	/* display:inline-block; */
+	height:32px;
+	padding:0px;
+}
+
+.wea_evidence_button .hide {
+    display: none;
+    margin:0px;
+    padding:0px
+}
+
+.wea_evidence_button .label {
+	
+}
+
+.wea_evidence_button td{
+	padding: 0px
+}
+
+.wea_evidence_button .label {
+	padding: 1px
+  	margin: 0 5px 0 5px;
+    color: #555555;
+    position: relative;
+   	font-weight: bold;
+}
+

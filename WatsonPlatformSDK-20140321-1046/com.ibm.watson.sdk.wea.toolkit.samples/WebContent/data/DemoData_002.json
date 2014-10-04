@@ -1,0 +1,280 @@
+{
+	"question": {
+		"links": {
+			"self": "http://wd2p013.swg.usma.ibm.com:8112/workbench/qa/question/1092221",
+			"feedback": "http://wd2p013.swg.usma.ibm.com:8112/workbench/qa/question/1092221/feedback"
+		},
+		"status": "Complete",
+		"id": 1092221,
+		"questionText": "Who was the first man to walk on the moon",
+		"evidenceRequest": {
+			"items": 3,
+			"profile": "no"
+		},
+		"answers": [{
+			"id": 0,
+			"text": "Neil Armstrong",
+			"confidence": 0.84536,
+			"evidence": [{
+				"id": "16011340",
+				"title": "Comparison of Asian national space programs",
+				"text": "Asian on the Moon. Over four decades after Neil Armstrong has become the first man to walk on the Moon, Asia's major powers hurry in their own space ambitions to send the first Asian to the Moon",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Comparison_of_Asian_national_space_programs",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "4453559",
+				"title": "Exploration of the Moon",
+				"text": "Humans first landed on the Moon on July 20, 1969. The first man to walk on the lunar surface was Neil Armstrong, commander of the U.S. mission Apollo 11",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Exploration_of_the_Moon",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "12316165",
+				"title": "List of recipients of the Silver Buffalo Award",
+				"text": "name= Neil Armstrong. nota=Astronaut; First Man to Walk on the Moon",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/List_of_recipients_of_the_Silver_Buffalo_Award",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 1,
+			"text": "Buzz Aldrin",
+			"confidence": 0.07476,
+			"evidence": [{
+				"id": "2909881",
+				"title": "Upper Montclair, New Jersey",
+				"text": "Aldrin walks on the surface of the Moon during Apollo 11. Buzz Aldrin, Astronaut; second man to walk on the moon",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Upper_Montclair,_New_Jersey",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "10290198",
+				"title": "List of Massachusetts Institute of Technology alumni",
+				"text": "Buzz Aldrin - second man to walk on the Moon",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/List_of_Massachusetts_Institute_of_Technology_alumni",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "45214",
+				"title": "Ali G",
+				"text": "Edwin \"Buzz\" Aldrin, former astronaut, and the second man to walk on the moon",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Ali_G",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 2,
+			"text": "Apollo",
+			"confidence": 0.03925,
+			"evidence": [{
+				"id": "501468",
+				"title": "Congressional Space Medal of Honor",
+				"text": "Apollo 11 (Commander of the first lunar landing, first man to walk on the moon). -. Frank Borman. Apollo 8 (Commander of the first lunar orbit",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Congressional_Space_Medal_of_Honor",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "344336",
+				"title": "Jim Lovell",
+				"text": "Had the first LM been ready in time for Apollo 8, Charles Conrad might have been the first man to walk on the Moon, while Armstrong would have made the second landing on Apollo 12",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Jim_Lovell",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "199297",
+				"title": "List of astronauts by year of selection",
+				"text": "It is also widely assumed that had he lived, he would have been the first man to walk on the moon.) Gordon Cooper was a backup commander for Apollo 10, the \"dress rehearsal\" flight for the lunar landing, and would have commanded another mission (likely to have been Apollo 13, according to the crew rotation), but was bumped from the rotation after a disagreement with NASA management",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/List_of_astronauts_by_year_of_selection",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 3,
+			"text": "Eugene Cernan",
+			"confidence": 0.03305,
+			"evidence": [{
+				"id": "1971",
+				"title": "Apollo 17",
+				"text": "Eugene Cernan is, to date, the last man to have walked on the Moon",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Apollo_17",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "136016",
+				"title": "Piney Point Village, Texas",
+				"text": "Eugene Cernan the last man who walked on the moon during the Apollo 17 mission",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Piney_Point_Village,_Texas",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "4453559",
+				"title": "Exploration of the Moon",
+				"text": "To date, the last man to stand on the Moon was Eugene Cernan, who as part of the mission Apollo 17 walked on the Moon in December 1972",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Exploration_of_the_Moon",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		},
+		{
+			"id": 4,
+			"text": "Conrad",
+			"confidence": 0.02249,
+			"evidence": [{
+				"id": "344336",
+				"title": "Jim Lovell",
+				"text": "Had the first LM been ready in time for Apollo 8, Charles Conrad might have been the first man to walk on the Moon, while Armstrong would have made the second landing on Apollo 12",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Jim_Lovell",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "2651480",
+				"title": "Canceled Apollo missions",
+				"text": "The swap of crews was also decisive in who would be the first man to walk on the Moon. Pete Conrad was back up Commander for McDivitt's crew, and by the process of crew rotation would have been in line for Commander of Apollo 11 three flights later",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Canceled_Apollo_missions",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			},
+			{
+				"id": "83390",
+				"title": "Arlington National Cemetery",
+				"text": "Charles \"Pete\" Conrad, Jr., Apollo astronaut, third man to walk on the Moon",
+				"source":{
+					"type":"Wikipedia",
+					"label":"Wikipedia",
+					"url":"http://en.wikipedia.org/wiki/Arlington_National_Cemetery",
+					"copyright": "http://en.wikipedia.org/wiki/Wikipedia:Copyrights"},
+				"relatedLinks":[
+					{
+						"label":"Creative Commons Attribution-ShareAlike License",
+						"url":"http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+					}
+				]	
+			}]
+		}]
+	}
+}

@@ -1,0 +1,2 @@
+//>>built
+define("idx/main",["require","dojo/_base/lang","dojo/_base/kernel","dojo/_base/window","dojo/dom-class"],function(_1,_2,_3,_4,_5){var _6=_2.getObject("idx",true);var _7=function(){var _8=_4.body();var _9="idx_dojo_"+_3.version.major+"_"+_3.version.minor;_5.add(_8,_9);};var _a=_3.version.major;var _b=_3.version.minor;if((_a<2)&&(_b<7)){dojo.addOnLoad(_7);}else{_1(["dojo/domReady!"],_7);}return _6;});

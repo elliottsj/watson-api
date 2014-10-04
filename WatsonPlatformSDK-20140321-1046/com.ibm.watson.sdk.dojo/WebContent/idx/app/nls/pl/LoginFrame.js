@@ -1,0 +1,2 @@
+//>>built
+define("idx/app/nls/pl/LoginFrame",{loginTitle:"Logowanie",labelUserName:"Nazwa użytkownika",labelPassword:"Hasło",invalidMessageTitle:"Niepoprawna próba logowania",invalidMessage:"Do żadnego z dwóch wymaganych pól nie wprowadzono poprawnej wartości."});

@@ -1,0 +1,2 @@
+//>>built
+define("idx/widget/nls/hu/HoverHelp",{defaultHrefLabel:"További tudnivalók",defaultMessage:"[Nincs megadva súgószöveg]‎",defaultTitle:"Mozgassa fölé az egret vagy kattintson ide a súgó megjelenítéséhez"});

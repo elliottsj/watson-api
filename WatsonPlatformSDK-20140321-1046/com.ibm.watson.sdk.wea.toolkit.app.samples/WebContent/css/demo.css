@@ -1,0 +1,39 @@
+/* ***************************************************************** */
+/*                                                                   */
+/* Licensed Materials - Property of IBM                              */
+/*                                                                   */
+/* (C) Copyright IBM Corp. 2001, 2013. All Rights Reserved.          */
+/*                                                                   */
+/* US Government Users Restricted Rights - Use, duplication or       */
+/* disclosure restricted by GSA ADP Schedule Contract with IBM Corp. */
+/*                                                                   */
+/* ***************************************************************** */
+
+.answersBorderContainer{
+	height:800px;
+	width:100%;
+	border-style:solid;
+	border-width:2px;
+	border-color:#999999;
+}
+
+.QuestionInputContentPane{
+	padding:0px !important;
+}
+
+.answerTextCell{
+	font-weight:bold;
+	font-size: 16px;
+}
+
+.primaryEvidenceCell{
+	font-size: 14px;
+	font-style: italic;
+	font-weight:bold;
+}
+
+
+#questionHistoryGrid {
+	height: 200px;
+	width: 100%;
+}
