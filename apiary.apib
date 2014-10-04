@@ -58,17 +58,20 @@ Properties of `question` in the request body:
             <p>
                 A natural language string that is composed of words that provide extra information for Watson to consider when it determines answers. The maximum length of this element is 1024 characters.<br>
             </p>
-
-            The <code>context</code> element can have one of the following values:
-
+            <p>
+                The <code>context</code> element can have one of the following values:
+            </p>
             <dl>
                 <dt>plain text</dt>
                 <dd>The context is provided as text</dd>
                 <dt>url</dt>
                 <dd>
-                    A valid URL that points to the context string. The service accepts text and HTML in the response.<br>
-
-                    The first 1024 characters of the contents in the file that is identified by the URL are used as the context value. If the file is not found (HTTP 404), the service returns an error and the question is not submitted to Watson.
+                    <p>
+                        A valid URL that points to the context string. The service accepts text and HTML in the response.
+                    </p>
+                    <p>
+                        The first 1024 characters of the contents in the file that is identified by the URL are used as the context value. If the file is not found (HTTP 404), the service returns an error and the question is not submitted to Watson.
+                    </p>
                 </dd>
             </dl>
         </td>
@@ -84,6 +87,17 @@ Properties of `question` in the request body:
             <p>
                 <strong>Important</strong>: Do not confuse this element with the <code>question.evidencelist</code> section of the response (i.e. when a request is made with <code>question.answerAssertion</code>). The evidence that is returned by using <code>evidenceRequest</code> was not used when Watson searched for the answer. This evidence is returned after Watson generates, scores, and ranks the answers.
             </p>
+            <p>
+                <code>evidenceRequest</code> has two properties:
+            </p>
+            <dl>
+                <dt><code>items</code></dt>
+                <dd>Integer: the maximum number of supporting passages to return for each answer. Default: 3.</dd>
+                <dt><code>url</code></dt>
+                <dd>
+                    Whether to return evidence profiles (indicators for where the evidence came from) for each possible answer. <code>"yes"</code> or <code>"no"</code> (default).
+                </dd>
+            </dl>
         </td>
     </tr>
     <tr>
