@@ -22,7 +22,7 @@ X-SyncTimeout | Yes      | Number of seconds to wait before request times out. `
 
 #### Question Parameters
 
-Properties of `"question"` in the request body:
+Properties of `question` in the request body:
 
 <table>
     <tr>
@@ -33,11 +33,11 @@ Properties of `"question"` in the request body:
     <tr>
         <td>answerAssertion</td>
         <td>string</td>
-        <td>Specify an answer to receive the supporting evidence passages for that answer. Without this element, Watson searches for answers from the questionText. When you assert an answer, Watson uses that answer instead to search for supporting evidence passages. 
-
-        If you configured your pipeline to support a ranked list of evidence, the supporting evidence appears in the question/evidencelist section. If you include the evidenceRequest element with the question, the supporting evidence appears in the answers/answer/evidence section. 
-
-        If no supporting passages are returned for the asserted answer, the API returns a message that no answers were found.</td>
+        <td>
+            Specify an answer to receive the supporting evidence passages for that answer. Without this element, Watson searches for answers from the <code>questionText</code>. When you assert an answer, Watson uses that answer instead to search for supporting evidence passages.<br>
+            If you configured your pipeline to support a ranked list of evidence, the supporting evidence appears in the <code>question.evidencelist</code> section. If you include the <code>evidenceRequest</code> element with the question, the supporting evidence appears in the <code>question.answers.answer.evidence</code> section.<br>
+            If no supporting passages are returned for the asserted answer, the API returns a message that no answers were found.
+        </td>
     </tr>
     <tr>
         <td>category</td>
