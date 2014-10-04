@@ -4,6 +4,9 @@ HOST: https://watson-wdc01.ihost.com
 # Watson API
 Use the IBM Watson Question and Answer REST service to submit questions and retrieve answers.
 
+# Group Questions
+Question-related resources
+
 ## Questions Collection [/instance/507/deepqa/v1/question]
 
 ### Create a Question [POST]
@@ -11,17 +14,33 @@ Post a question for Watson so that you can receive an answer.
 
 #### Headers
 
-Name         | Type   | Description
------------- | ------ | -----------
-id           | number | Numeric `id` of the Favorite to perform action with.
-event_id     | number | Numeric `id` of the Event which the Favorite belongs to.
-attendee_id  | number | Numeric `id` of the Attendee which the Favorite belongs to.
-type         | string | The type of item being favorited; either `"attendees"`, `"sponsors"`, `"seminars"`, or `"documents"`
-type_id      | number | Numeric `id` of the item being favorited
+Name          | Required | Description
+------------- | -------- | -----------
+Accept        | No       | Specifies the format of the response. Must match Content-Type. Either `application/json` or `application/xml`.
+Content-Type  | Yes      | Specifies the format of the request. Must match Accept. Either `application/json` or `application/xml`.
+X-SyncTimeout | Yes      | Number of seconds to wait before request times out. `-1` means unlimited.
 
-+ Parameters
-    + event_id (required, number, `3284`) ... Numeric `id` of the Event which the Favorite belongs to.
-    + id (required, number, `5`) ... Numeric `id` of the Favorite to perform action with.
+#### Question Parameters
+
+Name            | Type | Description
+--------------- | -------- | -----------
+answerAssertion |       | No       | Specifies the format of the response. Must match Content-Type. Either `application/json` or `application/xml`.
+category
+context
+evidenceRequest |
+filters
+formattedAnswer
+items
+lat
+passthru
+questionText
+synonymList
+
+#### Filter Parameters
+
+Name            | Type | Description
+--------------- | -------- | -----------
+answerAssertion |       | No       | Specifies the format of the response. Must match Content-Type. Either `application/json` or `application/xml`.
 
 + Request (application/json)
 
@@ -94,24 +113,3 @@ type_id      | number | Numeric `id` of the item being favorited
                 "passthru": ""
             }
         }
-
-
-## Note [/notes/{id}]
-A single Note object with all its details
-
-+ Parameters
-    + id (required, number, `1`) ... Numeric `id` of the Note to perform action with. Has example value.
-
-### Retrieve a Note [GET]
-+ Response 200 (application/json)
-
-    + Header
-
-            X-My-Header: The Value
-
-    + Body
-
-            { "id": 2, "title": "Pick-up posters from post-office" }
-
-### Remove a Note [DELETE]
-+ Response 204
