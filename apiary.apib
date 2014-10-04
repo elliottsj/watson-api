@@ -1,0 +1,103 @@
+FORMAT: 1A
+HOST: https://watson-wdc01.ihost.com
+
+# Watson API
+Use the IBM Watson Question and Answer REST service to submit questions and retrieve answers.
+
+# Group Questions
+Question-related
+
+## Notes Collection [/instance/507/deepqa/v1/question]
+
+### Create a Note [POST]
+Post a question for Watson so that you can receive an answer.
+
++ Parameters
+    + event_id (required, number, `3284`) ... Numeric `id` of the Event which the Favorite belongs to.
+    + id (required, number, `5`) ... Numeric `id` of the Favorite to perform action with.
+
++ Request (application/json)
+
+        {
+            "question": {
+                "questionText": "His 1983 hit \"Beat it\" featured Eddie Van Halen on guitar."
+            }
+        }
+
++ Response 201 (application/json)
+
+        {
+            "question": {
+                "qclasslist": [
+                    {
+                    "value": "FACTOID" 
+                    }
+                ],
+                "focuslist": [
+                    {
+                        "value": "His"
+                    }
+                ],
+                "latlist": [
+                    {
+                        "value": "he"
+                    }
+                ],
+                "pipelineid": "433259107",
+                "category": "",
+                "items": 5,
+                "status": "Complete",
+                "id": "AE71A54A2BED4AE7BAAEEA98764ECB47",
+                "questionText": "His 1983 hit \"Beat it\" featured Eddie Van Halen on guitar.", 
+                "evidenceRequest": {
+                    "items": -1,
+                    "profile": "NO" 
+                },
+                "answers": [ 
+                    {
+                        "id": 0,
+                        "text": "Michael Jackson", "confidence": 0.42276
+                    }, 
+                    {
+                        "id": 1,
+                        "text": "Rick Derringer",
+                        "confidence": 0.22121
+                    }, 
+                    {
+                        "id": 2,
+                        "text": "Thriller", "confidence": 0.12293
+                    }, 
+                    {
+                        "id": 3,
+                        "text": "Jeff Porcaro", "confidence": 0.09981
+                    },
+                    {
+                        "id": 4,
+                        "text": "Quincy Jones", "confidence": 0.05383
+                    }
+                ],  
+                "errorNotifications": [],
+                "passthru": ""
+            }
+        }
+
+
+## Note [/notes/{id}]
+A single Note object with all its details
+
++ Parameters
+    + id (required, number, `1`) ... Numeric `id` of the Note to perform action with. Has example value.
+
+### Retrieve a Note [GET]
++ Response 200 (application/json)
+
+    + Header
+
+            X-My-Header: The Value
+
+    + Body
+
+            { "id": 2, "title": "Pick-up posters from post-office" }
+
+### Remove a Note [DELETE]
++ Response 204
