@@ -28,11 +28,13 @@ Properties of `question` in the request body:
     <tr>
         <th>Name</th>
         <th>Type</th>
+        <th>Required</th>
         <th>Description</th>
     </tr>
     <tr>
         <td>answerAssertion</td>
         <td>string</td>
+        <td>No</td>
         <td>
             Specify an answer to receive the supporting evidence passages for that answer. Without this element, Watson searches for answers from the <code>questionText</code>. When you assert an answer, Watson uses that answer instead to search for supporting evidence passages.<br>
             If you configured your pipeline to support a ranked list of evidence, the supporting evidence appears in the <code>question.evidencelist</code> section. If you include the <code>evidenceRequest</code> element with the question, the supporting evidence appears in the <code>question.answers.answer.evidence</code> section.<br>
@@ -42,51 +44,76 @@ Properties of `question` in the request body:
     <tr>
         <td>category</td>
         <td>string</td>
-        <td></td>
+        <td>No</td>
+        <td>The category of the question in terms of a constraint on the possible answers.</td>
     </tr>
     <tr>
         <td>context</td>
         <td>string</td>
-        <td></td>
+        <td>No</td>
+        <td>
+            A natural language string that is composed of words that provide extra information for Watson to consider when it determines answers. The maximum length of this element is 1024 characters.<br>
+
+            The <code>context</code> element can have one of the following values:
+
+            <dl>
+                <dt>plain text</dt>
+                <dd>The context is provided as text</dd>
+                <dt>url</dt>
+                <dd>
+                    A valid URL that points to the context string. The service accepts text and HTML in the response.<br>
+
+                    The first 1024 characters of the contents in the file that is identified by the URL are used as the context value. If the file is not found (HTTP 404), the service returns an error and the question is not submitted to Watson.
+                </dd>
+            </dl>
+        </td>
     </tr>
     <tr>
         <td>evidenceRequest</td>
         <td>string</td>
+        <td></td>
         <td></td>
     </tr>
     <tr>
         <td>filters</td>
         <td>string</td>
         <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>formattedAnswer</td>
         <td>string</td>
+        <td></td>
         <td></td>
     </tr>
     <tr>
         <td>items</td>
         <td>string</td>
         <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>lat</td>
         <td>string</td>
+        <td></td>
         <td></td>
     </tr>
     <tr>
         <td>passthru</td>
         <td>string</td>
         <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>questionText</td>
         <td>string</td>
         <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>synonymList</td>
         <td>string</td>
+        <td></td>
         <td></td>
     </tr>
 </table>
