@@ -220,12 +220,12 @@ Properties of each object in `question.filters` in the request body:
                 The value of a <code>@queryFilter</code> filterType can be multiple terms separated by one or more spaces. The value must match the full term of the filter, but is not case-sensitive. For example, the following JSON example matches index values of <code>"Ibm Publications"</code> and <code>"ibm publications"</code>, but not <code>"IBM Publication"</code>:
 
                 <pre><code>"filters":[
-                  {
-                    "filterType":"queryFilter",
-                    "fieldName":"indexedPublisher",
-                    "values":["IBM Publications"]
-                  }
-                ]</code></pre>
+  {
+    "filterType":"queryFilter",
+    "fieldName":"indexedPublisher",
+    "values":["IBM Publications"]
+  }
+]</code></pre>
             </p>
         </td>
     </tr>
