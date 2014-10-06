@@ -191,6 +191,42 @@ Properties of each object in `question.filters` in the request body:
             <p>
                 The name of the indexed metadata field.
             </p>
+            <p>
+                TODO: Clarify the following:
+            </p>
+            <p>
+                When the <code>@filterType</code> is <code>dateRangeFilter</code>, set the value of <code>@fieldName</code> to <code>indexedKey</code>.<em>metadata</em>.
+            </p>
+            <p>
+                When the <code>@filterType</code> is <code>prefixFilter</code> or <code>queryFilter</code>, set the value of <code>@fieldName</code> to <code>indexed</code><em>metadata field name</em>.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>values</td>
+        <td>array</td>
+        <td>Yes</td>
+        <td>
+            <p>
+                The container for a set of metadata values of the indexed field name <code>question.filters.filter.fieldName</code>. The values in this element must match the values in the index.
+            </p>
+            <p>
+                When you include more than one value in this container, they are combined with a logical OR to expand the search. For example, you want to filter for answers from multiple corpora. In contrast, multiple filters in the <code>question.filters</code> container are combined with a logical AND.
+            </p>
+            <p>
+                The format for <code>@dateRangeFilter</code> filterType is <code>"start_date:end_date"</code>. The date format is a string in the format <code>"YYYYMMDDHHMMSS"</code>. Specify an open-ended range by substituting the string <code>"null"</code> for the value. However either the start date or the end date must have a date. For example <code>"20140101000000:null"</code> returns all dates from Jan 1, 2014 to the present date. By specifying the value <code>"null:20131231235959"</code>, you filter by all dates before December 1, 2013 at 23:59:59.
+            </p>
+            <p>
+                The value of a <code>@queryFilter</code> filterType can be multiple terms separated by one or more spaces. The value must match the full term of the filter, but is not case-sensitive. For example, the following JSON example matches index values of <code>"Ibm Publications"</code> and <code>"ibm publications"</code>, but not <code>"IBM Publication"</code>:
+
+                <pre><code>"filters":[
+                  {
+                    "filterType":"queryFilter",
+                    "fieldName":"indexedPublisher",
+                    "values":["IBM Publications"]
+                  }
+                ]</code></pre>
+            </p>
         </td>
     </tr>
 </table>
