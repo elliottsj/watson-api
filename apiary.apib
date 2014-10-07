@@ -116,39 +116,74 @@ Properties of `question` in the request body:
     </tr>
     <tr>
         <td>formattedAnswer</td>
-        <td>string</td>
-        <td></td>
-        <td></td>
+        <td>boolean</td>
+        <td>No</td>
+        <td>
+            <p>
+                Include this element and set it to <code>true</code> to receive both formatted answer text and unformatted text in an answer response. The answer is returned in HTML format.
+            </p>
+        </td>
     </tr>
     <tr>
         <td>items</td>
-        <td>string</td>
-        <td></td>
-        <td></td>
+        <td>integer</td>
+        <td>No</td>
+        <td>
+            <p>
+                An integer in the range 1 - 10 that represents the number of possible answers to be returned. Default: 5
+            </p>
+        </td>
     </tr>
     <tr>
         <td>lat</td>
         <td>string</td>
-        <td></td>
-        <td></td>
+        <td>No</td>
+        <td>
+            <p>
+                The lexical answer type (LAT) of the question. The LAT is a word or noun phrase that appears in the question, or is implied by it. In Watson, the LAT specifies the type of the answer that is appropriate. In most cases, Watson extracts the LAT and you do not need to pass it with the question.
+            </p>
+        </td>
     </tr>
     <tr>
         <td>passthru</td>
         <td>string</td>
-        <td></td>
-        <td></td>
+        <td>No</td>
+        <td>
+            <p>
+                Specifies a string that you include with the question. The <code>passthru</code> data is not submitted with the pipeline but does pass through to the answer.
+            </p>
+            <p>
+                You can specify the encoding of a binary large object if it can be represented by using a string.
+            </p>
+            <p>
+                The maximum size of the data is defined in the configuration set as a value in <code>qa.question.passthru.maxsize</code>. If the size of the data exceeds the value in <code>qa.question.passthru.maxsize</code>, the question is not submitted to the pipeline and produces the following error:
+
+                <pre><code>AQWTL00163E_FIELD_PASSTHRU_EXCEEDS_SIZE = "Field passthru exceeds configured limit in size"</code></pre>
+            </p>
+            <p>
+                To modify or add elements to the submitted CAS, use the question extension.
+            </p>
+        </td>
     </tr>
     <tr>
         <td>questionText</td>
         <td>string</td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>
+            <p>
+                The text of the question to be answered.
+            </p>
+        </td>
     </tr>
     <tr>
         <td>synonymList</td>
         <td>string</td>
-        <td></td>
-        <td></td>
+        <td>No</td>
+        <td>
+            <p>
+                The container for the set of synonyms. You can provide feedback to Watson by resubmitting a question and including an updated list of synonyms.
+            </p>
+        </td>
     </tr>
 </table>
 
@@ -219,11 +254,11 @@ Properties of each object in `question.filters` in the request body:
             <p>
                 The value of a <code>@queryFilter</code> filterType can be multiple terms separated by one or more spaces. The value must match the full term of the filter, but is not case-sensitive. For example, the following JSON example matches index values of <code>"Ibm Publications"</code> and <code>"ibm publications"</code>, but not <code>"IBM Publication"</code>:
 
-                <pre><code>"filters":[
+                <pre><code>"filters": [
   {
-    "filterType":"queryFilter",
-    "fieldName":"indexedPublisher",
-    "values":["IBM Publications"]
+    "filterType": "queryFilter",
+    "fieldName": "indexedPublisher",
+    "values": ["IBM Publications"]
   }
 ]</code></pre>
             </p>
